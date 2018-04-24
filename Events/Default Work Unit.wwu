@@ -17,6 +17,76 @@
 						</Action>
 					</ChildrenList>
 				</Event>
+				<Event Name="Play_Ice_Skate_Move" ID="{42082413-C5D7-4FE9-8A1A-4D9406A585ED}">
+					<ChildrenList>
+						<Action Name="" ID="{B4A5CECE-05F6-49C1-A61B-022328175F21}" ShortID="59426299">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="1"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Ice Skate Move" ID="{96A9026A-B5FA-407C-96EA-C050218AAEC5}" WorkUnitID="{AAC116AF-1552-4FCA-89BA-A82661378EE9}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Play_Grab_Impact" ID="{1ADEA773-A7D8-4295-8CE8-CB4BB03861A4}">
+					<ChildrenList>
+						<Action Name="" ID="{C497A1BD-8957-40D3-8F6A-2D0C5CCB700C}" ShortID="254490628">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="1"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Grab Impact" ID="{A9898793-0FDE-48E0-8B2C-D6E715421B1A}" WorkUnitID="{AAC116AF-1552-4FCA-89BA-A82661378EE9}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Play_Grab_Speed" ID="{9D914E2C-781F-49E4-801F-0FBA566D9339}">
+					<ChildrenList>
+						<Action Name="" ID="{BB0F7F08-6803-4759-8C30-AFBA192E8D8F}" ShortID="862487249">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="1"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Grab Speed" ID="{70411DB1-EF9A-4777-B918-FA44CB89AB89}" WorkUnitID="{AAC116AF-1552-4FCA-89BA-A82661378EE9}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Play_Impact_flap" ID="{2F404378-2898-47ED-8D65-59E0B81AC63B}">
+					<ChildrenList>
+						<Action Name="" ID="{7002DBE1-4E43-4CE3-9A3A-1F68BE28BBDE}" ShortID="362309424">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="1"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Impact flap" ID="{BBABD279-6765-422C-B2D4-08C7636D1ED8}" WorkUnitID="{AAC116AF-1552-4FCA-89BA-A82661378EE9}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Play_UI_Move_01" ID="{D493A992-334A-47D8-865C-5E1BAA77B125}">
+					<ChildrenList>
+						<Action Name="" ID="{067CE1F2-8016-4F92-9060-ABD2A7DA26B4}" ShortID="465198044">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="1"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="UI Move" ID="{16CA91AD-23BD-4F63-BC53-3AA2C636F67F}" WorkUnitID="{AAC116AF-1552-4FCA-89BA-A82661378EE9}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
 			</ChildrenList>
 		</WorkUnit>
 	</Events>
