@@ -31,20 +31,6 @@
 						</Action>
 					</ChildrenList>
 				</Event>
-				<Event Name="Play_Grab_Impact" ID="{1ADEA773-A7D8-4295-8CE8-CB4BB03861A4}">
-					<ChildrenList>
-						<Action Name="" ID="{C497A1BD-8957-40D3-8F6A-2D0C5CCB700C}" ShortID="254490628">
-							<PropertyList>
-								<Property Name="ActionType" Type="int16" Value="1"/>
-							</PropertyList>
-							<ReferenceList>
-								<Reference Name="Target">
-									<ObjectRef Name="Grab Impact" ID="{A9898793-0FDE-48E0-8B2C-D6E715421B1A}" WorkUnitID="{AAC116AF-1552-4FCA-89BA-A82661378EE9}"/>
-								</Reference>
-							</ReferenceList>
-						</Action>
-					</ChildrenList>
-				</Event>
 				<Event Name="Play_Grab_Speed" ID="{9D914E2C-781F-49E4-801F-0FBA566D9339}">
 					<ChildrenList>
 						<Action Name="" ID="{BB0F7F08-6803-4759-8C30-AFBA192E8D8F}" ShortID="862487249">
@@ -82,6 +68,20 @@
 							<ReferenceList>
 								<Reference Name="Target">
 									<ObjectRef Name="UI Move" ID="{16CA91AD-23BD-4F63-BC53-3AA2C636F67F}" WorkUnitID="{AAC116AF-1552-4FCA-89BA-A82661378EE9}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Play_Grab_Impact" ID="{8C9EDEAB-C9E6-4720-8103-AB542847143A}">
+					<ChildrenList>
+						<Action Name="" ID="{A2FBAAE1-E8AF-456B-9D38-BCAF419F7F6B}" ShortID="31735787">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="1"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Grab Impact" ID="{AF9DB30F-1D42-446A-91E2-BAC1098D1190}" WorkUnitID="{AAC116AF-1552-4FCA-89BA-A82661378EE9}"/>
 								</Reference>
 							</ReferenceList>
 						</Action>
