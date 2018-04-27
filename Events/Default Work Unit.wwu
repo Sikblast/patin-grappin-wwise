@@ -87,6 +87,20 @@
 						</Action>
 					</ChildrenList>
 				</Event>
+				<Event Name="Play_Ice_Skate_Dirt" ID="{3F32D3F2-F09F-47E3-94E4-18BE62835FAA}">
+					<ChildrenList>
+						<Action Name="" ID="{550A9554-17DE-4899-AA42-A5DE9621B74A}" ShortID="753183726">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="1"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Ice Skate Dirt" ID="{07A38D9D-1598-4FE4-8D39-3597C6185D3C}" WorkUnitID="{AAC116AF-1552-4FCA-89BA-A82661378EE9}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
 			</ChildrenList>
 		</WorkUnit>
 	</Events>
