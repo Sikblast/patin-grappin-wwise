@@ -101,6 +101,20 @@
 						</Action>
 					</ChildrenList>
 				</Event>
+				<Event Name="Play_Granular_Ice" ID="{6A62892A-F70E-4A4D-962E-2817E25F066E}">
+					<ChildrenList>
+						<Action Name="" ID="{4E349B2D-1459-4478-A978-949887A2BFF6}" ShortID="82484576">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="1"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Granular Ice" ID="{BD791639-21CD-4ACA-91DA-7D1C74489BA6}" WorkUnitID="{AAC116AF-1552-4FCA-89BA-A82661378EE9}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
 			</ChildrenList>
 		</WorkUnit>
 	</Events>

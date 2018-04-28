@@ -1,6 +1,68 @@
 <?xml version="1.0" encoding="utf-8"?>
 <WwiseDocument Type="WorkUnit" ID="{EEF9980D-BE48-48A1-8C7B-8BD8CBC30646}" SchemaVersion="85">
 	<InteractiveMusic>
-		<WorkUnit Name="Default Work Unit" ID="{EEF9980D-BE48-48A1-8C7B-8BD8CBC30646}" PersistMode="Standalone"/>
+		<WorkUnit Name="Default Work Unit" ID="{EEF9980D-BE48-48A1-8C7B-8BD8CBC30646}" PersistMode="Standalone">
+			<ChildrenList>
+				<MusicSegment Name="Patin Grappin granular" ID="{FF8DE213-C973-442D-9925-30269F2D96C2}" ShortID="825672376">
+					<PropertyList>
+						<Property Name="EndPosition" Type="Real64" Value="175000"/>
+					</PropertyList>
+					<ReferenceList>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{7DD98DC9-8438-4E9D-9FB8-F37E23FBAE82}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{BE0D8A64-9D86-44BD-BD23-F83C3E6F2572}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<MusicTrack Name="Patin Grappin granular" ID="{A9A2F844-C8D5-4C17-9BAC-1D0AB5F8A4AB}" ShortID="819544237">
+							<ReferenceList>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{BE0D8A64-9D86-44BD-BD23-F83C3E6F2572}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="Patin Grappin granular" ID="{D873F89D-0235-476E-A56C-09AD28592018}" ShortID="1019668892">
+									<Language>SFX</Language>
+									<AudioFile>Patin Grappin granular.wav</AudioFile>
+								</AudioFileSource>
+							</ChildrenList>
+							<TransitionList>
+								<MusicTransition Name="Root" ID="{D04058DD-3380-4C6E-B83A-ECC087C58574}">
+									<PropertyList>
+										<Property Name="IsFolder" Type="bool" Value="True"/>
+									</PropertyList>
+									<TransitionInfo/>
+								</MusicTransition>
+							</TransitionList>
+							<SequenceList>
+								<MusicTrackSequence Name="" ID="{4917DAE9-583A-4C90-8F89-AD1683E36E4B}">
+									<ClipList>
+										<MusicClip Name="Patin Grappin granular" ID="{5DC3FB1E-349E-4073-9D00-EE9C7B01A1A4}">
+											<PropertyList>
+												<Property Name="EndTrimOffset" Type="Real64" Value="175000"/>
+												<Property Name="FadeInMode" Type="int16" Value="0"/>
+												<Property Name="FadeOutMode" Type="int16" Value="0"/>
+											</PropertyList>
+											<AudioSourceRef Name="Patin Grappin granular" ID="{D873F89D-0235-476E-A56C-09AD28592018}"/>
+										</MusicClip>
+									</ClipList>
+								</MusicTrackSequence>
+							</SequenceList>
+						</MusicTrack>
+					</ChildrenList>
+					<CueList>
+						<MusicCue Name="Entry Cue" ID="{BFA9C0F3-5AA9-4D89-8BC3-A7D40FD28F87}"/>
+						<MusicCue Name="Exit Cue" ID="{9384541A-747A-4298-AE60-7D1DB921AC7A}">
+							<PropertyList>
+								<Property Name="CueType" Type="int16" Value="1"/>
+								<Property Name="TimeMs" Type="Real64" Value="175000"/>
+							</PropertyList>
+						</MusicCue>
+					</CueList>
+				</MusicSegment>
+			</ChildrenList>
+		</WorkUnit>
 	</InteractiveMusic>
 </WwiseDocument>
