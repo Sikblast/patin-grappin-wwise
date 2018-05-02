@@ -5,6 +5,7 @@ Event	ID	Name			Wwise Object Path	Notes
 	2305114950	Play_Impact_flap			\Default Work Unit\Play_Impact_flap	
 	2436188148	Play_Ice_Skate_Dirt			\Default Work Unit\Play_Ice_Skate_Dirt	
 	2444050992	Play_Ice_Skate_Move			\Default Work Unit\Play_Ice_Skate_Move	
+	3232606568	Stop_Granular_Ice			\Default Work Unit\Stop_Granular_Ice	
 	3373848412	Play_Grab_Speed			\Default Work Unit\Play_Grab_Speed	
 	3639876553	Play_Grab_Impact			\Default Work Unit\Play_Grab_Impact	
 	4273182574	Play_Ice_Skate_Reception			\Default Work Unit\Play_Ice_Skate_Reception	

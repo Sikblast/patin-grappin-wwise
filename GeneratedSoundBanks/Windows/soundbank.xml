@@ -22,6 +22,7 @@
 				<Event Id="2305114950" Name="Play_Impact_flap" ObjectPath="\Events\Default Work Unit\Play_Impact_flap" GUID="{2F404378-2898-47ED-8D65-59E0B81AC63B}" DurationType="OneShot" DurationMin="1.447937" DurationMax="1.447937"/>
 				<Event Id="249738436" Name="Play_UI_Move" ObjectPath="\Events\Default Work Unit\Play_UI_Move" GUID="{D3788DB7-84A4-43B8-8604-A1C5E4E28FE0}" DurationType="OneShot" DurationMin="1.229167" DurationMax="1.229167"/>
 				<Event Id="999807850" Name="Play_UI_Move_01" ObjectPath="\Events\Default Work Unit\Play_UI_Move_01" GUID="{D493A992-334A-47D8-865C-5E1BAA77B125}" DurationType="OneShot" DurationMin="1.229167" DurationMax="1.229167"/>
+				<Event Id="3232606568" Name="Stop_Granular_Ice" ObjectPath="\Events\Default Work Unit\Stop_Granular_Ice" GUID="{259903E8-A0A6-4E8A-AAEB-9C602AF5D72D}" MaxAttenuation="0.000000" DurationType="OneShot" DurationMin="0.000000" DurationMax="0.000000"/>
 			</IncludedEvents>
 			<IncludedMemoryFiles>
 				<File Id="7425448" Language="SFX">

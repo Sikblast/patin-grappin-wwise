@@ -98,6 +98,16 @@
       "DurationType": "OneShot",
       "DurationMin": "1.229167",
       "DurationMax": "1.229167"
+     },
+     {
+      "Id": "3232606568",
+      "Name": "Stop_Granular_Ice",
+      "ObjectPath": "\\Events\\Default Work Unit\\Stop_Granular_Ice",
+      "GUID": "{259903E8-A0A6-4E8A-AAEB-9C602AF5D72D}",
+      "MaxAttenuation": "0.000000",
+      "DurationType": "OneShot",
+      "DurationMin": "0.000000",
+      "DurationMax": "0.000000"
      }
     ],
     "IncludedMemoryFiles": [
