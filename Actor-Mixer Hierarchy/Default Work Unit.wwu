@@ -573,6 +573,7 @@
 								</RandomSequenceContainer>
 								<Sound Name="Granular Ice" ID="{BD791639-21CD-4ACA-91DA-7D1C74489BA6}" ShortID="832531510">
 									<PropertyList>
+										<Property Name="BelowThresholdBehavior" Type="int16" Value="1"/>
 										<Property Name="IsGlobalLimit" Type="int16" Value="1"/>
 										<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
 										<Property Name="MaxReachedBehavior" Type="int16" Value="1"/>
@@ -581,7 +582,6 @@
 												<Value>1</Value>
 											</ValueList>
 										</Property>
-										<Property Name="OverLimitBehavior" Type="int16" Value="1"/>
 										<Property Name="UseMaxSoundPerInstance" Type="bool">
 											<ValueList>
 												<Value>True</Value>
