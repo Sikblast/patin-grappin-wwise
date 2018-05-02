@@ -115,6 +115,20 @@
 						</Action>
 					</ChildrenList>
 				</Event>
+				<Event Name="Play_Ice_Skate_Reception" ID="{CF61C8A5-5107-48F4-95E3-4AC3668156CD}">
+					<ChildrenList>
+						<Action Name="" ID="{2AA0F158-E07E-4EFD-A89F-F619B8B5225B}" ShortID="528903586">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="1"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Ice Skate Reception" ID="{B6B1993D-8741-4A37-9EA0-AF356414A6B4}" WorkUnitID="{AAC116AF-1552-4FCA-89BA-A82661378EE9}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
 			</ChildrenList>
 		</WorkUnit>
 	</Events>

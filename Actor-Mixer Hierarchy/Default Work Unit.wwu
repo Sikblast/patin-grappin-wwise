@@ -67,6 +67,18 @@
 							</ActiveSourceList>
 						</Sound>
 						<RandomSequenceContainer Name="Grab Impact" ID="{AF9DB30F-1D42-446A-91E2-BAC1098D1190}" ShortID="499512146">
+							<PropertyList>
+								<Property Name="Highpass" Type="int16">
+									<ValueList>
+										<Value>22</Value>
+									</ValueList>
+								</Property>
+								<Property Name="Volume" Type="Real64">
+									<ValueList>
+										<Value>-3</Value>
+									</ValueList>
+								</Property>
+							</PropertyList>
 							<ReferenceList>
 								<Reference Name="Conversion">
 									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{7DD98DC9-8438-4E9D-9FB8-F37E23FBAE82}"/>
@@ -157,6 +169,22 @@
 						<Folder Name="Ice Skate" ID="{426D4624-C48C-4CEE-9368-9D83546B332B}" ShortID="143762622">
 							<ChildrenList>
 								<RandomSequenceContainer Name="Ice Skate Move" ID="{96A9026A-B5FA-407C-96EA-C050218AAEC5}" ShortID="144257016">
+									<PropertyList>
+										<Property Name="Pitch" Type="int32">
+											<ModifierList>
+												<ModifierInfo>
+													<Modifier Name="" ID="{AC2B2CC7-600D-4C37-8AA8-115279508AEE}">
+														<PropertyList>
+															<Property Name="Enabled" Type="bool" Value="True"/>
+															<Property Name="Max" Type="Real64" Value="202"/>
+															<Property Name="Min" Type="Real64" Value="-202"/>
+														</PropertyList>
+													</Modifier>
+												</ModifierInfo>
+											</ModifierList>
+										</Property>
+										<Property Name="RandomAvoidRepeatingCount" Type="int32" Value="2"/>
+									</PropertyList>
 									<ReferenceList>
 										<Reference Name="Conversion">
 											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{7DD98DC9-8438-4E9D-9FB8-F37E23FBAE82}"/>
@@ -166,7 +194,7 @@
 										</Reference>
 									</ReferenceList>
 									<ChildrenList>
-										<Sound Name="Ice Skate Move 2" ID="{7BF74A06-8EB0-40FC-A6D4-9F5D5CA6F215}" ShortID="75056780">
+										<Sound Name="Ice Skate Slide 2" ID="{ED97FE0D-6788-433B-91A0-4CD9568D005B}" ShortID="483956474">
 											<ReferenceList>
 												<Reference Name="Conversion">
 													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{7DD98DC9-8438-4E9D-9FB8-F37E23FBAE82}"/>
@@ -176,16 +204,16 @@
 												</Reference>
 											</ReferenceList>
 											<ChildrenList>
-												<AudioFileSource Name="Ice Skate Move 2" ID="{D9D316AF-67D4-4584-A7E9-FBE323893939}" ShortID="807551471">
+												<AudioFileSource Name="Ice Skate Slide 2" ID="{B38224E7-1538-4E8B-BD3C-6C1CAF6B5A80}" ShortID="47350233">
 													<Language>SFX</Language>
-													<AudioFile>Ice Skate Move 2.wav</AudioFile>
+													<AudioFile>Ice Skate Slide 2.wav</AudioFile>
 												</AudioFileSource>
 											</ChildrenList>
 											<ActiveSourceList>
-												<ActiveSource Name="Ice Skate Move 2" ID="{D9D316AF-67D4-4584-A7E9-FBE323893939}" Platform="Linked"/>
+												<ActiveSource Name="Ice Skate Slide 2" ID="{B38224E7-1538-4E8B-BD3C-6C1CAF6B5A80}" Platform="Linked"/>
 											</ActiveSourceList>
 										</Sound>
-										<Sound Name="Ice Skate Move 3" ID="{31DABA78-3E03-419D-AD28-3AF265C5E799}" ShortID="498996361">
+										<Sound Name="Ice Skate Slide 3" ID="{C3CAE486-EA28-4AF9-BCB1-12FE36632BF7}" ShortID="297778972">
 											<ReferenceList>
 												<Reference Name="Conversion">
 													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{7DD98DC9-8438-4E9D-9FB8-F37E23FBAE82}"/>
@@ -195,16 +223,16 @@
 												</Reference>
 											</ReferenceList>
 											<ChildrenList>
-												<AudioFileSource Name="Ice Skate Move 3" ID="{3D9A4F72-72F2-4AFE-9CEE-215C730AA839}" ShortID="800242611">
+												<AudioFileSource Name="Ice Skate Slide 3" ID="{53FB7C6A-2A0D-4EE0-8EF1-A4BB00D478ED}" ShortID="133250055">
 													<Language>SFX</Language>
-													<AudioFile>Ice Skate Move 3.wav</AudioFile>
+													<AudioFile>Ice Skate Slide 3.wav</AudioFile>
 												</AudioFileSource>
 											</ChildrenList>
 											<ActiveSourceList>
-												<ActiveSource Name="Ice Skate Move 3" ID="{3D9A4F72-72F2-4AFE-9CEE-215C730AA839}" Platform="Linked"/>
+												<ActiveSource Name="Ice Skate Slide 3" ID="{53FB7C6A-2A0D-4EE0-8EF1-A4BB00D478ED}" Platform="Linked"/>
 											</ActiveSourceList>
 										</Sound>
-										<Sound Name="Ice Skate Move 4" ID="{1D2A3F6B-BDA0-4A8E-9E9F-524135F3A38B}" ShortID="437313179">
+										<Sound Name="Ice Skate Slide 4" ID="{8E1C42A5-DFA3-40C4-A34F-F9D6C633827A}" ShortID="24029100">
 											<ReferenceList>
 												<Reference Name="Conversion">
 													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{7DD98DC9-8438-4E9D-9FB8-F37E23FBAE82}"/>
@@ -214,16 +242,16 @@
 												</Reference>
 											</ReferenceList>
 											<ChildrenList>
-												<AudioFileSource Name="Ice Skate Move 4" ID="{499BEC2D-782C-4658-964A-3BD2A25B4D89}" ShortID="486231749">
+												<AudioFileSource Name="Ice Skate Slide 4" ID="{B5231682-5C8F-4999-A05C-7191209B47A3}" ShortID="82944909">
 													<Language>SFX</Language>
-													<AudioFile>Ice Skate Move 4.wav</AudioFile>
+													<AudioFile>Ice Skate Slide 4.wav</AudioFile>
 												</AudioFileSource>
 											</ChildrenList>
 											<ActiveSourceList>
-												<ActiveSource Name="Ice Skate Move 4" ID="{499BEC2D-782C-4658-964A-3BD2A25B4D89}" Platform="Linked"/>
+												<ActiveSource Name="Ice Skate Slide 4" ID="{B5231682-5C8F-4999-A05C-7191209B47A3}" Platform="Linked"/>
 											</ActiveSourceList>
 										</Sound>
-										<Sound Name="Ice Skate Move 5" ID="{94BE230B-0641-4A05-865A-0D2BCCDF968F}" ShortID="23639866">
+										<Sound Name="Ice Skate Slide 5" ID="{C2E53AAB-A6AD-4FE5-B77E-EFE96B082E59}" ShortID="481470514">
 											<ReferenceList>
 												<Reference Name="Conversion">
 													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{7DD98DC9-8438-4E9D-9FB8-F37E23FBAE82}"/>
@@ -233,16 +261,16 @@
 												</Reference>
 											</ReferenceList>
 											<ChildrenList>
-												<AudioFileSource Name="Ice Skate Move 5" ID="{B2E1E273-B389-466A-8CF5-BB3E84B1E288}" ShortID="252352310">
+												<AudioFileSource Name="Ice Skate Slide 5" ID="{F238CCC3-9F60-4DAD-9EE5-A56639FF8BF8}" ShortID="125865864">
 													<Language>SFX</Language>
-													<AudioFile>Ice Skate Move 5.wav</AudioFile>
+													<AudioFile>Ice Skate Slide 5.wav</AudioFile>
 												</AudioFileSource>
 											</ChildrenList>
 											<ActiveSourceList>
-												<ActiveSource Name="Ice Skate Move 5" ID="{B2E1E273-B389-466A-8CF5-BB3E84B1E288}" Platform="Linked"/>
+												<ActiveSource Name="Ice Skate Slide 5" ID="{F238CCC3-9F60-4DAD-9EE5-A56639FF8BF8}" Platform="Linked"/>
 											</ActiveSourceList>
 										</Sound>
-										<Sound Name="Ice Skate Move 6" ID="{AA4646A3-0E49-4019-BF22-64687F66A7A5}" ShortID="1015862238">
+										<Sound Name="Ice Skate Slide 6" ID="{4F9212D5-BE71-49B0-907D-B474AC71BC97}" ShortID="749678102">
 											<ReferenceList>
 												<Reference Name="Conversion">
 													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{7DD98DC9-8438-4E9D-9FB8-F37E23FBAE82}"/>
@@ -252,16 +280,16 @@
 												</Reference>
 											</ReferenceList>
 											<ChildrenList>
-												<AudioFileSource Name="Ice Skate Move 6" ID="{3E09BCF4-7823-43FE-B8C6-32ADD375F2C4}" ShortID="372391797">
+												<AudioFileSource Name="Ice Skate Slide 6" ID="{7B3A481E-9B0F-43EF-ABA4-E0259C0A5F14}" ShortID="439821884">
 													<Language>SFX</Language>
-													<AudioFile>Ice Skate Move 6.wav</AudioFile>
+													<AudioFile>Ice Skate Slide 6.wav</AudioFile>
 												</AudioFileSource>
 											</ChildrenList>
 											<ActiveSourceList>
-												<ActiveSource Name="Ice Skate Move 6" ID="{3E09BCF4-7823-43FE-B8C6-32ADD375F2C4}" Platform="Linked"/>
+												<ActiveSource Name="Ice Skate Slide 6" ID="{7B3A481E-9B0F-43EF-ABA4-E0259C0A5F14}" Platform="Linked"/>
 											</ActiveSourceList>
 										</Sound>
-										<Sound Name="Ice Skate Move 7" ID="{92038D58-7D6D-4FAB-B520-E32B7A8F79FE}" ShortID="721342276">
+										<Sound Name="Ice Skate Slide 7" ID="{F8C1CAE9-F298-4946-92E0-C82CB53039F1}" ShortID="860710105">
 											<ReferenceList>
 												<Reference Name="Conversion">
 													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{7DD98DC9-8438-4E9D-9FB8-F37E23FBAE82}"/>
@@ -271,16 +299,16 @@
 												</Reference>
 											</ReferenceList>
 											<ChildrenList>
-												<AudioFileSource Name="Ice Skate Move 7" ID="{5931ED86-F9C6-4277-B9FD-F70BCC0810F9}" ShortID="307654739">
+												<AudioFileSource Name="Ice Skate Slide 7" ID="{22435467-7C47-4396-8616-71A9DD3B5733}" ShortID="315483087">
 													<Language>SFX</Language>
-													<AudioFile>Ice Skate Move 7.wav</AudioFile>
+													<AudioFile>Ice Skate Slide 7.wav</AudioFile>
 												</AudioFileSource>
 											</ChildrenList>
 											<ActiveSourceList>
-												<ActiveSource Name="Ice Skate Move 7" ID="{5931ED86-F9C6-4277-B9FD-F70BCC0810F9}" Platform="Linked"/>
+												<ActiveSource Name="Ice Skate Slide 7" ID="{22435467-7C47-4396-8616-71A9DD3B5733}" Platform="Linked"/>
 											</ActiveSourceList>
 										</Sound>
-										<Sound Name="Ice Skate Move 8" ID="{962976FB-5FFA-465B-BDBC-AD10E85A1667}" ShortID="95549603">
+										<Sound Name="Ice Skate Slide" ID="{D68AA4E4-A51A-48A5-85C7-7863CF1F73B6}" ShortID="885501675">
 											<ReferenceList>
 												<Reference Name="Conversion">
 													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{7DD98DC9-8438-4E9D-9FB8-F37E23FBAE82}"/>
@@ -290,341 +318,39 @@
 												</Reference>
 											</ReferenceList>
 											<ChildrenList>
-												<AudioFileSource Name="Ice Skate Move 8" ID="{3283ABD1-86AC-49F4-A9B5-ABCC3AEA27E6}" ShortID="489986591">
+												<AudioFileSource Name="Ice Skate Slide" ID="{62267E9D-345C-479C-98CF-67C526861B1F}" ShortID="104143028">
 													<Language>SFX</Language>
-													<AudioFile>Ice Skate Move 8.wav</AudioFile>
+													<AudioFile>Ice Skate Slide.wav</AudioFile>
 												</AudioFileSource>
 											</ChildrenList>
 											<ActiveSourceList>
-												<ActiveSource Name="Ice Skate Move 8" ID="{3283ABD1-86AC-49F4-A9B5-ABCC3AEA27E6}" Platform="Linked"/>
-											</ActiveSourceList>
-										</Sound>
-										<Sound Name="Ice Skate Move 9" ID="{F87312B3-5B6D-433F-988A-E1F3371B7372}" ShortID="545375023">
-											<ReferenceList>
-												<Reference Name="Conversion">
-													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{7DD98DC9-8438-4E9D-9FB8-F37E23FBAE82}"/>
-												</Reference>
-												<Reference Name="OutputBus">
-													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{BE0D8A64-9D86-44BD-BD23-F83C3E6F2572}"/>
-												</Reference>
-											</ReferenceList>
-											<ChildrenList>
-												<AudioFileSource Name="Ice Skate Move 9" ID="{897EE9D5-C515-4BB1-8A5B-04AB27FA16E9}" ShortID="239421005">
-													<Language>SFX</Language>
-													<AudioFile>Ice Skate Move 9.wav</AudioFile>
-												</AudioFileSource>
-											</ChildrenList>
-											<ActiveSourceList>
-												<ActiveSource Name="Ice Skate Move 9" ID="{897EE9D5-C515-4BB1-8A5B-04AB27FA16E9}" Platform="Linked"/>
-											</ActiveSourceList>
-										</Sound>
-										<Sound Name="Ice Skate Move 10" ID="{4F9AF9C5-3DC9-4328-AAA1-047EA2D3B0AE}" ShortID="331119258">
-											<ReferenceList>
-												<Reference Name="Conversion">
-													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{7DD98DC9-8438-4E9D-9FB8-F37E23FBAE82}"/>
-												</Reference>
-												<Reference Name="OutputBus">
-													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{BE0D8A64-9D86-44BD-BD23-F83C3E6F2572}"/>
-												</Reference>
-											</ReferenceList>
-											<ChildrenList>
-												<AudioFileSource Name="Ice Skate Move 10" ID="{9BA6CCBD-6754-4C38-AB31-5DA5A3995E41}" ShortID="636205216">
-													<Language>SFX</Language>
-													<AudioFile>Ice Skate Move 10.wav</AudioFile>
-												</AudioFileSource>
-											</ChildrenList>
-											<ActiveSourceList>
-												<ActiveSource Name="Ice Skate Move 10" ID="{9BA6CCBD-6754-4C38-AB31-5DA5A3995E41}" Platform="Linked"/>
-											</ActiveSourceList>
-										</Sound>
-										<Sound Name="Ice Skate Move 11" ID="{3E333824-D479-4B88-A2C7-BF690A5F53B5}" ShortID="826671683">
-											<ReferenceList>
-												<Reference Name="Conversion">
-													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{7DD98DC9-8438-4E9D-9FB8-F37E23FBAE82}"/>
-												</Reference>
-												<Reference Name="OutputBus">
-													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{BE0D8A64-9D86-44BD-BD23-F83C3E6F2572}"/>
-												</Reference>
-											</ReferenceList>
-											<ChildrenList>
-												<AudioFileSource Name="Ice Skate Move 11" ID="{2EEC557C-CE2F-4753-8B35-52C90B4659BD}" ShortID="435370951">
-													<Language>SFX</Language>
-													<AudioFile>Ice Skate Move 11.wav</AudioFile>
-												</AudioFileSource>
-											</ChildrenList>
-											<ActiveSourceList>
-												<ActiveSource Name="Ice Skate Move 11" ID="{2EEC557C-CE2F-4753-8B35-52C90B4659BD}" Platform="Linked"/>
-											</ActiveSourceList>
-										</Sound>
-										<Sound Name="Ice Skate Move 12" ID="{45282EA4-FCFA-4516-8461-9E0A0433FC93}" ShortID="572661657">
-											<ReferenceList>
-												<Reference Name="Conversion">
-													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{7DD98DC9-8438-4E9D-9FB8-F37E23FBAE82}"/>
-												</Reference>
-												<Reference Name="OutputBus">
-													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{BE0D8A64-9D86-44BD-BD23-F83C3E6F2572}"/>
-												</Reference>
-											</ReferenceList>
-											<ChildrenList>
-												<AudioFileSource Name="Ice Skate Move 12" ID="{8D8A97CA-47A2-4C79-9058-3AD7D836D3AF}" ShortID="219488748">
-													<Language>SFX</Language>
-													<AudioFile>Ice Skate Move 12.wav</AudioFile>
-												</AudioFileSource>
-											</ChildrenList>
-											<ActiveSourceList>
-												<ActiveSource Name="Ice Skate Move 12" ID="{8D8A97CA-47A2-4C79-9058-3AD7D836D3AF}" Platform="Linked"/>
-											</ActiveSourceList>
-										</Sound>
-										<Sound Name="Ice Skate Move 13" ID="{F15EA242-CA68-450B-B114-34012ED6599E}" ShortID="1046455041">
-											<ReferenceList>
-												<Reference Name="Conversion">
-													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{7DD98DC9-8438-4E9D-9FB8-F37E23FBAE82}"/>
-												</Reference>
-												<Reference Name="OutputBus">
-													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{BE0D8A64-9D86-44BD-BD23-F83C3E6F2572}"/>
-												</Reference>
-											</ReferenceList>
-											<ChildrenList>
-												<AudioFileSource Name="Ice Skate Move 13" ID="{2D3C65E2-0731-435E-9A47-B79165593B6A}" ShortID="372356332">
-													<Language>SFX</Language>
-													<AudioFile>Ice Skate Move 13.wav</AudioFile>
-												</AudioFileSource>
-											</ChildrenList>
-											<ActiveSourceList>
-												<ActiveSource Name="Ice Skate Move 13" ID="{2D3C65E2-0731-435E-9A47-B79165593B6A}" Platform="Linked"/>
-											</ActiveSourceList>
-										</Sound>
-										<Sound Name="Ice Skate Move 14" ID="{22F2CAD0-3EC4-47B5-A116-40A261598D42}" ShortID="447109304">
-											<ReferenceList>
-												<Reference Name="Conversion">
-													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{7DD98DC9-8438-4E9D-9FB8-F37E23FBAE82}"/>
-												</Reference>
-												<Reference Name="OutputBus">
-													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{BE0D8A64-9D86-44BD-BD23-F83C3E6F2572}"/>
-												</Reference>
-											</ReferenceList>
-											<ChildrenList>
-												<AudioFileSource Name="Ice Skate Move 14" ID="{14F8C5ED-B616-4352-BC25-EC2AA6E50D4A}" ShortID="1044648691">
-													<Language>SFX</Language>
-													<AudioFile>Ice Skate Move 14.wav</AudioFile>
-												</AudioFileSource>
-											</ChildrenList>
-											<ActiveSourceList>
-												<ActiveSource Name="Ice Skate Move 14" ID="{14F8C5ED-B616-4352-BC25-EC2AA6E50D4A}" Platform="Linked"/>
-											</ActiveSourceList>
-										</Sound>
-										<Sound Name="Ice Skate Move 15" ID="{C3647A18-6997-409C-8553-9636BF72C011}" ShortID="847356165">
-											<ReferenceList>
-												<Reference Name="Conversion">
-													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{7DD98DC9-8438-4E9D-9FB8-F37E23FBAE82}"/>
-												</Reference>
-												<Reference Name="OutputBus">
-													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{BE0D8A64-9D86-44BD-BD23-F83C3E6F2572}"/>
-												</Reference>
-											</ReferenceList>
-											<ChildrenList>
-												<AudioFileSource Name="Ice Skate Move 15" ID="{1D6C39D5-64C3-4F6C-AF47-D3044DACD888}" ShortID="771485628">
-													<Language>SFX</Language>
-													<AudioFile>Ice Skate Move 15.wav</AudioFile>
-												</AudioFileSource>
-											</ChildrenList>
-											<ActiveSourceList>
-												<ActiveSource Name="Ice Skate Move 15" ID="{1D6C39D5-64C3-4F6C-AF47-D3044DACD888}" Platform="Linked"/>
-											</ActiveSourceList>
-										</Sound>
-										<Sound Name="Ice Skate Move 16" ID="{5BEA72CD-7009-482F-84DD-A30BE1694415}" ShortID="821953075">
-											<ReferenceList>
-												<Reference Name="Conversion">
-													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{7DD98DC9-8438-4E9D-9FB8-F37E23FBAE82}"/>
-												</Reference>
-												<Reference Name="OutputBus">
-													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{BE0D8A64-9D86-44BD-BD23-F83C3E6F2572}"/>
-												</Reference>
-											</ReferenceList>
-											<ChildrenList>
-												<AudioFileSource Name="Ice Skate Move 16" ID="{EC51CB72-8CE8-4C1C-AC12-DFAEA162E71D}" ShortID="495145664">
-													<Language>SFX</Language>
-													<AudioFile>Ice Skate Move 16.wav</AudioFile>
-												</AudioFileSource>
-											</ChildrenList>
-											<ActiveSourceList>
-												<ActiveSource Name="Ice Skate Move 16" ID="{EC51CB72-8CE8-4C1C-AC12-DFAEA162E71D}" Platform="Linked"/>
-											</ActiveSourceList>
-										</Sound>
-										<Sound Name="Ice Skate Move 17" ID="{799A1AB6-C46B-441F-B521-8F709DFF3659}" ShortID="855750874">
-											<ReferenceList>
-												<Reference Name="Conversion">
-													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{7DD98DC9-8438-4E9D-9FB8-F37E23FBAE82}"/>
-												</Reference>
-												<Reference Name="OutputBus">
-													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{BE0D8A64-9D86-44BD-BD23-F83C3E6F2572}"/>
-												</Reference>
-											</ReferenceList>
-											<ChildrenList>
-												<AudioFileSource Name="Ice Skate Move 17" ID="{4CDCE5C4-0E8C-4943-B294-117FEDC17B4B}" ShortID="451606582">
-													<Language>SFX</Language>
-													<AudioFile>Ice Skate Move 17.wav</AudioFile>
-												</AudioFileSource>
-											</ChildrenList>
-											<ActiveSourceList>
-												<ActiveSource Name="Ice Skate Move 17" ID="{4CDCE5C4-0E8C-4943-B294-117FEDC17B4B}" Platform="Linked"/>
-											</ActiveSourceList>
-										</Sound>
-										<Sound Name="Ice Skate Move 18" ID="{5B948DFE-DE4D-4552-95E3-65541CEDC296}" ShortID="701396071">
-											<ReferenceList>
-												<Reference Name="Conversion">
-													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{7DD98DC9-8438-4E9D-9FB8-F37E23FBAE82}"/>
-												</Reference>
-												<Reference Name="OutputBus">
-													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{BE0D8A64-9D86-44BD-BD23-F83C3E6F2572}"/>
-												</Reference>
-											</ReferenceList>
-											<ChildrenList>
-												<AudioFileSource Name="Ice Skate Move 18" ID="{F44732FE-DFA0-401F-8476-DBA4684423B9}" ShortID="639644692">
-													<Language>SFX</Language>
-													<AudioFile>Ice Skate Move 18.wav</AudioFile>
-												</AudioFileSource>
-											</ChildrenList>
-											<ActiveSourceList>
-												<ActiveSource Name="Ice Skate Move 18" ID="{F44732FE-DFA0-401F-8476-DBA4684423B9}" Platform="Linked"/>
-											</ActiveSourceList>
-										</Sound>
-										<Sound Name="Ice Skate Move 19" ID="{32C62C37-5F7F-4938-8B3B-8CF45880AFAC}" ShortID="352006331">
-											<ReferenceList>
-												<Reference Name="Conversion">
-													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{7DD98DC9-8438-4E9D-9FB8-F37E23FBAE82}"/>
-												</Reference>
-												<Reference Name="OutputBus">
-													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{BE0D8A64-9D86-44BD-BD23-F83C3E6F2572}"/>
-												</Reference>
-											</ReferenceList>
-											<ChildrenList>
-												<AudioFileSource Name="Ice Skate Move 19" ID="{C2E3CAD7-66C2-4A6A-A4B9-09C1C656FF91}" ShortID="195040889">
-													<Language>SFX</Language>
-													<AudioFile>Ice Skate Move 19.wav</AudioFile>
-												</AudioFileSource>
-											</ChildrenList>
-											<ActiveSourceList>
-												<ActiveSource Name="Ice Skate Move 19" ID="{C2E3CAD7-66C2-4A6A-A4B9-09C1C656FF91}" Platform="Linked"/>
-											</ActiveSourceList>
-										</Sound>
-										<Sound Name="Ice Skate Move 20" ID="{6CDB0C35-CAEC-47AF-A238-D805FF277421}" ShortID="584459295">
-											<ReferenceList>
-												<Reference Name="Conversion">
-													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{7DD98DC9-8438-4E9D-9FB8-F37E23FBAE82}"/>
-												</Reference>
-												<Reference Name="OutputBus">
-													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{BE0D8A64-9D86-44BD-BD23-F83C3E6F2572}"/>
-												</Reference>
-											</ReferenceList>
-											<ChildrenList>
-												<AudioFileSource Name="Ice Skate Move 20" ID="{F62AD8CD-3226-4E5E-8354-CDADAF304A1B}" ShortID="512662675">
-													<Language>SFX</Language>
-													<AudioFile>Ice Skate Move 20.wav</AudioFile>
-												</AudioFileSource>
-											</ChildrenList>
-											<ActiveSourceList>
-												<ActiveSource Name="Ice Skate Move 20" ID="{F62AD8CD-3226-4E5E-8354-CDADAF304A1B}" Platform="Linked"/>
-											</ActiveSourceList>
-										</Sound>
-										<Sound Name="Ice Skate Move 21" ID="{06D3C28E-3A81-4FB3-8A47-7821F7136006}" ShortID="804403815">
-											<ReferenceList>
-												<Reference Name="Conversion">
-													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{7DD98DC9-8438-4E9D-9FB8-F37E23FBAE82}"/>
-												</Reference>
-												<Reference Name="OutputBus">
-													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{BE0D8A64-9D86-44BD-BD23-F83C3E6F2572}"/>
-												</Reference>
-											</ReferenceList>
-											<ChildrenList>
-												<AudioFileSource Name="Ice Skate Move 21" ID="{881B0793-AC7A-4F3B-A4AE-1916B325ED5F}" ShortID="847262932">
-													<Language>SFX</Language>
-													<AudioFile>Ice Skate Move 21.wav</AudioFile>
-												</AudioFileSource>
-											</ChildrenList>
-											<ActiveSourceList>
-												<ActiveSource Name="Ice Skate Move 21" ID="{881B0793-AC7A-4F3B-A4AE-1916B325ED5F}" Platform="Linked"/>
-											</ActiveSourceList>
-										</Sound>
-										<Sound Name="Ice Skate Move 22" ID="{1C3FBA14-0916-4B84-8D37-F13EEDCC7C98}" ShortID="952801043">
-											<ReferenceList>
-												<Reference Name="Conversion">
-													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{7DD98DC9-8438-4E9D-9FB8-F37E23FBAE82}"/>
-												</Reference>
-												<Reference Name="OutputBus">
-													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{BE0D8A64-9D86-44BD-BD23-F83C3E6F2572}"/>
-												</Reference>
-											</ReferenceList>
-											<ChildrenList>
-												<AudioFileSource Name="Ice Skate Move 22" ID="{004546B8-7374-40B3-9EDF-9150A7570F57}" ShortID="595279340">
-													<Language>SFX</Language>
-													<AudioFile>Ice Skate Move 22.wav</AudioFile>
-												</AudioFileSource>
-											</ChildrenList>
-											<ActiveSourceList>
-												<ActiveSource Name="Ice Skate Move 22" ID="{004546B8-7374-40B3-9EDF-9150A7570F57}" Platform="Linked"/>
-											</ActiveSourceList>
-										</Sound>
-										<Sound Name="Ice Skate Move 23" ID="{6DD3ADB8-962C-4E24-BCF1-46358166ECA3}" ShortID="693785606">
-											<ReferenceList>
-												<Reference Name="Conversion">
-													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{7DD98DC9-8438-4E9D-9FB8-F37E23FBAE82}"/>
-												</Reference>
-												<Reference Name="OutputBus">
-													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{BE0D8A64-9D86-44BD-BD23-F83C3E6F2572}"/>
-												</Reference>
-											</ReferenceList>
-											<ChildrenList>
-												<AudioFileSource Name="Ice Skate Move 23" ID="{4D9BE91D-179F-4582-8D10-0C3FDF4FB6A9}" ShortID="585497066">
-													<Language>SFX</Language>
-													<AudioFile>Ice Skate Move 23.wav</AudioFile>
-												</AudioFileSource>
-											</ChildrenList>
-											<ActiveSourceList>
-												<ActiveSource Name="Ice Skate Move 23" ID="{4D9BE91D-179F-4582-8D10-0C3FDF4FB6A9}" Platform="Linked"/>
-											</ActiveSourceList>
-										</Sound>
-										<Sound Name="Ice Skate Move 24" ID="{2AD6C68A-3C13-402B-B332-C59B466D7DA5}" ShortID="674201866">
-											<ReferenceList>
-												<Reference Name="Conversion">
-													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{7DD98DC9-8438-4E9D-9FB8-F37E23FBAE82}"/>
-												</Reference>
-												<Reference Name="OutputBus">
-													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{BE0D8A64-9D86-44BD-BD23-F83C3E6F2572}"/>
-												</Reference>
-											</ReferenceList>
-											<ChildrenList>
-												<AudioFileSource Name="Ice Skate Move 24" ID="{0F24D2E0-651C-4ADF-9FFD-5B2F1DC448FD}" ShortID="338404946">
-													<Language>SFX</Language>
-													<AudioFile>Ice Skate Move 24.wav</AudioFile>
-												</AudioFileSource>
-											</ChildrenList>
-											<ActiveSourceList>
-												<ActiveSource Name="Ice Skate Move 24" ID="{0F24D2E0-651C-4ADF-9FFD-5B2F1DC448FD}" Platform="Linked"/>
-											</ActiveSourceList>
-										</Sound>
-										<Sound Name="Ice Skate Move" ID="{86CDDB55-A8E4-4A1D-815E-76F53E5D1A02}" ShortID="1014913609">
-											<ReferenceList>
-												<Reference Name="Conversion">
-													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{7DD98DC9-8438-4E9D-9FB8-F37E23FBAE82}"/>
-												</Reference>
-												<Reference Name="OutputBus">
-													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{BE0D8A64-9D86-44BD-BD23-F83C3E6F2572}"/>
-												</Reference>
-											</ReferenceList>
-											<ChildrenList>
-												<AudioFileSource Name="Ice Skate Move" ID="{4EC22B1B-9B98-4C86-8EA3-11C5DB363AF9}" ShortID="354274248">
-													<Language>SFX</Language>
-													<AudioFile>Ice Skate Move.wav</AudioFile>
-												</AudioFileSource>
-											</ChildrenList>
-											<ActiveSourceList>
-												<ActiveSource Name="Ice Skate Move" ID="{4EC22B1B-9B98-4C86-8EA3-11C5DB363AF9}" Platform="Linked"/>
+												<ActiveSource Name="Ice Skate Slide" ID="{62267E9D-345C-479C-98CF-67C526861B1F}" Platform="Linked"/>
 											</ActiveSourceList>
 										</Sound>
 									</ChildrenList>
 								</RandomSequenceContainer>
 								<RandomSequenceContainer Name="Ice Skate Dirt" ID="{07A38D9D-1598-4FE4-8D39-3597C6185D3C}" ShortID="576583921">
+									<PropertyList>
+										<Property Name="Pitch" Type="int32">
+											<ModifierList>
+												<ModifierInfo>
+													<Modifier Name="" ID="{8FFF46FC-BA3D-4C9A-AE3C-EE22B54115FA}">
+														<PropertyList>
+															<Property Name="Enabled" Type="bool" Value="True"/>
+															<Property Name="Max" Type="Real64" Value="202"/>
+															<Property Name="Min" Type="Real64" Value="-202"/>
+														</PropertyList>
+													</Modifier>
+												</ModifierInfo>
+											</ModifierList>
+										</Property>
+										<Property Name="RandomAvoidRepeatingCount" Type="int32" Value="5"/>
+										<Property Name="Volume" Type="Real64">
+											<ValueList>
+												<Value>-9</Value>
+											</ValueList>
+										</Property>
+									</PropertyList>
 									<ReferenceList>
 										<Reference Name="Conversion">
 											<ObjectRef Name="Set to mono" ID="{5C8C8C27-1CD4-4823-9BC6-8907E275C7EC}" WorkUnitID="{7DD98DC9-8438-4E9D-9FB8-F37E23FBAE82}"/>
@@ -634,7 +360,7 @@
 										</Reference>
 									</ReferenceList>
 									<ChildrenList>
-										<Sound Name="Ice Skate Dirt 1" ID="{D0B41E52-36EC-4DF5-B97E-1E602045D5AA}" ShortID="627727470">
+										<Sound Name="Ice Skate Scrape 2" ID="{E082E465-0BBB-4B04-AE19-87DDDBD097BF}" ShortID="769179537">
 											<ReferenceList>
 												<Reference Name="Conversion">
 													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{7DD98DC9-8438-4E9D-9FB8-F37E23FBAE82}"/>
@@ -644,16 +370,16 @@
 												</Reference>
 											</ReferenceList>
 											<ChildrenList>
-												<AudioFileSource Name="Ice Skate Dirt 1" ID="{9859A3CB-F967-453C-BC30-0A8F13054195}" ShortID="553120778">
+												<AudioFileSource Name="Ice Skate Scrape 2" ID="{F3A09BCD-5F19-489F-9A62-E4AEC2266C1E}" ShortID="168582624">
 													<Language>SFX</Language>
-													<AudioFile>Ice Skate Dirt 1.wav</AudioFile>
+													<AudioFile>Ice Skate Scrape 2.wav</AudioFile>
 												</AudioFileSource>
 											</ChildrenList>
 											<ActiveSourceList>
-												<ActiveSource Name="Ice Skate Dirt 1" ID="{9859A3CB-F967-453C-BC30-0A8F13054195}" Platform="Linked"/>
+												<ActiveSource Name="Ice Skate Scrape 2" ID="{F3A09BCD-5F19-489F-9A62-E4AEC2266C1E}" Platform="Linked"/>
 											</ActiveSourceList>
 										</Sound>
-										<Sound Name="Ice Skate Dirt 2" ID="{8C4F2CC6-4141-420E-B721-6DA2021DE28D}" ShortID="502892089">
+										<Sound Name="Ice Skate Scrape 3" ID="{E1C08776-12FC-4834-8388-E7687CD7C688}" ShortID="139440266">
 											<ReferenceList>
 												<Reference Name="Conversion">
 													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{7DD98DC9-8438-4E9D-9FB8-F37E23FBAE82}"/>
@@ -663,16 +389,16 @@
 												</Reference>
 											</ReferenceList>
 											<ChildrenList>
-												<AudioFileSource Name="Ice Skate Dirt 2" ID="{DB9D1634-39DF-4DEB-96CA-A554AB5CFB33}" ShortID="843783139">
+												<AudioFileSource Name="Ice Skate Scrape 3" ID="{E407DE37-0A4E-4EC0-9406-790E6729A789}" ShortID="151985533">
 													<Language>SFX</Language>
-													<AudioFile>Ice Skate Dirt 2.wav</AudioFile>
+													<AudioFile>Ice Skate Scrape 3.wav</AudioFile>
 												</AudioFileSource>
 											</ChildrenList>
 											<ActiveSourceList>
-												<ActiveSource Name="Ice Skate Dirt 2" ID="{DB9D1634-39DF-4DEB-96CA-A554AB5CFB33}" Platform="Linked"/>
+												<ActiveSource Name="Ice Skate Scrape 3" ID="{E407DE37-0A4E-4EC0-9406-790E6729A789}" Platform="Linked"/>
 											</ActiveSourceList>
 										</Sound>
-										<Sound Name="Ice Skate Dirt 3" ID="{1634A244-0608-40B2-88F9-F7E0D7B01CC0}" ShortID="237705570">
+										<Sound Name="Ice Skate Scrape 4" ID="{1217A458-5407-4782-BB83-21648A9EE215}" ShortID="14855132">
 											<ReferenceList>
 												<Reference Name="Conversion">
 													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{7DD98DC9-8438-4E9D-9FB8-F37E23FBAE82}"/>
@@ -682,16 +408,16 @@
 												</Reference>
 											</ReferenceList>
 											<ChildrenList>
-												<AudioFileSource Name="Ice Skate Dirt 3" ID="{4AF84D9F-541D-4247-85ED-20A66A2E1083}" ShortID="755582400">
+												<AudioFileSource Name="Ice Skate Scrape 4" ID="{48395EC0-79F4-4D75-9F92-C8B9D3F61A7A}" ShortID="947221834">
 													<Language>SFX</Language>
-													<AudioFile>Ice Skate Dirt 3.wav</AudioFile>
+													<AudioFile>Ice Skate Scrape 4.wav</AudioFile>
 												</AudioFileSource>
 											</ChildrenList>
 											<ActiveSourceList>
-												<ActiveSource Name="Ice Skate Dirt 3" ID="{4AF84D9F-541D-4247-85ED-20A66A2E1083}" Platform="Linked"/>
+												<ActiveSource Name="Ice Skate Scrape 4" ID="{48395EC0-79F4-4D75-9F92-C8B9D3F61A7A}" Platform="Linked"/>
 											</ActiveSourceList>
 										</Sound>
-										<Sound Name="Ice Skate Dirt 4" ID="{CF8E1221-0E23-48CE-82F5-479957376FF0}" ShortID="939659899">
+										<Sound Name="Ice Skate Scrape 5" ID="{A944C44F-6AE2-452D-8387-63C2397815D6}" ShortID="463862367">
 											<ReferenceList>
 												<Reference Name="Conversion">
 													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{7DD98DC9-8438-4E9D-9FB8-F37E23FBAE82}"/>
@@ -701,16 +427,16 @@
 												</Reference>
 											</ReferenceList>
 											<ChildrenList>
-												<AudioFileSource Name="Ice Skate Dirt 4" ID="{24D82A3C-D096-44D8-9746-F1525760B7B0}" ShortID="1022758833">
+												<AudioFileSource Name="Ice Skate Scrape 5" ID="{3651DC9E-E954-4923-8A83-145794D5B996}" ShortID="385635623">
 													<Language>SFX</Language>
-													<AudioFile>Ice Skate Dirt 4.wav</AudioFile>
+													<AudioFile>Ice Skate Scrape 5.wav</AudioFile>
 												</AudioFileSource>
 											</ChildrenList>
 											<ActiveSourceList>
-												<ActiveSource Name="Ice Skate Dirt 4" ID="{24D82A3C-D096-44D8-9746-F1525760B7B0}" Platform="Linked"/>
+												<ActiveSource Name="Ice Skate Scrape 5" ID="{3651DC9E-E954-4923-8A83-145794D5B996}" Platform="Linked"/>
 											</ActiveSourceList>
 										</Sound>
-										<Sound Name="Ice Skate Dirt 5" ID="{C8F20007-9D89-4AFC-84BD-A9B32D1FC3B5}" ShortID="826357378">
+										<Sound Name="Ice Skate Scrape 6" ID="{381CF216-F08B-4322-B3A3-CFF271BB7128}" ShortID="309700425">
 											<ReferenceList>
 												<Reference Name="Conversion">
 													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{7DD98DC9-8438-4E9D-9FB8-F37E23FBAE82}"/>
@@ -720,16 +446,16 @@
 												</Reference>
 											</ReferenceList>
 											<ChildrenList>
-												<AudioFileSource Name="Ice Skate Dirt 5" ID="{EE9A2993-1B92-44A8-815A-247DDA1A3D53}" ShortID="309860487">
+												<AudioFileSource Name="Ice Skate Scrape 6" ID="{0A6A0D82-8369-401D-9264-A86F896093CE}" ShortID="491143842">
 													<Language>SFX</Language>
-													<AudioFile>Ice Skate Dirt 5.wav</AudioFile>
+													<AudioFile>Ice Skate Scrape 6.wav</AudioFile>
 												</AudioFileSource>
 											</ChildrenList>
 											<ActiveSourceList>
-												<ActiveSource Name="Ice Skate Dirt 5" ID="{EE9A2993-1B92-44A8-815A-247DDA1A3D53}" Platform="Linked"/>
+												<ActiveSource Name="Ice Skate Scrape 6" ID="{0A6A0D82-8369-401D-9264-A86F896093CE}" Platform="Linked"/>
 											</ActiveSourceList>
 										</Sound>
-										<Sound Name="Ice Skate Dirt 6" ID="{08D63D5E-50F8-44C0-8BA0-C8CBDB1041C5}" ShortID="54297841">
+										<Sound Name="Ice Skate Scrape 7" ID="{2B4933E6-38F4-45A2-B4D0-02C3E0BDB70E}" ShortID="696519072">
 											<ReferenceList>
 												<Reference Name="Conversion">
 													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{7DD98DC9-8438-4E9D-9FB8-F37E23FBAE82}"/>
@@ -739,16 +465,16 @@
 												</Reference>
 											</ReferenceList>
 											<ChildrenList>
-												<AudioFileSource Name="Ice Skate Dirt 6" ID="{C12DE6DB-5B8C-446B-B9BE-B09CBAD1E8E1}" ShortID="482382640">
+												<AudioFileSource Name="Ice Skate Scrape 7" ID="{15B06695-D0C9-4816-9701-A972E71BB53D}" ShortID="664257729">
 													<Language>SFX</Language>
-													<AudioFile>Ice Skate Dirt 6.wav</AudioFile>
+													<AudioFile>Ice Skate Scrape 7.wav</AudioFile>
 												</AudioFileSource>
 											</ChildrenList>
 											<ActiveSourceList>
-												<ActiveSource Name="Ice Skate Dirt 6" ID="{C12DE6DB-5B8C-446B-B9BE-B09CBAD1E8E1}" Platform="Linked"/>
+												<ActiveSource Name="Ice Skate Scrape 7" ID="{15B06695-D0C9-4816-9701-A972E71BB53D}" Platform="Linked"/>
 											</ActiveSourceList>
 										</Sound>
-										<Sound Name="Ice Skate Dirt 7" ID="{539DEEC2-2088-4FE4-8DAB-A7DC51F50DF4}" ShortID="817140509">
+										<Sound Name="Ice Skate Scrape 8" ID="{96DAEE5F-6D10-4DA2-8E2E-607E5D6A4D51}" ShortID="716602347">
 											<ReferenceList>
 												<Reference Name="Conversion">
 													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{7DD98DC9-8438-4E9D-9FB8-F37E23FBAE82}"/>
@@ -758,16 +484,16 @@
 												</Reference>
 											</ReferenceList>
 											<ChildrenList>
-												<AudioFileSource Name="Ice Skate Dirt 7" ID="{4583EC3C-FE11-4896-B891-BF37AC068B4E}" ShortID="91589415">
+												<AudioFileSource Name="Ice Skate Scrape 8" ID="{D1D32620-557B-4767-A603-131167ABF545}" ShortID="57231788">
 													<Language>SFX</Language>
-													<AudioFile>Ice Skate Dirt 7.wav</AudioFile>
+													<AudioFile>Ice Skate Scrape 8.wav</AudioFile>
 												</AudioFileSource>
 											</ChildrenList>
 											<ActiveSourceList>
-												<ActiveSource Name="Ice Skate Dirt 7" ID="{4583EC3C-FE11-4896-B891-BF37AC068B4E}" Platform="Linked"/>
+												<ActiveSource Name="Ice Skate Scrape 8" ID="{D1D32620-557B-4767-A603-131167ABF545}" Platform="Linked"/>
 											</ActiveSourceList>
 										</Sound>
-										<Sound Name="Ice Skate Dirt 8" ID="{5B509D90-08E1-455B-9EBC-081FBF1B9050}" ShortID="220350770">
+										<Sound Name="Ice Skate Scrape 9" ID="{150DD5E4-771A-4982-AEB2-58862E293487}" ShortID="791149288">
 											<ReferenceList>
 												<Reference Name="Conversion">
 													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{7DD98DC9-8438-4E9D-9FB8-F37E23FBAE82}"/>
@@ -777,16 +503,16 @@
 												</Reference>
 											</ReferenceList>
 											<ChildrenList>
-												<AudioFileSource Name="Ice Skate Dirt 8" ID="{CE7E25BB-52A1-4148-9172-CF515B7C10C3}" ShortID="165871530">
+												<AudioFileSource Name="Ice Skate Scrape 9" ID="{D6766E2A-59E1-4B9D-A280-B510156F6D6A}" ShortID="544903172">
 													<Language>SFX</Language>
-													<AudioFile>Ice Skate Dirt 8.wav</AudioFile>
+													<AudioFile>Ice Skate Scrape 9.wav</AudioFile>
 												</AudioFileSource>
 											</ChildrenList>
 											<ActiveSourceList>
-												<ActiveSource Name="Ice Skate Dirt 8" ID="{CE7E25BB-52A1-4148-9172-CF515B7C10C3}" Platform="Linked"/>
+												<ActiveSource Name="Ice Skate Scrape 9" ID="{D6766E2A-59E1-4B9D-A280-B510156F6D6A}" Platform="Linked"/>
 											</ActiveSourceList>
 										</Sound>
-										<Sound Name="Ice Skate Dirt 9" ID="{8C23B38C-5C62-4DA5-B12B-01A5D526AE49}" ShortID="757694577">
+										<Sound Name="Ice Skate Scrape 10" ID="{209CC6A9-3F72-421A-82BC-25A10CD9FBF1}" ShortID="398748173">
 											<ReferenceList>
 												<Reference Name="Conversion">
 													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{7DD98DC9-8438-4E9D-9FB8-F37E23FBAE82}"/>
@@ -796,16 +522,16 @@
 												</Reference>
 											</ReferenceList>
 											<ChildrenList>
-												<AudioFileSource Name="Ice Skate Dirt 9" ID="{280457F1-BE78-4ED6-A755-135C392D70FE}" ShortID="977660966">
+												<AudioFileSource Name="Ice Skate Scrape 10" ID="{D7F035A9-DD6F-476C-A21C-C9FD12D50B43}" ShortID="712193689">
 													<Language>SFX</Language>
-													<AudioFile>Ice Skate Dirt 9.wav</AudioFile>
+													<AudioFile>Ice Skate Scrape 10.wav</AudioFile>
 												</AudioFileSource>
 											</ChildrenList>
 											<ActiveSourceList>
-												<ActiveSource Name="Ice Skate Dirt 9" ID="{280457F1-BE78-4ED6-A755-135C392D70FE}" Platform="Linked"/>
+												<ActiveSource Name="Ice Skate Scrape 10" ID="{D7F035A9-DD6F-476C-A21C-C9FD12D50B43}" Platform="Linked"/>
 											</ActiveSourceList>
 										</Sound>
-										<Sound Name="Ice Skate Dirt 10" ID="{5DF83CD1-6E48-4BE4-88AF-C691CCF961B5}" ShortID="461305170">
+										<Sound Name="Ice Skate Scrape 11" ID="{CEB6F003-0EFB-4A9D-9FB4-42351748BDCA}" ShortID="352289397">
 											<ReferenceList>
 												<Reference Name="Conversion">
 													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{7DD98DC9-8438-4E9D-9FB8-F37E23FBAE82}"/>
@@ -815,16 +541,16 @@
 												</Reference>
 											</ReferenceList>
 											<ChildrenList>
-												<AudioFileSource Name="Ice Skate Dirt 10" ID="{3711409A-376A-4120-9C24-1DA448330AA3}" ShortID="228814525">
+												<AudioFileSource Name="Ice Skate Scrape 11" ID="{51E27834-6F67-4F71-8D2B-BE38EF8AE90C}" ShortID="1034043647">
 													<Language>SFX</Language>
-													<AudioFile>Ice Skate Dirt 10.wav</AudioFile>
+													<AudioFile>Ice Skate Scrape 11.wav</AudioFile>
 												</AudioFileSource>
 											</ChildrenList>
 											<ActiveSourceList>
-												<ActiveSource Name="Ice Skate Dirt 10" ID="{3711409A-376A-4120-9C24-1DA448330AA3}" Platform="Linked"/>
+												<ActiveSource Name="Ice Skate Scrape 11" ID="{51E27834-6F67-4F71-8D2B-BE38EF8AE90C}" Platform="Linked"/>
 											</ActiveSourceList>
 										</Sound>
-										<Sound Name="Ice Skate Dirt 11" ID="{3FEF76A7-E2DE-4BD6-9D65-6BE0B61CB0C7}" ShortID="960846136">
+										<Sound Name="Ice Skate Scrape" ID="{FDEAEE85-7670-4879-8BD6-EC845B594F2B}" ShortID="208115158">
 											<ReferenceList>
 												<Reference Name="Conversion">
 													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{7DD98DC9-8438-4E9D-9FB8-F37E23FBAE82}"/>
@@ -834,203 +560,13 @@
 												</Reference>
 											</ReferenceList>
 											<ChildrenList>
-												<AudioFileSource Name="Ice Skate Dirt 11" ID="{6A5F63F0-7FEA-45F2-918E-2049AB6C3336}" ShortID="239119487">
+												<AudioFileSource Name="Ice Skate Scrape" ID="{6241E86E-A550-47AC-BC96-B47848571361}" ShortID="423297439">
 													<Language>SFX</Language>
-													<AudioFile>Ice Skate Dirt 11.wav</AudioFile>
+													<AudioFile>Ice Skate Scrape.wav</AudioFile>
 												</AudioFileSource>
 											</ChildrenList>
 											<ActiveSourceList>
-												<ActiveSource Name="Ice Skate Dirt 11" ID="{6A5F63F0-7FEA-45F2-918E-2049AB6C3336}" Platform="Linked"/>
-											</ActiveSourceList>
-										</Sound>
-										<Sound Name="Ice Skate Dirt 12" ID="{B3AA9E56-9970-4B00-A5A1-8E78BC0AF7B8}" ShortID="825289093">
-											<ReferenceList>
-												<Reference Name="Conversion">
-													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{7DD98DC9-8438-4E9D-9FB8-F37E23FBAE82}"/>
-												</Reference>
-												<Reference Name="OutputBus">
-													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{BE0D8A64-9D86-44BD-BD23-F83C3E6F2572}"/>
-												</Reference>
-											</ReferenceList>
-											<ChildrenList>
-												<AudioFileSource Name="Ice Skate Dirt 12" ID="{BBEC3B94-06C1-4015-86E3-893C85C6F5FA}" ShortID="45374967">
-													<Language>SFX</Language>
-													<AudioFile>Ice Skate Dirt 12.wav</AudioFile>
-												</AudioFileSource>
-											</ChildrenList>
-											<ActiveSourceList>
-												<ActiveSource Name="Ice Skate Dirt 12" ID="{BBEC3B94-06C1-4015-86E3-893C85C6F5FA}" Platform="Linked"/>
-											</ActiveSourceList>
-										</Sound>
-										<Sound Name="Ice Skate Dirt 13" ID="{61088001-9320-4A11-976C-74A28102006A}" ShortID="753470818">
-											<ReferenceList>
-												<Reference Name="Conversion">
-													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{7DD98DC9-8438-4E9D-9FB8-F37E23FBAE82}"/>
-												</Reference>
-												<Reference Name="OutputBus">
-													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{BE0D8A64-9D86-44BD-BD23-F83C3E6F2572}"/>
-												</Reference>
-											</ReferenceList>
-											<ChildrenList>
-												<AudioFileSource Name="Ice Skate Dirt 13" ID="{7C3678D4-E082-46E1-9DF7-5953B59E6831}" ShortID="47872802">
-													<Language>SFX</Language>
-													<AudioFile>Ice Skate Dirt 13.wav</AudioFile>
-												</AudioFileSource>
-											</ChildrenList>
-											<ActiveSourceList>
-												<ActiveSource Name="Ice Skate Dirt 13" ID="{7C3678D4-E082-46E1-9DF7-5953B59E6831}" Platform="Linked"/>
-											</ActiveSourceList>
-										</Sound>
-										<Sound Name="Ice Skate Dirt 14" ID="{57400035-639F-4589-83C3-9D754E8A2536}" ShortID="464961587">
-											<ReferenceList>
-												<Reference Name="Conversion">
-													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{7DD98DC9-8438-4E9D-9FB8-F37E23FBAE82}"/>
-												</Reference>
-												<Reference Name="OutputBus">
-													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{BE0D8A64-9D86-44BD-BD23-F83C3E6F2572}"/>
-												</Reference>
-											</ReferenceList>
-											<ChildrenList>
-												<AudioFileSource Name="Ice Skate Dirt 14" ID="{8C9C4D6A-FFA7-4D7E-B4BA-BCBAD70CD0FE}" ShortID="261195073">
-													<Language>SFX</Language>
-													<AudioFile>Ice Skate Dirt 14.wav</AudioFile>
-												</AudioFileSource>
-											</ChildrenList>
-											<ActiveSourceList>
-												<ActiveSource Name="Ice Skate Dirt 14" ID="{8C9C4D6A-FFA7-4D7E-B4BA-BCBAD70CD0FE}" Platform="Linked"/>
-											</ActiveSourceList>
-										</Sound>
-										<Sound Name="Ice Skate Dirt 15" ID="{8B5ED99C-BCA5-490A-BBCA-3D184120FC93}" ShortID="308464121">
-											<ReferenceList>
-												<Reference Name="Conversion">
-													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{7DD98DC9-8438-4E9D-9FB8-F37E23FBAE82}"/>
-												</Reference>
-												<Reference Name="OutputBus">
-													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{BE0D8A64-9D86-44BD-BD23-F83C3E6F2572}"/>
-												</Reference>
-											</ReferenceList>
-											<ChildrenList>
-												<AudioFileSource Name="Ice Skate Dirt 15" ID="{8DE4C168-48AF-4AFC-B885-C79B9EDC6C81}" ShortID="414226893">
-													<Language>SFX</Language>
-													<AudioFile>Ice Skate Dirt 15.wav</AudioFile>
-												</AudioFileSource>
-											</ChildrenList>
-											<ActiveSourceList>
-												<ActiveSource Name="Ice Skate Dirt 15" ID="{8DE4C168-48AF-4AFC-B885-C79B9EDC6C81}" Platform="Linked"/>
-											</ActiveSourceList>
-										</Sound>
-										<Sound Name="Ice Skate Dirt 16" ID="{9A895049-5ADB-4B61-A125-DFED786C4AB1}" ShortID="130574298">
-											<ReferenceList>
-												<Reference Name="Conversion">
-													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{7DD98DC9-8438-4E9D-9FB8-F37E23FBAE82}"/>
-												</Reference>
-												<Reference Name="OutputBus">
-													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{BE0D8A64-9D86-44BD-BD23-F83C3E6F2572}"/>
-												</Reference>
-											</ReferenceList>
-											<ChildrenList>
-												<AudioFileSource Name="Ice Skate Dirt 16" ID="{5C5E36ED-0B51-48E0-9572-A6AFB5C69ADE}" ShortID="856639545">
-													<Language>SFX</Language>
-													<AudioFile>Ice Skate Dirt 16.wav</AudioFile>
-												</AudioFileSource>
-											</ChildrenList>
-											<ActiveSourceList>
-												<ActiveSource Name="Ice Skate Dirt 16" ID="{5C5E36ED-0B51-48E0-9572-A6AFB5C69ADE}" Platform="Linked"/>
-											</ActiveSourceList>
-										</Sound>
-										<Sound Name="Ice Skate Dirt 17" ID="{EAD7BDEA-F7CD-485E-82E2-60B84BAD8ADF}" ShortID="1066254118">
-											<ReferenceList>
-												<Reference Name="Conversion">
-													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{7DD98DC9-8438-4E9D-9FB8-F37E23FBAE82}"/>
-												</Reference>
-												<Reference Name="OutputBus">
-													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{BE0D8A64-9D86-44BD-BD23-F83C3E6F2572}"/>
-												</Reference>
-											</ReferenceList>
-											<ChildrenList>
-												<AudioFileSource Name="Ice Skate Dirt 17" ID="{BD835F14-E4CD-4EEE-A69B-184AAA2825A1}" ShortID="322527580">
-													<Language>SFX</Language>
-													<AudioFile>Ice Skate Dirt 17.wav</AudioFile>
-												</AudioFileSource>
-											</ChildrenList>
-											<ActiveSourceList>
-												<ActiveSource Name="Ice Skate Dirt 17" ID="{BD835F14-E4CD-4EEE-A69B-184AAA2825A1}" Platform="Linked"/>
-											</ActiveSourceList>
-										</Sound>
-										<Sound Name="Ice Skate Dirt 18" ID="{B584931E-C52C-43FC-99BE-FE0AEA773AA3}" ShortID="118268144">
-											<ReferenceList>
-												<Reference Name="Conversion">
-													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{7DD98DC9-8438-4E9D-9FB8-F37E23FBAE82}"/>
-												</Reference>
-												<Reference Name="OutputBus">
-													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{BE0D8A64-9D86-44BD-BD23-F83C3E6F2572}"/>
-												</Reference>
-											</ReferenceList>
-											<ChildrenList>
-												<AudioFileSource Name="Ice Skate Dirt 18" ID="{49CDAC10-76F4-48F8-AFFA-C7B8B1D1433B}" ShortID="905811639">
-													<Language>SFX</Language>
-													<AudioFile>Ice Skate Dirt 18.wav</AudioFile>
-												</AudioFileSource>
-											</ChildrenList>
-											<ActiveSourceList>
-												<ActiveSource Name="Ice Skate Dirt 18" ID="{49CDAC10-76F4-48F8-AFFA-C7B8B1D1433B}" Platform="Linked"/>
-											</ActiveSourceList>
-										</Sound>
-										<Sound Name="Ice Skate Dirt 19" ID="{1DBCD117-090A-49DC-93A4-D5743DAE1157}" ShortID="1008177914">
-											<ReferenceList>
-												<Reference Name="Conversion">
-													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{7DD98DC9-8438-4E9D-9FB8-F37E23FBAE82}"/>
-												</Reference>
-												<Reference Name="OutputBus">
-													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{BE0D8A64-9D86-44BD-BD23-F83C3E6F2572}"/>
-												</Reference>
-											</ReferenceList>
-											<ChildrenList>
-												<AudioFileSource Name="Ice Skate Dirt 19" ID="{09C8A92B-1324-4487-8D64-F426D6A0EEDC}" ShortID="540694933">
-													<Language>SFX</Language>
-													<AudioFile>Ice Skate Dirt 19.wav</AudioFile>
-												</AudioFileSource>
-											</ChildrenList>
-											<ActiveSourceList>
-												<ActiveSource Name="Ice Skate Dirt 19" ID="{09C8A92B-1324-4487-8D64-F426D6A0EEDC}" Platform="Linked"/>
-											</ActiveSourceList>
-										</Sound>
-										<Sound Name="Ice Skate Dirt 20" ID="{FE5D36EC-72D9-4EBB-AD46-57F05EF7E2D4}" ShortID="733248942">
-											<ReferenceList>
-												<Reference Name="Conversion">
-													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{7DD98DC9-8438-4E9D-9FB8-F37E23FBAE82}"/>
-												</Reference>
-												<Reference Name="OutputBus">
-													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{BE0D8A64-9D86-44BD-BD23-F83C3E6F2572}"/>
-												</Reference>
-											</ReferenceList>
-											<ChildrenList>
-												<AudioFileSource Name="Ice Skate Dirt 20" ID="{A61009BE-7CA2-49AC-8CD3-C8B35BE49125}" ShortID="592190318">
-													<Language>SFX</Language>
-													<AudioFile>Ice Skate Dirt 20.wav</AudioFile>
-												</AudioFileSource>
-											</ChildrenList>
-											<ActiveSourceList>
-												<ActiveSource Name="Ice Skate Dirt 20" ID="{A61009BE-7CA2-49AC-8CD3-C8B35BE49125}" Platform="Linked"/>
-											</ActiveSourceList>
-										</Sound>
-										<Sound Name="Ice Skate Dirt 21" ID="{53792FFA-95FB-4132-A907-ED0D6FEA3CE3}" ShortID="296447366">
-											<ReferenceList>
-												<Reference Name="Conversion">
-													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{7DD98DC9-8438-4E9D-9FB8-F37E23FBAE82}"/>
-												</Reference>
-												<Reference Name="OutputBus">
-													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{BE0D8A64-9D86-44BD-BD23-F83C3E6F2572}"/>
-												</Reference>
-											</ReferenceList>
-											<ChildrenList>
-												<AudioFileSource Name="Ice Skate Dirt 21" ID="{2A763F45-7E02-4DA8-8071-112C094A52E1}" ShortID="979952298">
-													<Language>SFX</Language>
-													<AudioFile>Ice Skate Dirt 21.wav</AudioFile>
-												</AudioFileSource>
-											</ChildrenList>
-											<ActiveSourceList>
-												<ActiveSource Name="Ice Skate Dirt 21" ID="{2A763F45-7E02-4DA8-8071-112C094A52E1}" Platform="Linked"/>
+												<ActiveSource Name="Ice Skate Scrape" ID="{6241E86E-A550-47AC-BC96-B47848571361}" Platform="Linked"/>
 											</ActiveSourceList>
 										</Sound>
 									</ChildrenList>
@@ -1072,6 +608,260 @@
 										<ActiveSource Name="Patin Grappin granular" ID="{638DAB3E-E1FD-4852-BF68-94662A6DDD82}" Platform="Linked"/>
 									</ActiveSourceList>
 								</Sound>
+								<RandomSequenceContainer Name="Ice Skate Reception" ID="{B6B1993D-8741-4A37-9EA0-AF356414A6B4}" ShortID="825789547">
+									<PropertyList>
+										<Property Name="Volume" Type="Real64">
+											<ValueList>
+												<Value>-5</Value>
+											</ValueList>
+										</Property>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{7DD98DC9-8438-4E9D-9FB8-F37E23FBAE82}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{BE0D8A64-9D86-44BD-BD23-F83C3E6F2572}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<Sound Name="Ice Skate Reception 2" ID="{9DDB4466-C41F-486E-B3A1-2CA4EEAE1AA9}" ShortID="282425762">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{7DD98DC9-8438-4E9D-9FB8-F37E23FBAE82}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{BE0D8A64-9D86-44BD-BD23-F83C3E6F2572}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="Ice Skate Reception 2" ID="{478CE686-7DAC-4957-B4E7-9D7B44DFF612}" ShortID="167432285">
+													<Language>SFX</Language>
+													<AudioFile>Ice Skate Reception 2.wav</AudioFile>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="Ice Skate Reception 2" ID="{478CE686-7DAC-4957-B4E7-9D7B44DFF612}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="Ice Skate Reception 3" ID="{21433A1B-F80B-41AB-B39A-DB87226C1B5D}" ShortID="12986524">
+											<PropertyList>
+												<Property Name="Inclusion" Type="bool">
+													<ValueList>
+														<Value>False</Value>
+													</ValueList>
+												</Property>
+											</PropertyList>
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{7DD98DC9-8438-4E9D-9FB8-F37E23FBAE82}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{BE0D8A64-9D86-44BD-BD23-F83C3E6F2572}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="Ice Skate Reception 3" ID="{ABA5BA4A-3A55-41A6-9197-8E2F554B39C0}" ShortID="298453334">
+													<Language>SFX</Language>
+													<AudioFile>Ice Skate Reception 3.wav</AudioFile>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="Ice Skate Reception 3" ID="{ABA5BA4A-3A55-41A6-9197-8E2F554B39C0}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="Ice Skate Reception 4" ID="{E083D92A-9C79-44AE-8589-DEDD8CA13211}" ShortID="628273598">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{7DD98DC9-8438-4E9D-9FB8-F37E23FBAE82}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{BE0D8A64-9D86-44BD-BD23-F83C3E6F2572}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="Ice Skate Reception 4" ID="{6739F32A-6A5E-4A76-A802-76F8EDFA4990}" ShortID="560899730">
+													<Language>SFX</Language>
+													<AudioFile>Ice Skate Reception 4.wav</AudioFile>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="Ice Skate Reception 4" ID="{6739F32A-6A5E-4A76-A802-76F8EDFA4990}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="Ice Skate Reception 5" ID="{8308A2D6-5EB8-45B7-A437-EE2A9E9F78AB}" ShortID="925649856">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{7DD98DC9-8438-4E9D-9FB8-F37E23FBAE82}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{BE0D8A64-9D86-44BD-BD23-F83C3E6F2572}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="Ice Skate Reception 5" ID="{4B6A91A3-562A-4AF1-878C-DDF8696101B5}" ShortID="801168512">
+													<Language>SFX</Language>
+													<AudioFile>Ice Skate Reception 5.wav</AudioFile>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="Ice Skate Reception 5" ID="{4B6A91A3-562A-4AF1-878C-DDF8696101B5}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="Ice Skate Reception 6" ID="{08C53F28-15DC-47C2-B0F7-EBFAFD52AF3C}" ShortID="635341139">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{7DD98DC9-8438-4E9D-9FB8-F37E23FBAE82}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{BE0D8A64-9D86-44BD-BD23-F83C3E6F2572}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="Ice Skate Reception 6" ID="{E8B42931-ADE1-47A3-BCC1-C6929C35F1D3}" ShortID="1053789075">
+													<Language>SFX</Language>
+													<AudioFile>Ice Skate Reception 6.wav</AudioFile>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="Ice Skate Reception 6" ID="{E8B42931-ADE1-47A3-BCC1-C6929C35F1D3}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="Ice Skate Reception 7" ID="{5271FF33-3049-47FF-93AB-6ABD5996F5B7}" ShortID="1013633748">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{7DD98DC9-8438-4E9D-9FB8-F37E23FBAE82}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{BE0D8A64-9D86-44BD-BD23-F83C3E6F2572}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="Ice Skate Reception 7" ID="{63F6B910-8426-4806-BEBD-D28848B2393B}" ShortID="7425448">
+													<Language>SFX</Language>
+													<AudioFile>Ice Skate Reception 7.wav</AudioFile>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="Ice Skate Reception 7" ID="{63F6B910-8426-4806-BEBD-D28848B2393B}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="Ice Skate Reception 8" ID="{60A516B8-6010-42E5-BCCA-9724E0587305}" ShortID="486452379">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{7DD98DC9-8438-4E9D-9FB8-F37E23FBAE82}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{BE0D8A64-9D86-44BD-BD23-F83C3E6F2572}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="Ice Skate Reception 8" ID="{67B813F5-DA3C-47E1-940D-059CA6CC9EFD}" ShortID="667448311">
+													<Language>SFX</Language>
+													<AudioFile>Ice Skate Reception 8.wav</AudioFile>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="Ice Skate Reception 8" ID="{67B813F5-DA3C-47E1-940D-059CA6CC9EFD}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="Ice Skate Reception 9" ID="{CD3E87B3-DC5C-418C-BF9F-0FD0AACE7EB5}" ShortID="291376755">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{7DD98DC9-8438-4E9D-9FB8-F37E23FBAE82}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{BE0D8A64-9D86-44BD-BD23-F83C3E6F2572}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="Ice Skate Reception 9" ID="{A779B6A2-C87D-4ED8-8E63-4C933833D72D}" ShortID="843146570">
+													<Language>SFX</Language>
+													<AudioFile>Ice Skate Reception 9.wav</AudioFile>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="Ice Skate Reception 9" ID="{A779B6A2-C87D-4ED8-8E63-4C933833D72D}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="Ice Skate Reception 10" ID="{3E43632C-C802-4C9E-B079-2C64578DA0F0}" ShortID="947261299">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{7DD98DC9-8438-4E9D-9FB8-F37E23FBAE82}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{BE0D8A64-9D86-44BD-BD23-F83C3E6F2572}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="Ice Skate Reception 10" ID="{0ECBE788-D29A-4616-9059-CD444315EB1C}" ShortID="885815928">
+													<Language>SFX</Language>
+													<AudioFile>Ice Skate Reception 10.wav</AudioFile>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="Ice Skate Reception 10" ID="{0ECBE788-D29A-4616-9059-CD444315EB1C}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="Ice Skate Reception 11" ID="{3686F48A-6E84-46CD-BE36-0CB86090E398}" ShortID="666745759">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{7DD98DC9-8438-4E9D-9FB8-F37E23FBAE82}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{BE0D8A64-9D86-44BD-BD23-F83C3E6F2572}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="Ice Skate Reception 11" ID="{66173779-74DB-40DE-A85B-E4EC8F318CC9}" ShortID="965770237">
+													<Language>SFX</Language>
+													<AudioFile>Ice Skate Reception 11.wav</AudioFile>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="Ice Skate Reception 11" ID="{66173779-74DB-40DE-A85B-E4EC8F318CC9}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="Ice Skate Reception 12" ID="{D25D5637-FAEA-4FB6-9730-7FE7015099A0}" ShortID="280993777">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{7DD98DC9-8438-4E9D-9FB8-F37E23FBAE82}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{BE0D8A64-9D86-44BD-BD23-F83C3E6F2572}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="Ice Skate Reception 12" ID="{A20609AB-B7A1-48C1-9BA9-B27345979319}" ShortID="804964435">
+													<Language>SFX</Language>
+													<AudioFile>Ice Skate Reception 12.wav</AudioFile>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="Ice Skate Reception 12" ID="{A20609AB-B7A1-48C1-9BA9-B27345979319}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="Ice Skate Reception" ID="{49F3D38F-C988-4858-AD10-AAB4AEE3C40D}" ShortID="898523447">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{7DD98DC9-8438-4E9D-9FB8-F37E23FBAE82}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{BE0D8A64-9D86-44BD-BD23-F83C3E6F2572}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="Ice Skate Reception" ID="{37F8CD1E-15FB-4014-BCE4-66649C56CF93}" ShortID="426024310">
+													<Language>SFX</Language>
+													<AudioFile>Ice Skate Reception.wav</AudioFile>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="Ice Skate Reception" ID="{37F8CD1E-15FB-4014-BCE4-66649C56CF93}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+									</ChildrenList>
+								</RandomSequenceContainer>
 							</ChildrenList>
 						</Folder>
 					</ChildrenList>

@@ -11,24 +11,24 @@
 	<StreamedFiles/>
 	<MediaFilesNotInAnyBank/>
 	<SoundBanks>
-		<SoundBank Id="1355168291" GUID="{701ECBBD-9C7B-4030-8CDB-749EE5D1C7B9}" Language="SFX">
+		<SoundBank Id="1355168291" Language="SFX">
 			<ObjectPath>Init</ObjectPath>
 			<ShortName>Init</ShortName>
 			<Path>Init.bnk</Path>
 		</SoundBank>
-		<SoundBank Id="1661994096" GUID="{3217AEF1-2A67-4E73-81B5-460347D99E19}" Language="SFX">
+		<SoundBank Id="1661994096" Language="SFX">
 			<ObjectPath>\SoundBanks\Default Work Unit\soundbank</ObjectPath>
 			<ShortName>soundbank</ShortName>
 			<Path>soundbank.bnk</Path>
 			<IncludedEvents>
-				<Event Id="3639876553" Name="Play_Grab_Impact" ObjectPath="\Events\Default Work Unit\Play_Grab_Impact" GUID="{8C9EDEAB-C9E6-4720-8103-AB542847143A}" DurationType="OneShot" DurationMin="2.049479" DurationMax="2.049479"/>
-				<Event Id="3373848412" Name="Play_Grab_Speed" ObjectPath="\Events\Default Work Unit\Play_Grab_Speed" GUID="{9D914E2C-781F-49E4-801F-0FBA566D9339}" DurationType="OneShot" DurationMin="2.038771" DurationMax="2.038771"/>
-				<Event Id="2436188148" Name="Play_Ice_Skate_Dirt" ObjectPath="\Events\Default Work Unit\Play_Ice_Skate_Dirt" GUID="{3F32D3F2-F09F-47E3-94E4-18BE62835FAA}" DurationType="OneShot" DurationMin="0.719271" DurationMax="0.719271"/>
-				<Event Id="2444050992" Name="Play_Ice_Skate_Move" ObjectPath="\Events\Default Work Unit\Play_Ice_Skate_Move" GUID="{42082413-C5D7-4FE9-8A1A-4D9406A585ED}" DurationType="OneShot" DurationMin="0.833333" DurationMax="0.833333"/>
-				<Event Id="1422273830" Name="Play_Ice_Skate_Move_01" ObjectPath="\Events\Default Work Unit\Play_Ice_Skate_Move_01" GUID="{2B0C3105-A5AB-4C14-B1CC-14F3518E7CBD}" DurationType="OneShot" DurationMin="0.833333" DurationMax="0.833333"/>
-				<Event Id="2305114950" Name="Play_Impact_flap" ObjectPath="\Events\Default Work Unit\Play_Impact_flap" GUID="{2F404378-2898-47ED-8D65-59E0B81AC63B}" DurationType="OneShot" DurationMin="1.447937" DurationMax="1.447937"/>
-				<Event Id="249738436" Name="Play_UI_Move" ObjectPath="\Events\Default Work Unit\Play_UI_Move" GUID="{D3788DB7-84A4-43B8-8604-A1C5E4E28FE0}" DurationType="OneShot" DurationMin="1.229167" DurationMax="1.229167"/>
-				<Event Id="999807850" Name="Play_UI_Move_01" ObjectPath="\Events\Default Work Unit\Play_UI_Move_01" GUID="{D493A992-334A-47D8-865C-5E1BAA77B125}" DurationType="OneShot" DurationMin="1.229167" DurationMax="1.229167"/>
+				<Event Id="3639876553" Name="Play_Grab_Impact" ObjectPath="\Events\Default Work Unit\Play_Grab_Impact"/>
+				<Event Id="3373848412" Name="Play_Grab_Speed" ObjectPath="\Events\Default Work Unit\Play_Grab_Speed"/>
+				<Event Id="1534258330" Name="Play_Granular_Ice" ObjectPath="\Events\Default Work Unit\Play_Granular_Ice"/>
+				<Event Id="2436188148" Name="Play_Ice_Skate_Dirt" ObjectPath="\Events\Default Work Unit\Play_Ice_Skate_Dirt"/>
+				<Event Id="2444050992" Name="Play_Ice_Skate_Move" ObjectPath="\Events\Default Work Unit\Play_Ice_Skate_Move"/>
+				<Event Id="2305114950" Name="Play_Impact_flap" ObjectPath="\Events\Default Work Unit\Play_Impact_flap"/>
+				<Event Id="249738436" Name="Play_UI_Move" ObjectPath="\Events\Default Work Unit\Play_UI_Move"/>
+				<Event Id="999807850" Name="Play_UI_Move_01" ObjectPath="\Events\Default Work Unit\Play_UI_Move_01"/>
 			</IncludedEvents>
 			<IncludedMemoryFiles>
 				<File Id="45374967" Language="SFX">
@@ -230,6 +230,10 @@
 				<File Id="979952298" Language="SFX">
 					<ShortName>Ice Skate Dirt 21.wav</ShortName>
 					<Path>SFX\Ice Skate Dirt 21_545D2DC6.wem</Path>
+				</File>
+				<File Id="1019668892" Language="SFX">
+					<ShortName>Patin Grappin granular.wav</ShortName>
+					<Path>SFX\Patin Grappin granular_F17FB28C.wem</Path>
 				</File>
 				<File Id="1022758833" Language="SFX">
 					<ShortName>Ice Skate Dirt 4.wav</ShortName>

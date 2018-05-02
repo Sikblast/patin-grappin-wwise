@@ -1,7 +1,7 @@
 Event	ID	Name			Wwise Object Path	Notes
 	249738436	Play_UI_Move			\Default Work Unit\Play_UI_Move	
 	999807850	Play_UI_Move_01			\Default Work Unit\Play_UI_Move_01	
-	1422273830	Play_Ice_Skate_Move_01			\Default Work Unit\Play_Ice_Skate_Move_01	
+	1534258330	Play_Granular_Ice			\Default Work Unit\Play_Granular_Ice	
 	2305114950	Play_Impact_flap			\Default Work Unit\Play_Impact_flap	
 	2436188148	Play_Ice_Skate_Dirt			\Default Work Unit\Play_Ice_Skate_Dirt	
 	2444050992	Play_Ice_Skate_Move			\Default Work Unit\Play_Ice_Skate_Move	
@@ -59,6 +59,7 @@ In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
 	920033310	Grab Speed	C:\Users\robin.cugniet\Documents\Patin Grappin\patin-grappin-wwise\.cache\Windows\SFX\Grab Speed_1C9C67B2.wem		\Actor-Mixer Hierarchy\Default Work Unit\IG\Grab Speed		391588
 	977660966	Ice Skate Dirt 9	C:\Users\robin.cugniet\Documents\Patin Grappin\patin-grappin-wwise\.cache\Windows\SFX\Ice Skate Dirt 9_545D2DC6.wem		\Actor-Mixer Hierarchy\Default Work Unit\IG\Ice Skate\Ice Skate Dirt\Ice Skate Dirt 9		69210
 	979952298	Ice Skate Dirt 21	C:\Users\robin.cugniet\Documents\Patin Grappin\patin-grappin-wwise\.cache\Windows\SFX\Ice Skate Dirt 21_545D2DC6.wem		\Actor-Mixer Hierarchy\Default Work Unit\IG\Ice Skate\Ice Skate Dirt\Ice Skate Dirt 21		69210
+	1019668892	Granular Ice	C:\Users\robin.cugniet\Documents\Patin Grappin\patin-grappin-wwise\.cache\Windows\SFX\Patin Grappin granular_F17FB28C.wem		\Actor-Mixer Hierarchy\Default Work Unit\IG\Ice Skate\Granular Ice		33600144
 	1022758833	Ice Skate Dirt 4	C:\Users\robin.cugniet\Documents\Patin Grappin\patin-grappin-wwise\.cache\Windows\SFX\Ice Skate Dirt 4_545D2DC6.wem		\Actor-Mixer Hierarchy\Default Work Unit\IG\Ice Skate\Ice Skate Dirt\Ice Skate Dirt 4		69210
 	1044648691	Ice Skate Move 14	C:\Users\robin.cugniet\Documents\Patin Grappin\patin-grappin-wwise\.cache\Windows\SFX\Ice Skate Move 14_1C9C67B2.wem		\Actor-Mixer Hierarchy\Default Work Unit\IG\Ice Skate\Ice Skate Move\Ice Skate Move 14		160144
 
