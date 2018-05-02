@@ -129,6 +129,20 @@
 						</Action>
 					</ChildrenList>
 				</Event>
+				<Event Name="Stop_Granular_Ice" ID="{259903E8-A0A6-4E8A-AAEB-9C602AF5D72D}">
+					<ChildrenList>
+						<Action Name="" ID="{59D3778E-B454-4BED-9A44-F1AA770A9649}" ShortID="689365294">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="2"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Granular Ice" ID="{BD791639-21CD-4ACA-91DA-7D1C74489BA6}" WorkUnitID="{AAC116AF-1552-4FCA-89BA-A82661378EE9}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
 			</ChildrenList>
 		</WorkUnit>
 	</Events>
