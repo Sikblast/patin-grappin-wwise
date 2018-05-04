@@ -143,6 +143,20 @@
 						</Action>
 					</ChildrenList>
 				</Event>
+				<Event Name="Play_Ice_Skate_Slow" ID="{9E351850-C560-4A96-BFB9-A783F7BA6612}">
+					<ChildrenList>
+						<Action Name="" ID="{5E01EA66-66B9-4BA7-9583-4BC3AFC65209}" ShortID="114189775">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="1"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Ice Skate Slow" ID="{6000A064-A30E-40E6-A89B-632596CA1B3C}" WorkUnitID="{AAC116AF-1552-4FCA-89BA-A82661378EE9}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
 			</ChildrenList>
 		</WorkUnit>
 	</Events>
