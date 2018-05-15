@@ -6,20 +6,36 @@
 				<SoundcasterSession Name="test" ID="{1730575F-4C2E-491C-AC89-306AF6AAFD0D}">
 					<ModuleList>
 						<Module>
-							<ObjectRef Name="Play_Grab_Impact" ID="{8C9EDEAB-C9E6-4720-8103-AB542847143A}" WorkUnitID="{21482B35-49C5-492A-9258-62C92B85A1C6}"/>
+							<ObjectRef Name="Slow" ID="{96A9026A-B5FA-407C-96EA-C050218AAEC5}" WorkUnitID="{AAC116AF-1552-4FCA-89BA-A82661378EE9}"/>
 							<Position X="0" Y="0"/>
 						</Module>
 						<Module>
-							<ObjectRef Name="Play_Ice_Skate_Dirt" ID="{3F32D3F2-F09F-47E3-94E4-18BE62835FAA}" WorkUnitID="{21482B35-49C5-492A-9258-62C92B85A1C6}"/>
+							<ObjectRef Name="à supprimer" ID="{534D5926-F617-4F3D-BC12-77620C5BAF4C}" WorkUnitID="{AAC116AF-1552-4FCA-89BA-A82661378EE9}"/>
+							<Position X="0" Y="2"/>
+						</Module>
+						<Module>
+							<ObjectRef Name="UI Move" ID="{16CA91AD-23BD-4F63-BC53-3AA2C636F67F}" WorkUnitID="{AAC116AF-1552-4FCA-89BA-A82661378EE9}"/>
+							<Position X="0" Y="3"/>
+						</Module>
+						<Module>
+							<ObjectRef Name="Normal" ID="{07A38D9D-1598-4FE4-8D39-3597C6185D3C}" WorkUnitID="{AAC116AF-1552-4FCA-89BA-A82661378EE9}"/>
 							<Position X="1" Y="0"/>
 						</Module>
 						<Module>
-							<ObjectRef Name="Play_Ice_Skate_Move" ID="{42082413-C5D7-4FE9-8A1A-4D9406A585ED}" WorkUnitID="{21482B35-49C5-492A-9258-62C92B85A1C6}"/>
+							<ObjectRef Name="Boost" ID="{BBABD279-6765-422C-B2D4-08C7636D1ED8}" WorkUnitID="{AAC116AF-1552-4FCA-89BA-A82661378EE9}"/>
+							<Position X="1" Y="1"/>
+						</Module>
+						<Module>
+							<ObjectRef Name="Fast" ID="{997603C6-CA42-4273-AD0F-7ED3C97DA665}" WorkUnitID="{AAC116AF-1552-4FCA-89BA-A82661378EE9}"/>
 							<Position X="2" Y="0"/>
 						</Module>
 						<Module>
-							<ObjectRef Name="Play_Ice_Skate_Reception" ID="{CF61C8A5-5107-48F4-95E3-4AC3668156CD}" WorkUnitID="{21482B35-49C5-492A-9258-62C92B85A1C6}"/>
-							<Position X="3" Y="0"/>
+							<ObjectRef Name="PATIN GRAPPIN testoss" ID="{F31E91EA-DC8E-4CFF-BB21-283C2A9473A9}" WorkUnitID="{AAC116AF-1552-4FCA-89BA-A82661378EE9}"/>
+							<Position X="2" Y="1"/>
+						</Module>
+						<Module>
+							<ObjectRef Name="Grappin" ID="{E02FC652-6485-4B97-8A06-71BBE91121CC}" WorkUnitID="{AAC116AF-1552-4FCA-89BA-A82661378EE9}"/>
+							<Position X="3" Y="1"/>
 						</Module>
 					</ModuleList>
 					<RTPCValueList ShowAll="true">

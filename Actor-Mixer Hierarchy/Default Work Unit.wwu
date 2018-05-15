@@ -6,6 +6,13 @@
 				<Folder Name="Menu" ID="{E91E1FF2-EC59-4DC4-86B6-51BDE13115DF}" ShortID="907927955">
 					<ChildrenList>
 						<Sound Name="UI Move" ID="{16CA91AD-23BD-4F63-BC53-3AA2C636F67F}" ShortID="470123622">
+							<PropertyList>
+								<Property Name="Volume" Type="Real64">
+									<ValueList>
+										<Value>-8</Value>
+									</ValueList>
+								</Property>
+							</PropertyList>
 							<ReferenceList>
 								<Reference Name="Conversion">
 									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{7DD98DC9-8438-4E9D-9FB8-F37E23FBAE82}"/>
@@ -47,7 +54,14 @@
 								<ActiveSource Name="Grab Speed" ID="{0FC57475-66A4-41E6-A8CE-B9E5AA8CEEDC}" Platform="Linked"/>
 							</ActiveSourceList>
 						</Sound>
-						<Sound Name="Impact flap" ID="{BBABD279-6765-422C-B2D4-08C7636D1ED8}" ShortID="1059822804">
+						<Sound Name="Boost" ID="{BBABD279-6765-422C-B2D4-08C7636D1ED8}" ShortID="1059822804">
+							<PropertyList>
+								<Property Name="Volume" Type="Real64">
+									<ValueList>
+										<Value>-3</Value>
+									</ValueList>
+								</Property>
+							</PropertyList>
 							<ReferenceList>
 								<Reference Name="Conversion">
 									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{7DD98DC9-8438-4E9D-9FB8-F37E23FBAE82}"/>
@@ -168,7 +182,7 @@
 						</RandomSequenceContainer>
 						<Folder Name="Ice Skate" ID="{426D4624-C48C-4CEE-9368-9D83546B332B}" ShortID="143762622">
 							<ChildrenList>
-								<RandomSequenceContainer Name="Ice Skate Move" ID="{96A9026A-B5FA-407C-96EA-C050218AAEC5}" ShortID="144257016">
+								<RandomSequenceContainer Name="Slow" ID="{96A9026A-B5FA-407C-96EA-C050218AAEC5}" ShortID="144257016">
 									<PropertyList>
 										<Property Name="Pitch" Type="int32">
 											<ModifierList>
@@ -184,6 +198,11 @@
 											</ModifierList>
 										</Property>
 										<Property Name="RandomAvoidRepeatingCount" Type="int32" Value="2"/>
+										<Property Name="Volume" Type="Real64">
+											<ValueList>
+												<Value>11</Value>
+											</ValueList>
+										</Property>
 									</PropertyList>
 									<ReferenceList>
 										<Reference Name="Conversion">
@@ -205,6 +224,10 @@
 											</ReferenceList>
 											<ChildrenList>
 												<AudioFileSource Name="Ice Skate Slide 2" ID="{B38224E7-1538-4E8B-BD3C-6C1CAF6B5A80}" ShortID="47350233">
+													<PropertyList>
+														<Property Name="FadeInDuration" Type="Real64" Value="0.023602033405955"/>
+														<Property Name="TrimBegin" Type="Real64" Value="6.13652868554829E-02"/>
+													</PropertyList>
 													<Language>SFX</Language>
 													<AudioFile>Ice Skate Slide 2.wav</AudioFile>
 												</AudioFileSource>
@@ -271,6 +294,13 @@
 											</ActiveSourceList>
 										</Sound>
 										<Sound Name="Ice Skate Slide 6" ID="{4F9212D5-BE71-49B0-907D-B474AC71BC97}" ShortID="749678102">
+											<PropertyList>
+												<Property Name="Inclusion" Type="bool">
+													<ValueList>
+														<Value>False</Value>
+													</ValueList>
+												</Property>
+											</PropertyList>
 											<ReferenceList>
 												<Reference Name="Conversion">
 													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{7DD98DC9-8438-4E9D-9FB8-F37E23FBAE82}"/>
@@ -287,25 +317,6 @@
 											</ChildrenList>
 											<ActiveSourceList>
 												<ActiveSource Name="Ice Skate Slide 6" ID="{7B3A481E-9B0F-43EF-ABA4-E0259C0A5F14}" Platform="Linked"/>
-											</ActiveSourceList>
-										</Sound>
-										<Sound Name="Ice Skate Slide 7" ID="{F8C1CAE9-F298-4946-92E0-C82CB53039F1}" ShortID="860710105">
-											<ReferenceList>
-												<Reference Name="Conversion">
-													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{7DD98DC9-8438-4E9D-9FB8-F37E23FBAE82}"/>
-												</Reference>
-												<Reference Name="OutputBus">
-													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{BE0D8A64-9D86-44BD-BD23-F83C3E6F2572}"/>
-												</Reference>
-											</ReferenceList>
-											<ChildrenList>
-												<AudioFileSource Name="Ice Skate Slide 7" ID="{22435467-7C47-4396-8616-71A9DD3B5733}" ShortID="315483087">
-													<Language>SFX</Language>
-													<AudioFile>Ice Skate Slide 7.wav</AudioFile>
-												</AudioFileSource>
-											</ChildrenList>
-											<ActiveSourceList>
-												<ActiveSource Name="Ice Skate Slide 7" ID="{22435467-7C47-4396-8616-71A9DD3B5733}" Platform="Linked"/>
 											</ActiveSourceList>
 										</Sound>
 										<Sound Name="Ice Skate Slide" ID="{D68AA4E4-A51A-48A5-85C7-7863CF1F73B6}" ShortID="885501675">
@@ -329,7 +340,7 @@
 										</Sound>
 									</ChildrenList>
 								</RandomSequenceContainer>
-								<RandomSequenceContainer Name="Ice Skate Dirt" ID="{07A38D9D-1598-4FE4-8D39-3597C6185D3C}" ShortID="576583921">
+								<RandomSequenceContainer Name="Normal" ID="{07A38D9D-1598-4FE4-8D39-3597C6185D3C}" ShortID="576583921">
 									<PropertyList>
 										<Property Name="Pitch" Type="int32">
 											<ModifierList>
@@ -344,10 +355,10 @@
 												</ModifierInfo>
 											</ModifierList>
 										</Property>
-										<Property Name="RandomAvoidRepeatingCount" Type="int32" Value="5"/>
+										<Property Name="RandomAvoidRepeatingCount" Type="int32" Value="2"/>
 										<Property Name="Volume" Type="Real64">
 											<ValueList>
-												<Value>-9</Value>
+												<Value>-13</Value>
 											</ValueList>
 										</Property>
 									</PropertyList>
@@ -360,25 +371,6 @@
 										</Reference>
 									</ReferenceList>
 									<ChildrenList>
-										<Sound Name="Ice Skate Scrape 2" ID="{E082E465-0BBB-4B04-AE19-87DDDBD097BF}" ShortID="769179537">
-											<ReferenceList>
-												<Reference Name="Conversion">
-													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{7DD98DC9-8438-4E9D-9FB8-F37E23FBAE82}"/>
-												</Reference>
-												<Reference Name="OutputBus">
-													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{BE0D8A64-9D86-44BD-BD23-F83C3E6F2572}"/>
-												</Reference>
-											</ReferenceList>
-											<ChildrenList>
-												<AudioFileSource Name="Ice Skate Scrape 2" ID="{F3A09BCD-5F19-489F-9A62-E4AEC2266C1E}" ShortID="168582624">
-													<Language>SFX</Language>
-													<AudioFile>Ice Skate Scrape 2.wav</AudioFile>
-												</AudioFileSource>
-											</ChildrenList>
-											<ActiveSourceList>
-												<ActiveSource Name="Ice Skate Scrape 2" ID="{F3A09BCD-5F19-489F-9A62-E4AEC2266C1E}" Platform="Linked"/>
-											</ActiveSourceList>
-										</Sound>
 										<Sound Name="Ice Skate Scrape 3" ID="{E1C08776-12FC-4834-8388-E7687CD7C688}" ShortID="139440266">
 											<ReferenceList>
 												<Reference Name="Conversion">
@@ -417,44 +409,6 @@
 												<ActiveSource Name="Ice Skate Scrape 4" ID="{48395EC0-79F4-4D75-9F92-C8B9D3F61A7A}" Platform="Linked"/>
 											</ActiveSourceList>
 										</Sound>
-										<Sound Name="Ice Skate Scrape 5" ID="{A944C44F-6AE2-452D-8387-63C2397815D6}" ShortID="463862367">
-											<ReferenceList>
-												<Reference Name="Conversion">
-													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{7DD98DC9-8438-4E9D-9FB8-F37E23FBAE82}"/>
-												</Reference>
-												<Reference Name="OutputBus">
-													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{BE0D8A64-9D86-44BD-BD23-F83C3E6F2572}"/>
-												</Reference>
-											</ReferenceList>
-											<ChildrenList>
-												<AudioFileSource Name="Ice Skate Scrape 5" ID="{3651DC9E-E954-4923-8A83-145794D5B996}" ShortID="385635623">
-													<Language>SFX</Language>
-													<AudioFile>Ice Skate Scrape 5.wav</AudioFile>
-												</AudioFileSource>
-											</ChildrenList>
-											<ActiveSourceList>
-												<ActiveSource Name="Ice Skate Scrape 5" ID="{3651DC9E-E954-4923-8A83-145794D5B996}" Platform="Linked"/>
-											</ActiveSourceList>
-										</Sound>
-										<Sound Name="Ice Skate Scrape 6" ID="{381CF216-F08B-4322-B3A3-CFF271BB7128}" ShortID="309700425">
-											<ReferenceList>
-												<Reference Name="Conversion">
-													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{7DD98DC9-8438-4E9D-9FB8-F37E23FBAE82}"/>
-												</Reference>
-												<Reference Name="OutputBus">
-													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{BE0D8A64-9D86-44BD-BD23-F83C3E6F2572}"/>
-												</Reference>
-											</ReferenceList>
-											<ChildrenList>
-												<AudioFileSource Name="Ice Skate Scrape 6" ID="{0A6A0D82-8369-401D-9264-A86F896093CE}" ShortID="491143842">
-													<Language>SFX</Language>
-													<AudioFile>Ice Skate Scrape 6.wav</AudioFile>
-												</AudioFileSource>
-											</ChildrenList>
-											<ActiveSourceList>
-												<ActiveSource Name="Ice Skate Scrape 6" ID="{0A6A0D82-8369-401D-9264-A86F896093CE}" Platform="Linked"/>
-											</ActiveSourceList>
-										</Sound>
 										<Sound Name="Ice Skate Scrape 7" ID="{2B4933E6-38F4-45A2-B4D0-02C3E0BDB70E}" ShortID="696519072">
 											<ReferenceList>
 												<Reference Name="Conversion">
@@ -466,6 +420,10 @@
 											</ReferenceList>
 											<ChildrenList>
 												<AudioFileSource Name="Ice Skate Scrape 7" ID="{15B06695-D0C9-4816-9701-A972E71BB53D}" ShortID="664257729">
+													<PropertyList>
+														<Property Name="FadeInDuration" Type="Real64" Value="4.53771786492375E-02"/>
+														<Property Name="TrimBegin" Type="Real64" Value="3.68384622367465E-02"/>
+													</PropertyList>
 													<Language>SFX</Language>
 													<AudioFile>Ice Skate Scrape 7.wav</AudioFile>
 												</AudioFileSource>
@@ -504,6 +462,12 @@
 											</ReferenceList>
 											<ChildrenList>
 												<AudioFileSource Name="Ice Skate Scrape 9" ID="{D6766E2A-59E1-4B9D-A280-B510156F6D6A}" ShortID="544903172">
+													<PropertyList>
+														<Property Name="FadeInDuration" Type="Real64" Value="2.61040758896151E-02"/>
+														<Property Name="FadeOutDuration" Type="Real64" Value="3.87901688453159E-02"/>
+														<Property Name="TrimBegin" Type="Real64" Value="1.92731027596224E-02"/>
+														<Property Name="TrimEnd" Type="Real64" Value="0.18565609114016"/>
+													</PropertyList>
 													<Language>SFX</Language>
 													<AudioFile>Ice Skate Scrape 9.wav</AudioFile>
 												</AudioFileSource>
@@ -523,6 +487,12 @@
 											</ReferenceList>
 											<ChildrenList>
 												<AudioFileSource Name="Ice Skate Scrape 10" ID="{D7F035A9-DD6F-476C-A21C-C9FD12D50B43}" ShortID="712193689">
+													<PropertyList>
+														<Property Name="FadeInDuration" Type="Real64" Value="2.82997458242556E-02"/>
+														<Property Name="FadeOutDuration" Type="Real64" Value="8.31914941902687E-02"/>
+														<Property Name="TrimBegin" Type="Real64" Value="2.19566993464052E-02"/>
+														<Property Name="TrimEnd" Type="Real64" Value="0.215175653594771"/>
+													</PropertyList>
 													<Language>SFX</Language>
 													<AudioFile>Ice Skate Scrape 10.wav</AudioFile>
 												</AudioFileSource>
@@ -550,63 +520,8 @@
 												<ActiveSource Name="Ice Skate Scrape 11" ID="{51E27834-6F67-4F71-8D2B-BE38EF8AE90C}" Platform="Linked"/>
 											</ActiveSourceList>
 										</Sound>
-										<Sound Name="Ice Skate Scrape" ID="{FDEAEE85-7670-4879-8BD6-EC845B594F2B}" ShortID="208115158">
-											<ReferenceList>
-												<Reference Name="Conversion">
-													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{7DD98DC9-8438-4E9D-9FB8-F37E23FBAE82}"/>
-												</Reference>
-												<Reference Name="OutputBus">
-													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{BE0D8A64-9D86-44BD-BD23-F83C3E6F2572}"/>
-												</Reference>
-											</ReferenceList>
-											<ChildrenList>
-												<AudioFileSource Name="Ice Skate Scrape" ID="{6241E86E-A550-47AC-BC96-B47848571361}" ShortID="423297439">
-													<Language>SFX</Language>
-													<AudioFile>Ice Skate Scrape.wav</AudioFile>
-												</AudioFileSource>
-											</ChildrenList>
-											<ActiveSourceList>
-												<ActiveSource Name="Ice Skate Scrape" ID="{6241E86E-A550-47AC-BC96-B47848571361}" Platform="Linked"/>
-											</ActiveSourceList>
-										</Sound>
 									</ChildrenList>
 								</RandomSequenceContainer>
-								<Sound Name="Granular Ice" ID="{BD791639-21CD-4ACA-91DA-7D1C74489BA6}" ShortID="832531510">
-									<PropertyList>
-										<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
-										<Property Name="MaxReachedBehavior" Type="int16" Value="1"/>
-										<Property Name="MaxSoundPerInstance" Type="int16">
-											<ValueList>
-												<Value>1</Value>
-											</ValueList>
-										</Property>
-										<Property Name="UseMaxSoundPerInstance" Type="bool">
-											<ValueList>
-												<Value>True</Value>
-											</ValueList>
-										</Property>
-									</PropertyList>
-									<ReferenceList>
-										<Reference Name="Conversion">
-											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{7DD98DC9-8438-4E9D-9FB8-F37E23FBAE82}"/>
-										</Reference>
-										<Reference Name="OutputBus">
-											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{BE0D8A64-9D86-44BD-BD23-F83C3E6F2572}"/>
-										</Reference>
-									</ReferenceList>
-									<ChildrenList>
-										<AudioFileSource Name="Patin Grappin granular" ID="{638DAB3E-E1FD-4852-BF68-94662A6DDD82}" ShortID="1023126297">
-											<Language>SFX</Language>
-											<AudioFile>Patin Grappin granular.wav</AudioFile>
-											<ConvertedFileIDList>
-												<File ID="1019668892"/>
-											</ConvertedFileIDList>
-										</AudioFileSource>
-									</ChildrenList>
-									<ActiveSourceList>
-										<ActiveSource Name="Patin Grappin granular" ID="{638DAB3E-E1FD-4852-BF68-94662A6DDD82}" Platform="Linked"/>
-									</ActiveSourceList>
-								</Sound>
 								<RandomSequenceContainer Name="Ice Skate Reception" ID="{B6B1993D-8741-4A37-9EA0-AF356414A6B4}" ShortID="825789547">
 									<PropertyList>
 										<Property Name="Volume" Type="Real64">
@@ -861,7 +776,25 @@
 										</Sound>
 									</ChildrenList>
 								</RandomSequenceContainer>
-								<RandomSequenceContainer Name="Ice Skate Slow" ID="{6000A064-A30E-40E6-A89B-632596CA1B3C}" ShortID="467169010">
+								<RandomSequenceContainer Name="Fast" ID="{997603C6-CA42-4273-AD0F-7ED3C97DA665}" ShortID="146657308">
+									<PropertyList>
+										<Property Name="MaxSoundPerInstance" Type="int16">
+											<ValueList>
+												<Value>1</Value>
+											</ValueList>
+										</Property>
+										<Property Name="RandomAvoidRepeatingCount" Type="int32" Value="3"/>
+										<Property Name="UseMaxSoundPerInstance" Type="bool">
+											<ValueList>
+												<Value>True</Value>
+											</ValueList>
+										</Property>
+										<Property Name="Volume" Type="Real64">
+											<ValueList>
+												<Value>-10</Value>
+											</ValueList>
+										</Property>
+									</PropertyList>
 									<ReferenceList>
 										<Reference Name="Conversion">
 											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{7DD98DC9-8438-4E9D-9FB8-F37E23FBAE82}"/>
@@ -870,11 +803,452 @@
 											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{BE0D8A64-9D86-44BD-BD23-F83C3E6F2572}"/>
 										</Reference>
 									</ReferenceList>
+									<ChildrenList>
+										<Sound Name="ICE Skate scrape two legs peel 03" ID="{60AB06A6-CFAB-49B7-B2C2-CDE2C7EF63DC}" ShortID="982960789">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{7DD98DC9-8438-4E9D-9FB8-F37E23FBAE82}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{BE0D8A64-9D86-44BD-BD23-F83C3E6F2572}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="ICE Skate scrape two legs peel 03" ID="{8EED3C40-D559-4CCE-BCCE-883C26E332D0}" ShortID="553313778">
+													<PropertyList>
+														<Property Name="FadeInDuration" Type="Real64" Value="6.23672839506173E-02"/>
+														<Property Name="TrimBegin" Type="Real64" Value="9.58703703703704E-02"/>
+													</PropertyList>
+													<Language>SFX</Language>
+													<AudioFile>ICE Skate scrape two legs peel 03.wav</AudioFile>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="ICE Skate scrape two legs peel 03" ID="{8EED3C40-D559-4CCE-BCCE-883C26E332D0}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="ICE Skate scrape two legs peel 04" ID="{B8307CE1-960A-4E67-9D6B-04DF535FDEC0}" ShortID="86801811">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{7DD98DC9-8438-4E9D-9FB8-F37E23FBAE82}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{BE0D8A64-9D86-44BD-BD23-F83C3E6F2572}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="ICE Skate scrape two legs peel 04" ID="{861493CB-CE44-42DE-8224-3119A8831DDC}" ShortID="894354986">
+													<PropertyList>
+														<Property Name="FadeInDuration" Type="Real64" Value="5.48137179254418E-02"/>
+														<Property Name="TrimBegin" Type="Real64" Value="0.10731948983297"/>
+													</PropertyList>
+													<Language>SFX</Language>
+													<AudioFile>ICE Skate scrape two legs peel 04.wav</AudioFile>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="ICE Skate scrape two legs peel 04" ID="{861493CB-CE44-42DE-8224-3119A8831DDC}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="ICE Skate scrape two legs peel 05" ID="{E337B081-204A-413A-AF33-167449C285B4}" ShortID="639890264">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{7DD98DC9-8438-4E9D-9FB8-F37E23FBAE82}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{BE0D8A64-9D86-44BD-BD23-F83C3E6F2572}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="ICE Skate scrape two legs peel 05" ID="{6BA2D277-0363-4FF8-9CD8-65124BC26E4C}" ShortID="250184705">
+													<PropertyList>
+														<Property Name="FadeInDuration" Type="Real64" Value="5.77292423142096E-02"/>
+														<Property Name="TrimBegin" Type="Real64" Value="8.24703461631566E-02"/>
+													</PropertyList>
+													<Language>SFX</Language>
+													<AudioFile>ICE Skate scrape two legs peel 05.wav</AudioFile>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="ICE Skate scrape two legs peel 05" ID="{6BA2D277-0363-4FF8-9CD8-65124BC26E4C}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="ICE Skate scrape two legs peel 06" ID="{4A3808CD-5306-4890-8F55-E30D95BEF7E9}" ShortID="560714811">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{7DD98DC9-8438-4E9D-9FB8-F37E23FBAE82}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{BE0D8A64-9D86-44BD-BD23-F83C3E6F2572}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="ICE Skate scrape two legs peel 06" ID="{9125CB6C-6408-4619-B01D-773CDBE7F9FE}" ShortID="687227318">
+													<PropertyList>
+														<Property Name="FadeInDuration" Type="Real64" Value="3.71573393246187E-02"/>
+														<Property Name="FadeOutDuration" Type="Real64" Value="0.139474650508352"/>
+														<Property Name="TrimBegin" Type="Real64" Value="6.35444353667393E-02"/>
+														<Property Name="TrimEnd" Type="Real64" Value="0.53635811546841"/>
+													</PropertyList>
+													<Language>SFX</Language>
+													<AudioFile>ICE Skate scrape two legs peel 06.wav</AudioFile>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="ICE Skate scrape two legs peel 06" ID="{9125CB6C-6408-4619-B01D-773CDBE7F9FE}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="ICE Skate scrape two legs peel 08" ID="{7FEB4857-3781-43DB-AE24-29FF58212173}" ShortID="945539373">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{7DD98DC9-8438-4E9D-9FB8-F37E23FBAE82}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{BE0D8A64-9D86-44BD-BD23-F83C3E6F2572}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="ICE Skate scrape two legs peel 08" ID="{6F936985-D215-4C29-AC1E-1509FE6009FF}" ShortID="605946358">
+													<PropertyList>
+														<Property Name="FadeInDuration" Type="Real64" Value="2.72503404139433E-02"/>
+														<Property Name="FadeOutDuration" Type="Real64" Value="0.069639758835633"/>
+														<Property Name="TrimBegin" Type="Real64" Value="2.68177953280077E-02"/>
+														<Property Name="TrimEnd" Type="Real64" Value="0.456767610748003"/>
+													</PropertyList>
+													<Language>SFX</Language>
+													<AudioFile>ICE Skate scrape two legs peel 08.wav</AudioFile>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="ICE Skate scrape two legs peel 08" ID="{6F936985-D215-4C29-AC1E-1509FE6009FF}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="ICE Skate scrape two legs peel 17" ID="{5C9B656C-D12A-4E7E-B8D2-A681E9376132}" ShortID="141609571">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{7DD98DC9-8438-4E9D-9FB8-F37E23FBAE82}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{BE0D8A64-9D86-44BD-BD23-F83C3E6F2572}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="ICE Skate scrape two legs peel 17" ID="{698A9334-F62D-44D1-B489-43C637A25401}" ShortID="258378051">
+													<Language>SFX</Language>
+													<AudioFile>ICE Skate scrape two legs peel 17.wav</AudioFile>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="ICE Skate scrape two legs peel 17" ID="{698A9334-F62D-44D1-B489-43C637A25401}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="ICE Skate scrape two legs peel 18" ID="{B551F692-2752-49C3-84BC-46C83F928334}" ShortID="1021669733">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{7DD98DC9-8438-4E9D-9FB8-F37E23FBAE82}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{BE0D8A64-9D86-44BD-BD23-F83C3E6F2572}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="ICE Skate scrape two legs peel 18" ID="{F237AA61-8C43-4C54-B5CB-FA79CBFFE4EA}" ShortID="844477299">
+													<PropertyList>
+														<Property Name="FadeInDuration" Type="Real64" Value="4.09269244734931E-02"/>
+														<Property Name="FadeOutDuration" Type="Real64" Value="0.1491678694626"/>
+														<Property Name="TrimBegin" Type="Real64" Value="5.27741920842411E-02"/>
+														<Property Name="TrimEnd" Type="Real64" Value="0.52989596949891"/>
+													</PropertyList>
+													<Language>SFX</Language>
+													<AudioFile>ICE Skate scrape two legs peel 18.wav</AudioFile>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="ICE Skate scrape two legs peel 18" ID="{F237AA61-8C43-4C54-B5CB-FA79CBFFE4EA}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="ICE Skate scrape two legs peel 23" ID="{65844993-DF3F-4590-8E15-7410B6677BAE}" ShortID="1048171213">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{7DD98DC9-8438-4E9D-9FB8-F37E23FBAE82}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{BE0D8A64-9D86-44BD-BD23-F83C3E6F2572}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="ICE Skate scrape two legs peel 23" ID="{06F2DD36-4647-4646-8CF2-010D999D5D53}" ShortID="927778677">
+													<PropertyList>
+														<Property Name="FadeInDuration" Type="Real64" Value="5.23742737835875E-02"/>
+														<Property Name="FadeOutDuration" Type="Real64" Value="7.74228395061728E-02"/>
+														<Property Name="TrimBegin" Type="Real64" Value="2.56178513071895E-02"/>
+														<Property Name="TrimEnd" Type="Real64" Value="0.446319898329702"/>
+													</PropertyList>
+													<Language>SFX</Language>
+													<AudioFile>ICE Skate scrape two legs peel 23.wav</AudioFile>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="ICE Skate scrape two legs peel 23" ID="{06F2DD36-4647-4646-8CF2-010D999D5D53}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="ICE Skate scrape two legs peel 30" ID="{76A8B129-4D65-4E6F-BED8-86543EDA7200}" ShortID="445047215">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{7DD98DC9-8438-4E9D-9FB8-F37E23FBAE82}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{BE0D8A64-9D86-44BD-BD23-F83C3E6F2572}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="ICE Skate scrape two legs peel 30" ID="{DD4084FB-9F7A-4C4F-8BCC-AC32818018B8}" ShortID="163576590">
+													<PropertyList>
+														<Property Name="FadeInDuration" Type="Real64" Value="4.54619038973614E-02"/>
+														<Property Name="FadeOutDuration" Type="Real64" Value="0.147870824255628"/>
+														<Property Name="TrimBegin" Type="Real64" Value="7.13034071653353E-02"/>
+														<Property Name="TrimEnd" Type="Real64" Value="0.490031469377875"/>
+													</PropertyList>
+													<Language>SFX</Language>
+													<AudioFile>ICE Skate scrape two legs peel 30.wav</AudioFile>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="ICE Skate scrape two legs peel 30" ID="{DD4084FB-9F7A-4C4F-8BCC-AC32818018B8}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="ICE Skate scrape two legs peel 33" ID="{D893A130-42E0-4D5D-A5A8-6840943A0D1A}" ShortID="859272748">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{7DD98DC9-8438-4E9D-9FB8-F37E23FBAE82}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{BE0D8A64-9D86-44BD-BD23-F83C3E6F2572}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="ICE Skate scrape two legs peel 33" ID="{9993B162-AD8D-4BA6-BCDE-2A402A303192}" ShortID="831621101">
+													<PropertyList>
+														<Property Name="FadeInDuration" Type="Real64" Value="3.70077311788913E-02"/>
+														<Property Name="FadeOutDuration" Type="Real64" Value="0.065082561728395"/>
+														<Property Name="TrimBegin" Type="Real64" Value="5.29593394456548E-02"/>
+														<Property Name="TrimEnd" Type="Real64" Value="0.47152954036553"/>
+													</PropertyList>
+													<Language>SFX</Language>
+													<AudioFile>ICE Skate scrape two legs peel 33.wav</AudioFile>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="ICE Skate scrape two legs peel 33" ID="{9993B162-AD8D-4BA6-BCDE-2A402A303192}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="ICE Skate scrape two legs peel 51" ID="{EE1C6279-1DAB-4BD8-86A6-0CB4AEF7F419}" ShortID="784316932">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{7DD98DC9-8438-4E9D-9FB8-F37E23FBAE82}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{BE0D8A64-9D86-44BD-BD23-F83C3E6F2572}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="ICE Skate scrape two legs peel 51" ID="{A170002E-1F98-436C-8F28-24A57D1C2AAF}" ShortID="15195034">
+													<PropertyList>
+														<Property Name="FadeInDuration" Type="Real64" Value="5.18325617283951E-02"/>
+														<Property Name="TrimBegin" Type="Real64" Value="0.113828370854515"/>
+													</PropertyList>
+													<Language>SFX</Language>
+													<AudioFile>ICE Skate scrape two legs peel 51.wav</AudioFile>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="ICE Skate scrape two legs peel 51" ID="{A170002E-1F98-436C-8F28-24A57D1C2AAF}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+									</ChildrenList>
 								</RandomSequenceContainer>
 							</ChildrenList>
 						</Folder>
+						<RandomSequenceContainer Name="Grappin" ID="{E02FC652-6485-4B97-8A06-71BBE91121CC}" ShortID="71794709">
+							<PropertyList>
+								<Property Name="PlayMechanismSpecialTransitions" Type="bool" Value="True"/>
+								<Property Name="PlayMechanismSpecialTransitionsType" Type="int16" Value="3"/>
+								<Property Name="PlayMechanismSpecialTransitionsValue" Type="Real64" Value="0.2"/>
+								<Property Name="PlayMechanismStepOrContinuous" Type="int16" Value="0"/>
+								<Property Name="RandomOrSequence" Type="int16" Value="0"/>
+								<Property Name="Volume" Type="Real64">
+									<ValueList>
+										<Value>2</Value>
+									</ValueList>
+								</Property>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{7DD98DC9-8438-4E9D-9FB8-F37E23FBAE82}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{BE0D8A64-9D86-44BD-BD23-F83C3E6F2572}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<Sound Name="Whoosh 6" ID="{E8031560-E57A-4477-84BA-8EC60A38EBD5}" ShortID="72927166">
+									<PropertyList>
+										<Property Name="Volume" Type="Real64">
+											<ValueList>
+												<Value>-11</Value>
+											</ValueList>
+										</Property>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{7DD98DC9-8438-4E9D-9FB8-F37E23FBAE82}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{BE0D8A64-9D86-44BD-BD23-F83C3E6F2572}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="BT OTHER Zipper Short" ID="{9FB1F1CA-F8DF-475E-9C06-C84FE7B8D2A0}" ShortID="799322725">
+											<PropertyList>
+												<Property Name="FadeOutDuration" Type="Real64" Value="0.132802801984992"/>
+												<Property Name="TrimBegin" Type="Real64" Value="0.216678255870249"/>
+												<Property Name="TrimEnd" Type="Real64" Value="0.894671508109418"/>
+											</PropertyList>
+											<Language>SFX</Language>
+											<AudioFile>BT OTHER Zipper Short.wav</AudioFile>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="BT OTHER Zipper Short" ID="{9FB1F1CA-F8DF-475E-9C06-C84FE7B8D2A0}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="Grip" ID="{BE195821-98AA-4ACB-BCFC-8354251B81F8}" ShortID="357118820">
+									<PropertyList>
+										<Property Name="Volume" Type="Real64">
+											<ValueList>
+												<Value>-6</Value>
+											</ValueList>
+										</Property>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{7DD98DC9-8438-4E9D-9FB8-F37E23FBAE82}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{BE0D8A64-9D86-44BD-BD23-F83C3E6F2572}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="Grip" ID="{3811A306-F7E6-458B-8C38-5B5BA35F0C9B}" ShortID="776065209">
+											<PropertyList>
+												<Property Name="FadeInDuration" Type="Real64" Value="4.19843863471315E-02"/>
+												<Property Name="FadeOutDuration" Type="Real64" Value="0.115740740740741"/>
+												<Property Name="TrimBegin" Type="Real64" Value="0.514025054466231"/>
+												<Property Name="TrimEnd" Type="Real64" Value="0.981526870007262"/>
+											</PropertyList>
+											<Language>SFX</Language>
+											<AudioFile>Grip.wav</AudioFile>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="Grip" ID="{3811A306-F7E6-458B-8C38-5B5BA35F0C9B}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="Prop" ID="{B567D422-3066-4355-980E-4BB1CB152FD9}" ShortID="131784235">
+									<PropertyList>
+										<Property Name="Highpass" Type="int16">
+											<ValueList>
+												<Value>21</Value>
+											</ValueList>
+										</Property>
+										<Property Name="Volume" Type="Real64">
+											<ValueList>
+												<Value>-7</Value>
+											</ValueList>
+										</Property>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{7DD98DC9-8438-4E9D-9FB8-F37E23FBAE82}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{BE0D8A64-9D86-44BD-BD23-F83C3E6F2572}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="Prop" ID="{54B542DE-C062-423F-9D27-BFFA9B39D453}" ShortID="599116211">
+											<PropertyList>
+												<Property Name="FadeInDuration" Type="Real64" Value="0.125272331154684"/>
+												<Property Name="TrimBegin" Type="Real64" Value="0.153110626966836"/>
+											</PropertyList>
+											<Language>SFX</Language>
+											<AudioFile>Prop.wav</AudioFile>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="Prop" ID="{54B542DE-C062-423F-9D27-BFFA9B39D453}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+							</ChildrenList>
+							<Playlist>
+								<ItemRef Name="Whoosh 6" ID="{E8031560-E57A-4477-84BA-8EC60A38EBD5}"/>
+								<ItemRef Name="Grip" ID="{BE195821-98AA-4ACB-BCFC-8354251B81F8}"/>
+							</Playlist>
+						</RandomSequenceContainer>
 					</ChildrenList>
 				</Folder>
+				<Sound Name="à supprimer" ID="{534D5926-F617-4F3D-BC12-77620C5BAF4C}" ShortID="446597285">
+					<PropertyList>
+						<Property Name="Volume" Type="Real64">
+							<ValueList>
+								<Value>-6</Value>
+							</ValueList>
+						</Property>
+					</PropertyList>
+					<ReferenceList>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{7DD98DC9-8438-4E9D-9FB8-F37E23FBAE82}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{BE0D8A64-9D86-44BD-BD23-F83C3E6F2572}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<AudioFileSource Name="à supprimer" ID="{B1C7B85B-B0B4-456A-A288-2DEAD1D8E81C}" ShortID="536313818">
+							<Language>SFX</Language>
+							<AudioFile>à supprimer.wav</AudioFile>
+						</AudioFileSource>
+					</ChildrenList>
+					<ActiveSourceList>
+						<ActiveSource Name="à supprimer" ID="{B1C7B85B-B0B4-456A-A288-2DEAD1D8E81C}" Platform="Linked"/>
+					</ActiveSourceList>
+				</Sound>
+				<Sound Name="PATIN GRAPPIN testoss" ID="{F31E91EA-DC8E-4CFF-BB21-283C2A9473A9}" ShortID="604680404">
+					<PropertyList>
+						<Property Name="Volume" Type="Real64">
+							<ValueList>
+								<Value>-4</Value>
+							</ValueList>
+						</Property>
+					</PropertyList>
+					<ReferenceList>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{7DD98DC9-8438-4E9D-9FB8-F37E23FBAE82}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{BE0D8A64-9D86-44BD-BD23-F83C3E6F2572}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<AudioFileSource Name="PATIN GRAPPIN testoss" ID="{752283E3-5460-458E-AA60-B0C3FFB6B96E}" ShortID="534742135">
+							<Language>SFX</Language>
+							<AudioFile>PATIN GRAPPIN testoss.wav</AudioFile>
+						</AudioFileSource>
+					</ChildrenList>
+					<ActiveSourceList>
+						<ActiveSource Name="PATIN GRAPPIN testoss" ID="{752283E3-5460-458E-AA60-B0C3FFB6B96E}" Platform="Linked"/>
+					</ActiveSourceList>
+				</Sound>
 			</ChildrenList>
 		</WorkUnit>
 	</AudioObjects>
