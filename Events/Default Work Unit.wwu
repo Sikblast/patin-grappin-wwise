@@ -81,7 +81,7 @@
 							</PropertyList>
 							<ReferenceList>
 								<Reference Name="Target">
-									<ObjectRef Name="Grab Impact" ID="{AF9DB30F-1D42-446A-91E2-BAC1098D1190}" WorkUnitID="{AAC116AF-1552-4FCA-89BA-A82661378EE9}"/>
+									<ObjectRef Name="Grab Impact 2" ID="{AF9DB30F-1D42-446A-91E2-BAC1098D1190}" WorkUnitID="{AAC116AF-1552-4FCA-89BA-A82661378EE9}"/>
 								</Reference>
 							</ReferenceList>
 						</Action>
@@ -109,7 +109,7 @@
 							</PropertyList>
 							<ReferenceList>
 								<Reference Name="Target">
-									<ObjectRef Name="Ice Skate Reception" ID="{B6B1993D-8741-4A37-9EA0-AF356414A6B4}" WorkUnitID="{AAC116AF-1552-4FCA-89BA-A82661378EE9}"/>
+									<ObjectRef Name="Reception" ID="{B6B1993D-8741-4A37-9EA0-AF356414A6B4}" WorkUnitID="{AAC116AF-1552-4FCA-89BA-A82661378EE9}"/>
 								</Reference>
 							</ReferenceList>
 						</Action>
@@ -152,6 +152,20 @@
 							<ReferenceList>
 								<Reference Name="Target">
 									<ObjectRef Name="Slow" ID="{96A9026A-B5FA-407C-96EA-C050218AAEC5}" WorkUnitID="{AAC116AF-1552-4FCA-89BA-A82661378EE9}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Play_Music_Placeholder" ID="{09686678-FAB7-4C51-A317-2B72A697CB14}">
+					<ChildrenList>
+						<Action Name="" ID="{2B64CB6A-3353-4F16-8240-1F5489147A04}" ShortID="319490224">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="1"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Music Placeholder" ID="{0E5BC387-6999-4BBE-84B2-3889ADEBF942}" WorkUnitID="{AAC116AF-1552-4FCA-89BA-A82661378EE9}"/>
 								</Reference>
 							</ReferenceList>
 						</Action>

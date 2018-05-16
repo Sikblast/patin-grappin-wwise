@@ -15,7 +15,7 @@
 							</PropertyList>
 							<ReferenceList>
 								<Reference Name="Conversion">
-									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{7DD98DC9-8438-4E9D-9FB8-F37E23FBAE82}"/>
+									<ObjectRef Name="Set to mono" ID="{5C8C8C27-1CD4-4823-9BC6-8907E275C7EC}" WorkUnitID="{7DD98DC9-8438-4E9D-9FB8-F37E23FBAE82}"/>
 								</Reference>
 								<Reference Name="OutputBus">
 									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{BE0D8A64-9D86-44BD-BD23-F83C3E6F2572}"/>
@@ -36,9 +36,16 @@
 				<Folder Name="IG" ID="{2AE30FDC-2809-4E1C-8040-D3351EAE7AAF}" ShortID="693799692">
 					<ChildrenList>
 						<Sound Name="Grab Speed" ID="{70411DB1-EF9A-4777-B918-FA44CB89AB89}" ShortID="122831037">
+							<PropertyList>
+								<Property Name="Inclusion" Type="bool">
+									<ValueList>
+										<Value>False</Value>
+									</ValueList>
+								</Property>
+							</PropertyList>
 							<ReferenceList>
 								<Reference Name="Conversion">
-									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{7DD98DC9-8438-4E9D-9FB8-F37E23FBAE82}"/>
+									<ObjectRef Name="Set to mono" ID="{5C8C8C27-1CD4-4823-9BC6-8907E275C7EC}" WorkUnitID="{7DD98DC9-8438-4E9D-9FB8-F37E23FBAE82}"/>
 								</Reference>
 								<Reference Name="OutputBus">
 									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{BE0D8A64-9D86-44BD-BD23-F83C3E6F2572}"/>
@@ -64,7 +71,7 @@
 							</PropertyList>
 							<ReferenceList>
 								<Reference Name="Conversion">
-									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{7DD98DC9-8438-4E9D-9FB8-F37E23FBAE82}"/>
+									<ObjectRef Name="Set to mono" ID="{5C8C8C27-1CD4-4823-9BC6-8907E275C7EC}" WorkUnitID="{7DD98DC9-8438-4E9D-9FB8-F37E23FBAE82}"/>
 								</Reference>
 								<Reference Name="OutputBus">
 									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{BE0D8A64-9D86-44BD-BD23-F83C3E6F2572}"/>
@@ -80,7 +87,7 @@
 								<ActiveSource Name="Impact flap" ID="{CC4E6D18-75F1-4487-A1A7-A2A99A1FA520}" Platform="Linked"/>
 							</ActiveSourceList>
 						</Sound>
-						<RandomSequenceContainer Name="Grab Impact" ID="{AF9DB30F-1D42-446A-91E2-BAC1098D1190}" ShortID="499512146">
+						<RandomSequenceContainer Name="Grab Impact 2" ID="{AF9DB30F-1D42-446A-91E2-BAC1098D1190}" ShortID="499512146">
 							<PropertyList>
 								<Property Name="Highpass" Type="int16">
 									<ValueList>
@@ -200,13 +207,13 @@
 										<Property Name="RandomAvoidRepeatingCount" Type="int32" Value="2"/>
 										<Property Name="Volume" Type="Real64">
 											<ValueList>
-												<Value>11</Value>
+												<Value>12</Value>
 											</ValueList>
 										</Property>
 									</PropertyList>
 									<ReferenceList>
 										<Reference Name="Conversion">
-											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{7DD98DC9-8438-4E9D-9FB8-F37E23FBAE82}"/>
+											<ObjectRef Name="Set to mono" ID="{5C8C8C27-1CD4-4823-9BC6-8907E275C7EC}" WorkUnitID="{7DD98DC9-8438-4E9D-9FB8-F37E23FBAE82}"/>
 										</Reference>
 										<Reference Name="OutputBus">
 											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{BE0D8A64-9D86-44BD-BD23-F83C3E6F2572}"/>
@@ -358,7 +365,7 @@
 										<Property Name="RandomAvoidRepeatingCount" Type="int32" Value="2"/>
 										<Property Name="Volume" Type="Real64">
 											<ValueList>
-												<Value>-13</Value>
+												<Value>-11</Value>
 											</ValueList>
 										</Property>
 									</PropertyList>
@@ -522,7 +529,7 @@
 										</Sound>
 									</ChildrenList>
 								</RandomSequenceContainer>
-								<RandomSequenceContainer Name="Ice Skate Reception" ID="{B6B1993D-8741-4A37-9EA0-AF356414A6B4}" ShortID="825789547">
+								<RandomSequenceContainer Name="Reception" ID="{B6B1993D-8741-4A37-9EA0-AF356414A6B4}" ShortID="825789547">
 									<PropertyList>
 										<Property Name="Volume" Type="Real64">
 											<ValueList>
@@ -532,7 +539,7 @@
 									</PropertyList>
 									<ReferenceList>
 										<Reference Name="Conversion">
-											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{7DD98DC9-8438-4E9D-9FB8-F37E23FBAE82}"/>
+											<ObjectRef Name="Set to mono" ID="{5C8C8C27-1CD4-4823-9BC6-8907E275C7EC}" WorkUnitID="{7DD98DC9-8438-4E9D-9FB8-F37E23FBAE82}"/>
 										</Reference>
 										<Reference Name="OutputBus">
 											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{BE0D8A64-9D86-44BD-BD23-F83C3E6F2572}"/>
@@ -797,7 +804,7 @@
 									</PropertyList>
 									<ReferenceList>
 										<Reference Name="Conversion">
-											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{7DD98DC9-8438-4E9D-9FB8-F37E23FBAE82}"/>
+											<ObjectRef Name="Set to mono" ID="{5C8C8C27-1CD4-4823-9BC6-8907E275C7EC}" WorkUnitID="{7DD98DC9-8438-4E9D-9FB8-F37E23FBAE82}"/>
 										</Reference>
 										<Reference Name="OutputBus">
 											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{BE0D8A64-9D86-44BD-BD23-F83C3E6F2572}"/>
@@ -1069,22 +1076,22 @@
 								</RandomSequenceContainer>
 							</ChildrenList>
 						</Folder>
-						<RandomSequenceContainer Name="Grappin" ID="{E02FC652-6485-4B97-8A06-71BBE91121CC}" ShortID="71794709">
+						<RandomSequenceContainer Name="Grab Impact" ID="{E02FC652-6485-4B97-8A06-71BBE91121CC}" ShortID="71794709">
 							<PropertyList>
 								<Property Name="PlayMechanismSpecialTransitions" Type="bool" Value="True"/>
 								<Property Name="PlayMechanismSpecialTransitionsType" Type="int16" Value="3"/>
-								<Property Name="PlayMechanismSpecialTransitionsValue" Type="Real64" Value="0.2"/>
+								<Property Name="PlayMechanismSpecialTransitionsValue" Type="Real64" Value="0.075"/>
 								<Property Name="PlayMechanismStepOrContinuous" Type="int16" Value="0"/>
 								<Property Name="RandomOrSequence" Type="int16" Value="0"/>
 								<Property Name="Volume" Type="Real64">
 									<ValueList>
-										<Value>2</Value>
+										<Value>7</Value>
 									</ValueList>
 								</Property>
 							</PropertyList>
 							<ReferenceList>
 								<Reference Name="Conversion">
-									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{7DD98DC9-8438-4E9D-9FB8-F37E23FBAE82}"/>
+									<ObjectRef Name="Set to mono" ID="{5C8C8C27-1CD4-4823-9BC6-8907E275C7EC}" WorkUnitID="{7DD98DC9-8438-4E9D-9FB8-F37E23FBAE82}"/>
 								</Reference>
 								<Reference Name="OutputBus">
 									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{BE0D8A64-9D86-44BD-BD23-F83C3E6F2572}"/>
@@ -1093,6 +1100,7 @@
 							<ChildrenList>
 								<Sound Name="Whoosh 6" ID="{E8031560-E57A-4477-84BA-8EC60A38EBD5}" ShortID="72927166">
 									<PropertyList>
+										<Property Name="OverrideEffect" Type="bool" Value="True"/>
 										<Property Name="Volume" Type="Real64">
 											<ValueList>
 												<Value>-11</Value>
@@ -1117,16 +1125,24 @@
 											<Language>SFX</Language>
 											<AudioFile>BT OTHER Zipper Short.wav</AudioFile>
 										</AudioFileSource>
+										<AudioFileSource Name="Grapple Throw" ID="{40BDAD7D-0C72-4492-AE10-492EC883D9E5}" ShortID="983879424">
+											<PropertyList>
+												<Property Name="FadeOutDuration" Type="Real64" Value="0.160887194383926"/>
+												<Property Name="TrimEnd" Type="Real64" Value="0.337115710481724"/>
+											</PropertyList>
+											<Language>SFX</Language>
+											<AudioFile>Grapple Throw.wav</AudioFile>
+										</AudioFileSource>
 									</ChildrenList>
 									<ActiveSourceList>
-										<ActiveSource Name="BT OTHER Zipper Short" ID="{9FB1F1CA-F8DF-475E-9C06-C84FE7B8D2A0}" Platform="Linked"/>
+										<ActiveSource Name="Grapple Throw" ID="{40BDAD7D-0C72-4492-AE10-492EC883D9E5}" Platform="Linked"/>
 									</ActiveSourceList>
 								</Sound>
 								<Sound Name="Grip" ID="{BE195821-98AA-4ACB-BCFC-8354251B81F8}" ShortID="357118820">
 									<PropertyList>
 										<Property Name="Volume" Type="Real64">
 											<ValueList>
-												<Value>-6</Value>
+												<Value>-19</Value>
 											</ValueList>
 										</Property>
 									</PropertyList>
@@ -1247,6 +1263,33 @@
 					</ChildrenList>
 					<ActiveSourceList>
 						<ActiveSource Name="PATIN GRAPPIN testoss" ID="{752283E3-5460-458E-AA60-B0C3FFB6B96E}" Platform="Linked"/>
+					</ActiveSourceList>
+				</Sound>
+				<Sound Name="Music Placeholder" ID="{0E5BC387-6999-4BBE-84B2-3889ADEBF942}" ShortID="563523016">
+					<PropertyList>
+						<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
+						<Property Name="Volume" Type="Real64">
+							<ValueList>
+								<Value>-4</Value>
+							</ValueList>
+						</Property>
+					</PropertyList>
+					<ReferenceList>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{7DD98DC9-8438-4E9D-9FB8-F37E23FBAE82}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{BE0D8A64-9D86-44BD-BD23-F83C3E6F2572}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<AudioFileSource Name="Patin Grappin Placeholder" ID="{F9C55925-A6C5-4F61-9A80-6422432FB4E1}" ShortID="925999465">
+							<Language>SFX</Language>
+							<AudioFile>Patin Grappin Placeholder.wav</AudioFile>
+						</AudioFileSource>
+					</ChildrenList>
+					<ActiveSourceList>
+						<ActiveSource Name="Patin Grappin Placeholder" ID="{F9C55925-A6C5-4F61-9A80-6422432FB4E1}" Platform="Linked"/>
 					</ActiveSourceList>
 				</Sound>
 			</ChildrenList>

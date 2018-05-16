@@ -10,6 +10,10 @@
 							<Position X="0" Y="0"/>
 						</Module>
 						<Module>
+							<ObjectRef Name="Music Placeholder" ID="{0E5BC387-6999-4BBE-84B2-3889ADEBF942}" WorkUnitID="{AAC116AF-1552-4FCA-89BA-A82661378EE9}"/>
+							<Position X="0" Y="1"/>
+						</Module>
+						<Module>
 							<ObjectRef Name="à supprimer" ID="{534D5926-F617-4F3D-BC12-77620C5BAF4C}" WorkUnitID="{AAC116AF-1552-4FCA-89BA-A82661378EE9}"/>
 							<Position X="0" Y="2"/>
 						</Module>
@@ -34,7 +38,7 @@
 							<Position X="2" Y="1"/>
 						</Module>
 						<Module>
-							<ObjectRef Name="Grappin" ID="{E02FC652-6485-4B97-8A06-71BBE91121CC}" WorkUnitID="{AAC116AF-1552-4FCA-89BA-A82661378EE9}"/>
+							<ObjectRef Name="Grab Impact" ID="{E02FC652-6485-4B97-8A06-71BBE91121CC}" WorkUnitID="{AAC116AF-1552-4FCA-89BA-A82661378EE9}"/>
 							<Position X="3" Y="1"/>
 						</Module>
 					</ModuleList>

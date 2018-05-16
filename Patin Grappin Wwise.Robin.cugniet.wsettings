@@ -3,6 +3,7 @@
 	<UserProjectSettingsInfo>
 		<UserProjectSettings Name="" ID="{C524101A-C9D1-4841-9F95-F9771016AF8B}">
 			<PropertyList>
+				<Property Name="Event Action List\{09686678-FAB7-4C51-A317-2B72A697CB14}\x64_Expand States" Type="string" Value=""/>
 				<Property Name="Event Action List\{1ADEA773-A7D8-4295-8CE8-CB4BB03861A4}\x64_Expand States" Type="string" Value=""/>
 				<Property Name="Event Action List\{259903E8-A0A6-4E8A-AAEB-9C602AF5D72D}\x64_Expand States" Type="string" Value=""/>
 				<Property Name="Event Action List\{2B0C3105-A5AB-4C14-B1CC-14F3518E7CBD}\x64_Expand States" Type="string" Value=""/>
@@ -47,6 +48,7 @@
 				<Property Name="OverrideCacheFolder\Path" Type="string" Value=".cache"/>
 				<Property Name="OverrideOriginalFolder\Active" Type="bool" Value="False"/>
 				<Property Name="OverrideOriginalFolder\Path" Type="string" Value="Originals"/>
+				<Property Name="PluginUserAcknowledge\iZotope Trash Distortion" Type="bool" Value="True"/>
 				<Property Name="ProjectExplorer\FirstVisible_10_1" Type="string" Value="{4C96B38B-3DB4-40C7-91C9-665510E38993}"/>
 				<Property Name="ProjectExplorer\FirstVisible_11_1" Type="string" Value="{23EC2DE3-3ED8-4B82-AC99-92E25F2E4C6B}"/>
 				<Property Name="ProjectExplorer\FirstVisible_1_1" Type="string" Value="{2388DAEA-9775-46C6-A2ED-C5222A397756}"/>
@@ -67,7 +69,7 @@
 				<Property Name="ProjectExplorer\x64_Expanded_1_1" Type="string" Value="2KQUFaYdKkGhfnXKDCFJ82SKDb6Gnb1EvSP4PD5vJXI="/>
 				<Property Name="ProjectExplorer\x64_Expanded_20_1" Type="string" Value=""/>
 				<Property Name="ProjectExplorer\x64_Expanded_21_1" Type="string" Value=""/>
-				<Property Name="ProjectExplorer\x64_Expanded_2_1" Type="string" Value="agKplvq1fECW6sBQIYquxSRGbUKMxO5Mk2idg1RrMyvyHx7pWezETYa2Ub3hMRXf3A/jKgkoHE6AQNM1Hq56r68WwapSFcpPibqoJmE3jumdjaMHmBXkT405NZfGGF08"/>
+				<Property Name="ProjectExplorer\x64_Expanded_2_1" Type="string" Value="UsYv4IVkl0uKBnG76REhzCRGbUKMxO5Mk2idg1RrMyvyHx7pWezETYa2Ub3hMRXf3A/jKgkoHE6AQNM1Hq56r68WwapSFcpPibqoJmE3juk="/>
 				<Property Name="ProjectExplorer\x64_Expanded_3_1" Type="string" Value="NStIIcVJKkmSWGLJK4Whxg=="/>
 				<Property Name="ProjectExplorer\x64_Expanded_4_1" Type="string" Value=""/>
 				<Property Name="ProjectExplorer\x64_Expanded_5_1" Type="string" Value=""/>
