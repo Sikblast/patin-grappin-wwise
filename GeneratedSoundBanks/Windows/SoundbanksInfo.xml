@@ -23,11 +23,12 @@
 			<IncludedEvents>
 				<Event Id="2728825252" Name="Play_Fast" ObjectPath="\Events\Default Work Unit\Play_Fast" GUID="{92729A06-1FEF-45D8-8805-F68E509B1A65}" DurationType="OneShot" DurationMin="0.418570" DurationMax="0.687191"/>
 				<Event Id="3639876553" Name="Play_Grab_Impact" ObjectPath="\Events\Default Work Unit\Play_Grab_Impact" GUID="{8C9EDEAB-C9E6-4720-8103-AB542847143A}" DurationType="OneShot" DurationMin="2.049479" DurationMax="2.049479"/>
-				<Event Id="3373848412" Name="Play_Grab_Speed" ObjectPath="\Events\Default Work Unit\Play_Grab_Speed" GUID="{9D914E2C-781F-49E4-801F-0FBA566D9339}" DurationType="OneShot" DurationMin="2.038771" DurationMax="2.038771"/>
+				<Event Id="3373848412" Name="Play_Grab_Speed" ObjectPath="\Events\Default Work Unit\Play_Grab_Speed" GUID="{9D914E2C-781F-49E4-801F-0FBA566D9339}" DurationType="OneShot" DurationMin="0.000000" DurationMax="0.000000"/>
 				<Event Id="2436188148" Name="Play_Ice_Skate_Dirt" ObjectPath="\Events\Default Work Unit\Play_Ice_Skate_Dirt" GUID="{3F32D3F2-F09F-47E3-94E4-18BE62835FAA}" DurationType="OneShot" DurationMin="0.148059" DurationMax="0.377513"/>
 				<Event Id="2444050992" Name="Play_Ice_Skate_Move" ObjectPath="\Events\Default Work Unit\Play_Ice_Skate_Move" GUID="{42082413-C5D7-4FE9-8A1A-4D9406A585ED}" DurationType="OneShot" DurationMin="0.167860" DurationMax="0.280940"/>
 				<Event Id="4273182574" Name="Play_Ice_Skate_Reception" ObjectPath="\Events\Default Work Unit\Play_Ice_Skate_Reception" GUID="{CF61C8A5-5107-48F4-95E3-4AC3668156CD}" DurationType="OneShot" DurationMin="0.754000" DurationMax="0.754000"/>
 				<Event Id="2305114950" Name="Play_Impact_flap" ObjectPath="\Events\Default Work Unit\Play_Impact_flap" GUID="{2F404378-2898-47ED-8D65-59E0B81AC63B}" DurationType="OneShot" DurationMin="1.447937" DurationMax="1.447937"/>
+				<Event Id="51444113" Name="Play_Music_Placeholder" ObjectPath="\Events\Default Work Unit\Play_Music_Placeholder" GUID="{09686678-FAB7-4C51-A317-2B72A697CB14}" DurationType="Infinite"/>
 				<Event Id="1175668519" Name="Play_Normal" ObjectPath="\Events\Default Work Unit\Play_Normal" GUID="{AD79D7FE-0918-4D87-8622-CA9D90D497B8}" DurationType="OneShot" DurationMin="0.148059" DurationMax="0.377513"/>
 				<Event Id="4026345765" Name="Play_Slow" ObjectPath="\Events\Default Work Unit\Play_Slow" GUID="{7DC0E6CE-1C1D-47C5-873B-EB7921EF8326}" DurationType="OneShot" DurationMin="0.167860" DurationMax="0.280940"/>
 				<Event Id="249738436" Name="Play_UI_Move" ObjectPath="\Events\Default Work Unit\Play_UI_Move" GUID="{D3788DB7-84A4-43B8-8604-A1C5E4E28FE0}" DurationType="OneShot" DurationMin="1.229167" DurationMax="1.229167"/>
@@ -40,11 +41,11 @@
 				</File>
 				<File Id="15195034" Language="SFX">
 					<ShortName>ICE Skate scrape two legs peel 51.wav</ShortName>
-					<Path>SFX\ICE Skate scrape two legs peel 51_A52ECBBD.wem</Path>
+					<Path>SFX\ICE Skate scrape two legs peel 51_BA5C323D.wem</Path>
 				</File>
 				<File Id="47350233" Language="SFX">
 					<ShortName>Ice Skate Slide 2.wav</ShortName>
-					<Path>SFX\Ice Skate Slide 2_FED0930F.wem</Path>
+					<Path>SFX\Ice Skate Slide 2_BB50FC32.wem</Path>
 				</File>
 				<File Id="57231788" Language="SFX">
 					<ShortName>Ice Skate Scrape 8.wav</ShortName>
@@ -68,7 +69,7 @@
 				</File>
 				<File Id="134061279" Language="SFX">
 					<ShortName>Grappin test 4.wav</ShortName>
-					<Path>SFX\Grappin test 4_545D2DC6.wem</Path>
+					<Path>SFX\Grappin test 4_390B20B9.wem</Path>
 				</File>
 				<File Id="151985533" Language="SFX">
 					<ShortName>Ice Skate Scrape 3.wav</ShortName>
@@ -76,11 +77,11 @@
 				</File>
 				<File Id="163576590" Language="SFX">
 					<ShortName>ICE Skate scrape two legs peel 30.wav</ShortName>
-					<Path>SFX\ICE Skate scrape two legs peel 30_0A9BA387.wem</Path>
+					<Path>SFX\ICE Skate scrape two legs peel 30_5B6E1BB6.wem</Path>
 				</File>
 				<File Id="164293161" Language="SFX">
 					<ShortName>Grappin test 3.wav</ShortName>
-					<Path>SFX\Grappin test 3_545D2DC6.wem</Path>
+					<Path>SFX\Grappin test 3_390B20B9.wem</Path>
 				</File>
 				<File Id="167432285" Language="SFX">
 					<ShortName>Ice Skate Reception 2.wav</ShortName>
@@ -88,11 +89,11 @@
 				</File>
 				<File Id="181378796" Language="SFX">
 					<ShortName>Grappin test 2.wav</ShortName>
-					<Path>SFX\Grappin test 2_545D2DC6.wem</Path>
+					<Path>SFX\Grappin test 2_390B20B9.wem</Path>
 				</File>
 				<File Id="250184705" Language="SFX">
 					<ShortName>ICE Skate scrape two legs peel 05.wav</ShortName>
-					<Path>SFX\ICE Skate scrape two legs peel 05_6AF70B09.wem</Path>
+					<Path>SFX\ICE Skate scrape two legs peel 05_AC7C85B4.wem</Path>
 				</File>
 				<File Id="258378051" Language="SFX">
 					<ShortName>ICE Skate scrape two legs peel 17.wav</ShortName>
@@ -108,15 +109,15 @@
 				</File>
 				<File Id="539509130" Language="SFX">
 					<ShortName>Grappin test.wav</ShortName>
-					<Path>SFX\Grappin test_545D2DC6.wem</Path>
+					<Path>SFX\Grappin test_390B20B9.wem</Path>
 				</File>
 				<File Id="544903172" Language="SFX">
 					<ShortName>Ice Skate Scrape 9.wav</ShortName>
-					<Path>SFX\Ice Skate Scrape 9_8C47D306.wem</Path>
+					<Path>SFX\Ice Skate Scrape 9_0B5FAFF7.wem</Path>
 				</File>
 				<File Id="553313778" Language="SFX">
 					<ShortName>ICE Skate scrape two legs peel 03.wav</ShortName>
-					<Path>SFX\ICE Skate scrape two legs peel 03_9EFE87F1.wem</Path>
+					<Path>SFX\ICE Skate scrape two legs peel 03_AE4E1906.wem</Path>
 				</File>
 				<File Id="560899730" Language="SFX">
 					<ShortName>Ice Skate Reception 4.wav</ShortName>
@@ -124,11 +125,11 @@
 				</File>
 				<File Id="605946358" Language="SFX">
 					<ShortName>ICE Skate scrape two legs peel 08.wav</ShortName>
-					<Path>SFX\ICE Skate scrape two legs peel 08_817FE608.wem</Path>
+					<Path>SFX\ICE Skate scrape two legs peel 08_972E9239.wem</Path>
 				</File>
 				<File Id="664257729" Language="SFX">
 					<ShortName>Ice Skate Scrape 7.wav</ShortName>
-					<Path>SFX\Ice Skate Scrape 7_E400F64A.wem</Path>
+					<Path>SFX\Ice Skate Scrape 7_F8B5D9B1.wem</Path>
 				</File>
 				<File Id="667448311" Language="SFX">
 					<ShortName>Ice Skate Reception 8.wav</ShortName>
@@ -136,11 +137,11 @@
 				</File>
 				<File Id="687227318" Language="SFX">
 					<ShortName>ICE Skate scrape two legs peel 06.wav</ShortName>
-					<Path>SFX\ICE Skate scrape two legs peel 06_F37ED053.wem</Path>
+					<Path>SFX\ICE Skate scrape two legs peel 06_5C194F71.wem</Path>
 				</File>
 				<File Id="712193689" Language="SFX">
 					<ShortName>Ice Skate Scrape 10.wav</ShortName>
-					<Path>SFX\Ice Skate Scrape 10_1CF8C631.wem</Path>
+					<Path>SFX\Ice Skate Scrape 10_57891206.wem</Path>
 				</File>
 				<File Id="801168512" Language="SFX">
 					<ShortName>Ice Skate Reception 5.wav</ShortName>
@@ -152,7 +153,7 @@
 				</File>
 				<File Id="831621101" Language="SFX">
 					<ShortName>ICE Skate scrape two legs peel 33.wav</ShortName>
-					<Path>SFX\ICE Skate scrape two legs peel 33_9920D609.wem</Path>
+					<Path>SFX\ICE Skate scrape two legs peel 33_E687B5F5.wem</Path>
 				</File>
 				<File Id="831766675" Language="SFX">
 					<ShortName>Impact flap.wav</ShortName>
@@ -164,7 +165,7 @@
 				</File>
 				<File Id="844477299" Language="SFX">
 					<ShortName>ICE Skate scrape two legs peel 18.wav</ShortName>
-					<Path>SFX\ICE Skate scrape two legs peel 18_2FCD7746.wem</Path>
+					<Path>SFX\ICE Skate scrape two legs peel 18_05C65831.wem</Path>
 				</File>
 				<File Id="885815928" Language="SFX">
 					<ShortName>Ice Skate Reception 10.wav</ShortName>
@@ -172,15 +173,15 @@
 				</File>
 				<File Id="894354986" Language="SFX">
 					<ShortName>ICE Skate scrape two legs peel 04.wav</ShortName>
-					<Path>SFX\ICE Skate scrape two legs peel 04_76FFB639.wem</Path>
+					<Path>SFX\ICE Skate scrape two legs peel 04_53CCC523.wem</Path>
 				</File>
-				<File Id="920033310" Language="SFX">
-					<ShortName>Grab Speed.wav</ShortName>
-					<Path>SFX\Grab Speed_545D2DC6.wem</Path>
+				<File Id="925999465" Language="SFX">
+					<ShortName>Patin Grappin Placeholder.wav</ShortName>
+					<Path>SFX\Patin Grappin Placeholder_EAED1AB7.wem</Path>
 				</File>
 				<File Id="927778677" Language="SFX">
 					<ShortName>ICE Skate scrape two legs peel 23.wav</ShortName>
-					<Path>SFX\ICE Skate scrape two legs peel 23_50A5DDD3.wem</Path>
+					<Path>SFX\ICE Skate scrape two legs peel 23_1AE48D6C.wem</Path>
 				</File>
 				<File Id="947221834" Language="SFX">
 					<ShortName>Ice Skate Scrape 4.wav</ShortName>

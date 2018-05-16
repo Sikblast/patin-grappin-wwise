@@ -55,8 +55,8 @@
       "ObjectPath": "\\Events\\Default Work Unit\\Play_Grab_Speed",
       "GUID": "{9D914E2C-781F-49E4-801F-0FBA566D9339}",
       "DurationType": "OneShot",
-      "DurationMin": "2.038771",
-      "DurationMax": "2.038771"
+      "DurationMin": "0.000000",
+      "DurationMax": "0.000000"
      },
      {
       "Id": "2436188148",
@@ -93,6 +93,13 @@
       "DurationType": "OneShot",
       "DurationMin": "1.447937",
       "DurationMax": "1.447937"
+     },
+     {
+      "Id": "51444113",
+      "Name": "Play_Music_Placeholder",
+      "ObjectPath": "\\Events\\Default Work Unit\\Play_Music_Placeholder",
+      "GUID": "{09686678-FAB7-4C51-A317-2B72A697CB14}",
+      "DurationType": "Infinite"
      },
      {
       "Id": "1175668519",
@@ -142,13 +149,13 @@
       "Id": "15195034",
       "Language": "SFX",
       "ShortName": "ICE Skate scrape two legs peel 51.wav",
-      "Path": "SFX\\ICE Skate scrape two legs peel 51_A52ECBBD.wem"
+      "Path": "SFX\\ICE Skate scrape two legs peel 51_BA5C323D.wem"
      },
      {
       "Id": "47350233",
       "Language": "SFX",
       "ShortName": "Ice Skate Slide 2.wav",
-      "Path": "SFX\\Ice Skate Slide 2_FED0930F.wem"
+      "Path": "SFX\\Ice Skate Slide 2_BB50FC32.wem"
      },
      {
       "Id": "57231788",
@@ -184,7 +191,7 @@
       "Id": "134061279",
       "Language": "SFX",
       "ShortName": "Grappin test 4.wav",
-      "Path": "SFX\\Grappin test 4_545D2DC6.wem"
+      "Path": "SFX\\Grappin test 4_390B20B9.wem"
      },
      {
       "Id": "151985533",
@@ -196,13 +203,13 @@
       "Id": "163576590",
       "Language": "SFX",
       "ShortName": "ICE Skate scrape two legs peel 30.wav",
-      "Path": "SFX\\ICE Skate scrape two legs peel 30_0A9BA387.wem"
+      "Path": "SFX\\ICE Skate scrape two legs peel 30_5B6E1BB6.wem"
      },
      {
       "Id": "164293161",
       "Language": "SFX",
       "ShortName": "Grappin test 3.wav",
-      "Path": "SFX\\Grappin test 3_545D2DC6.wem"
+      "Path": "SFX\\Grappin test 3_390B20B9.wem"
      },
      {
       "Id": "167432285",
@@ -214,13 +221,13 @@
       "Id": "181378796",
       "Language": "SFX",
       "ShortName": "Grappin test 2.wav",
-      "Path": "SFX\\Grappin test 2_545D2DC6.wem"
+      "Path": "SFX\\Grappin test 2_390B20B9.wem"
      },
      {
       "Id": "250184705",
       "Language": "SFX",
       "ShortName": "ICE Skate scrape two legs peel 05.wav",
-      "Path": "SFX\\ICE Skate scrape two legs peel 05_6AF70B09.wem"
+      "Path": "SFX\\ICE Skate scrape two legs peel 05_AC7C85B4.wem"
      },
      {
       "Id": "258378051",
@@ -244,19 +251,19 @@
       "Id": "539509130",
       "Language": "SFX",
       "ShortName": "Grappin test.wav",
-      "Path": "SFX\\Grappin test_545D2DC6.wem"
+      "Path": "SFX\\Grappin test_390B20B9.wem"
      },
      {
       "Id": "544903172",
       "Language": "SFX",
       "ShortName": "Ice Skate Scrape 9.wav",
-      "Path": "SFX\\Ice Skate Scrape 9_8C47D306.wem"
+      "Path": "SFX\\Ice Skate Scrape 9_0B5FAFF7.wem"
      },
      {
       "Id": "553313778",
       "Language": "SFX",
       "ShortName": "ICE Skate scrape two legs peel 03.wav",
-      "Path": "SFX\\ICE Skate scrape two legs peel 03_9EFE87F1.wem"
+      "Path": "SFX\\ICE Skate scrape two legs peel 03_AE4E1906.wem"
      },
      {
       "Id": "560899730",
@@ -268,13 +275,13 @@
       "Id": "605946358",
       "Language": "SFX",
       "ShortName": "ICE Skate scrape two legs peel 08.wav",
-      "Path": "SFX\\ICE Skate scrape two legs peel 08_817FE608.wem"
+      "Path": "SFX\\ICE Skate scrape two legs peel 08_972E9239.wem"
      },
      {
       "Id": "664257729",
       "Language": "SFX",
       "ShortName": "Ice Skate Scrape 7.wav",
-      "Path": "SFX\\Ice Skate Scrape 7_E400F64A.wem"
+      "Path": "SFX\\Ice Skate Scrape 7_F8B5D9B1.wem"
      },
      {
       "Id": "667448311",
@@ -286,13 +293,13 @@
       "Id": "687227318",
       "Language": "SFX",
       "ShortName": "ICE Skate scrape two legs peel 06.wav",
-      "Path": "SFX\\ICE Skate scrape two legs peel 06_F37ED053.wem"
+      "Path": "SFX\\ICE Skate scrape two legs peel 06_5C194F71.wem"
      },
      {
       "Id": "712193689",
       "Language": "SFX",
       "ShortName": "Ice Skate Scrape 10.wav",
-      "Path": "SFX\\Ice Skate Scrape 10_1CF8C631.wem"
+      "Path": "SFX\\Ice Skate Scrape 10_57891206.wem"
      },
      {
       "Id": "801168512",
@@ -310,7 +317,7 @@
       "Id": "831621101",
       "Language": "SFX",
       "ShortName": "ICE Skate scrape two legs peel 33.wav",
-      "Path": "SFX\\ICE Skate scrape two legs peel 33_9920D609.wem"
+      "Path": "SFX\\ICE Skate scrape two legs peel 33_E687B5F5.wem"
      },
      {
       "Id": "831766675",
@@ -328,7 +335,7 @@
       "Id": "844477299",
       "Language": "SFX",
       "ShortName": "ICE Skate scrape two legs peel 18.wav",
-      "Path": "SFX\\ICE Skate scrape two legs peel 18_2FCD7746.wem"
+      "Path": "SFX\\ICE Skate scrape two legs peel 18_05C65831.wem"
      },
      {
       "Id": "885815928",
@@ -340,19 +347,19 @@
       "Id": "894354986",
       "Language": "SFX",
       "ShortName": "ICE Skate scrape two legs peel 04.wav",
-      "Path": "SFX\\ICE Skate scrape two legs peel 04_76FFB639.wem"
+      "Path": "SFX\\ICE Skate scrape two legs peel 04_53CCC523.wem"
      },
      {
-      "Id": "920033310",
+      "Id": "925999465",
       "Language": "SFX",
-      "ShortName": "Grab Speed.wav",
-      "Path": "SFX\\Grab Speed_545D2DC6.wem"
+      "ShortName": "Patin Grappin Placeholder.wav",
+      "Path": "SFX\\Patin Grappin Placeholder_EAED1AB7.wem"
      },
      {
       "Id": "927778677",
       "Language": "SFX",
       "ShortName": "ICE Skate scrape two legs peel 23.wav",
-      "Path": "SFX\\ICE Skate scrape two legs peel 23_50A5DDD3.wem"
+      "Path": "SFX\\ICE Skate scrape two legs peel 23_1AE48D6C.wem"
      },
      {
       "Id": "947221834",

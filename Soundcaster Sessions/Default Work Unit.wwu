@@ -18,10 +18,6 @@
 							<Position X="0" Y="2"/>
 						</Module>
 						<Module>
-							<ObjectRef Name="UI Move" ID="{16CA91AD-23BD-4F63-BC53-3AA2C636F67F}" WorkUnitID="{AAC116AF-1552-4FCA-89BA-A82661378EE9}"/>
-							<Position X="0" Y="3"/>
-						</Module>
-						<Module>
 							<ObjectRef Name="Normal" ID="{07A38D9D-1598-4FE4-8D39-3597C6185D3C}" WorkUnitID="{AAC116AF-1552-4FCA-89BA-A82661378EE9}"/>
 							<Position X="1" Y="0"/>
 						</Module>
@@ -34,12 +30,16 @@
 							<Position X="2" Y="0"/>
 						</Module>
 						<Module>
-							<ObjectRef Name="PATIN GRAPPIN testoss" ID="{F31E91EA-DC8E-4CFF-BB21-283C2A9473A9}" WorkUnitID="{AAC116AF-1552-4FCA-89BA-A82661378EE9}"/>
+							<ObjectRef Name="Patin Grappin passage" ID="{F31E91EA-DC8E-4CFF-BB21-283C2A9473A9}" WorkUnitID="{AAC116AF-1552-4FCA-89BA-A82661378EE9}"/>
 							<Position X="2" Y="1"/>
 						</Module>
 						<Module>
 							<ObjectRef Name="Grab Impact" ID="{E02FC652-6485-4B97-8A06-71BBE91121CC}" WorkUnitID="{AAC116AF-1552-4FCA-89BA-A82661378EE9}"/>
 							<Position X="3" Y="1"/>
+						</Module>
+						<Module>
+							<ObjectRef Name="UI Move" ID="{16CA91AD-23BD-4F63-BC53-3AA2C636F67F}" WorkUnitID="{AAC116AF-1552-4FCA-89BA-A82661378EE9}"/>
+							<Position X="4" Y="0"/>
 						</Module>
 					</ModuleList>
 					<RTPCValueList ShowAll="true">
