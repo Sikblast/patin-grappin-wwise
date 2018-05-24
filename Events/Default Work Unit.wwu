@@ -53,7 +53,7 @@
 							</PropertyList>
 							<ReferenceList>
 								<Reference Name="Target">
-									<ObjectRef Name="Boost" ID="{BBABD279-6765-422C-B2D4-08C7636D1ED8}" WorkUnitID="{AAC116AF-1552-4FCA-89BA-A82661378EE9}"/>
+									<ObjectRef Name="Boost Load" ID="{BBABD279-6765-422C-B2D4-08C7636D1ED8}" WorkUnitID="{AAC116AF-1552-4FCA-89BA-A82661378EE9}"/>
 								</Reference>
 							</ReferenceList>
 						</Action>
@@ -68,20 +68,6 @@
 							<ReferenceList>
 								<Reference Name="Target">
 									<ObjectRef Name="UI Move" ID="{16CA91AD-23BD-4F63-BC53-3AA2C636F67F}" WorkUnitID="{AAC116AF-1552-4FCA-89BA-A82661378EE9}"/>
-								</Reference>
-							</ReferenceList>
-						</Action>
-					</ChildrenList>
-				</Event>
-				<Event Name="Play_Grab_Impact" ID="{8C9EDEAB-C9E6-4720-8103-AB542847143A}">
-					<ChildrenList>
-						<Action Name="" ID="{A2FBAAE1-E8AF-456B-9D38-BCAF419F7F6B}" ShortID="31735787">
-							<PropertyList>
-								<Property Name="ActionType" Type="int16" Value="1"/>
-							</PropertyList>
-							<ReferenceList>
-								<Reference Name="Target">
-									<ObjectRef Name="Grab Impact 2" ID="{AF9DB30F-1D42-446A-91E2-BAC1098D1190}" WorkUnitID="{AAC116AF-1552-4FCA-89BA-A82661378EE9}"/>
 								</Reference>
 							</ReferenceList>
 						</Action>
@@ -166,6 +152,62 @@
 							<ReferenceList>
 								<Reference Name="Target">
 									<ObjectRef Name="Music Placeholder" ID="{0E5BC387-6999-4BBE-84B2-3889ADEBF942}" WorkUnitID="{AAC116AF-1552-4FCA-89BA-A82661378EE9}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Play_Grab_Impact" ID="{56EB929A-C085-4F7E-BA63-793F4ED10981}">
+					<ChildrenList>
+						<Action Name="" ID="{784A0343-BC4A-403E-8237-56AEDE1941EF}" ShortID="165162944">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="1"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Grab Impact" ID="{E044D9D0-24CF-4095-9C61-210D9458CC31}" WorkUnitID="{AAC116AF-1552-4FCA-89BA-A82661378EE9}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Play_Boost_Load" ID="{41920281-75FE-4654-9F64-18ADCF751B13}">
+					<ChildrenList>
+						<Action Name="" ID="{12143921-06DE-496C-9548-E3A7CDB7B932}" ShortID="886022732">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="1"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Boost Load" ID="{BBABD279-6765-422C-B2D4-08C7636D1ED8}" WorkUnitID="{AAC116AF-1552-4FCA-89BA-A82661378EE9}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Stop_Boost_Load" ID="{CB7F9D18-9E79-4C76-8E9D-42F61C74F2F1}">
+					<ChildrenList>
+						<Action Name="" ID="{751795C1-E04D-4627-8421-F2AA321ED1AA}" ShortID="57765434">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="2"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Boost Load" ID="{BBABD279-6765-422C-B2D4-08C7636D1ED8}" WorkUnitID="{AAC116AF-1552-4FCA-89BA-A82661378EE9}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Play_Boost_Go" ID="{25BAA740-920C-4964-B20F-538C2B33127A}">
+					<ChildrenList>
+						<Action Name="" ID="{67418BC9-D18D-494B-BE27-82E3FAA6FAF7}" ShortID="952739371">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="1"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Boost Go" ID="{712762CF-7E13-4C2F-92D6-EE23F0A5AD69}" WorkUnitID="{AAC116AF-1552-4FCA-89BA-A82661378EE9}"/>
 								</Reference>
 							</ReferenceList>
 						</Action>

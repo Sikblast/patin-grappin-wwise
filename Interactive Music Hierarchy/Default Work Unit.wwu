@@ -62,6 +62,145 @@
 						</MusicCue>
 					</CueList>
 				</MusicSegment>
+				<Folder Name="Stingers" ID="{95AF7F29-5153-402A-A0CE-159EA4E05AA3}" ShortID="80784623">
+					<ChildrenList>
+						<MusicSegment Name="Designed Ice - HIT22 - Rhythmic crack impact 2 - melodic" ID="{3CB0C41F-380A-4D0A-80EA-78B8EDB84568}" ShortID="114698022">
+							<PropertyList>
+								<Property Name="Tempo" Type="Real64" Value="160"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{7DD98DC9-8438-4E9D-9FB8-F37E23FBAE82}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{BE0D8A64-9D86-44BD-BD23-F83C3E6F2572}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<MusicTrack Name="Designed Ice - HIT22 - Rhythmic crack impact 2 - melodic" ID="{ABCE4F41-93FE-4A59-A0F5-347A6628ED39}" ShortID="173408361">
+									<ReferenceList>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{BE0D8A64-9D86-44BD-BD23-F83C3E6F2572}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="Designed Ice - HIT22 - Rhythmic crack impact 2 - melodic" ID="{B265CC0D-08B9-4E49-AE33-00353E09C1FB}" ShortID="442605805">
+											<Language>SFX</Language>
+											<AudioFile>Designed Ice - HIT22 - Rhythmic crack impact 2 - melodic.wav</AudioFile>
+										</AudioFileSource>
+									</ChildrenList>
+									<TransitionList>
+										<MusicTransition Name="Root" ID="{37524162-2A20-4CC3-86BD-7E846F47A863}">
+											<PropertyList>
+												<Property Name="IsFolder" Type="bool" Value="True"/>
+											</PropertyList>
+											<TransitionInfo/>
+										</MusicTransition>
+									</TransitionList>
+									<SequenceList>
+										<MusicTrackSequence Name="" ID="{D0E95062-70E9-4204-8484-4EE44F3166E4}">
+											<ClipList>
+												<MusicClip Name="Designed Ice - HIT22 - Rhythmic crack impact 2 - melodic" ID="{BCB3ADC2-B6B6-458B-95D2-B5C3FE1FF50E}">
+													<PropertyList>
+														<Property Name="EndTrimOffset" Type="Real64" Value="3766.02083333333"/>
+														<Property Name="FadeInMode" Type="int16" Value="0"/>
+														<Property Name="FadeOutMode" Type="int16" Value="0"/>
+													</PropertyList>
+													<AudioSourceRef Name="Designed Ice - HIT22 - Rhythmic crack impact 2 - melodic" ID="{B265CC0D-08B9-4E49-AE33-00353E09C1FB}"/>
+												</MusicClip>
+											</ClipList>
+										</MusicTrackSequence>
+									</SequenceList>
+								</MusicTrack>
+							</ChildrenList>
+							<CueList>
+								<MusicCue Name="Entry Cue" ID="{86B42F63-778D-4933-A72B-C8521F1DE2D9}"/>
+								<MusicCue Name="Exit Cue" ID="{849ED806-813A-4F49-82CA-655BA84636C1}">
+									<PropertyList>
+										<Property Name="CueType" Type="int16" Value="1"/>
+									</PropertyList>
+								</MusicCue>
+							</CueList>
+						</MusicSegment>
+					</ChildrenList>
+				</Folder>
+				<MusicSegment Name="Patin Grappin Placeholder" ID="{91984F99-5EA6-492A-AB11-CE88071DB11B}" ShortID="255392985">
+					<PropertyList>
+						<Property Name="EndPosition" Type="Real64" Value="144000"/>
+						<Property Name="Tempo" Type="Real64" Value="160"/>
+						<Property Name="Volume" Type="Real64">
+							<ValueList>
+								<Value>-5</Value>
+							</ValueList>
+						</Property>
+					</PropertyList>
+					<ReferenceList>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{7DD98DC9-8438-4E9D-9FB8-F37E23FBAE82}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{BE0D8A64-9D86-44BD-BD23-F83C3E6F2572}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<MusicTrack Name="Patin Grappin Placeholder" ID="{A5244B35-8E77-4D57-8296-066D30077E65}" ShortID="117005649">
+							<ReferenceList>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{BE0D8A64-9D86-44BD-BD23-F83C3E6F2572}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="Patin Grappin Placeholder" ID="{AF398E45-4534-4F2B-94EC-86C5E23A056F}" ShortID="639934181">
+									<Language>SFX</Language>
+									<AudioFile>Patin Grappin Placeholder.wav</AudioFile>
+									<ConvertedFileIDList>
+										<File ID="925999465"/>
+									</ConvertedFileIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<TransitionList>
+								<MusicTransition Name="Root" ID="{341ACEA0-1142-4329-8F7C-3AB09121310A}">
+									<PropertyList>
+										<Property Name="IsFolder" Type="bool" Value="True"/>
+									</PropertyList>
+									<TransitionInfo/>
+								</MusicTransition>
+							</TransitionList>
+							<SequenceList>
+								<MusicTrackSequence Name="" ID="{A4C3BE9A-834E-432C-B5AE-DCA2B0A05689}">
+									<ClipList>
+										<MusicClip Name="Patin Grappin Placeholder" ID="{B9DD11EF-531E-482A-AE43-D8F37365A96E}">
+											<PropertyList>
+												<Property Name="EndTrimOffset" Type="Real64" Value="144000"/>
+												<Property Name="FadeInMode" Type="int16" Value="0"/>
+												<Property Name="FadeOutMode" Type="int16" Value="0"/>
+											</PropertyList>
+											<AudioSourceRef Name="Patin Grappin Placeholder" ID="{AF398E45-4534-4F2B-94EC-86C5E23A056F}"/>
+										</MusicClip>
+									</ClipList>
+								</MusicTrackSequence>
+							</SequenceList>
+						</MusicTrack>
+					</ChildrenList>
+					<StingerList>
+						<MusicStinger Name="" ID="{09E73187-9E30-41BB-8102-6E2BAD291996}">
+							<PropertyList>
+								<Property Name="PlaySegmentAt" Type="int16" Value="3"/>
+							</PropertyList>
+							<TriggerRef Name="Boost" ID="{AED53467-5FE3-41ED-8921-390D565F3115}" WorkUnitID="{5A6BE1AE-4F9B-457E-9F0A-513E0FDA6B9C}"/>
+							<SegmentRef Name="Designed Ice - HIT22 - Rhythmic crack impact 2 - melodic" ID="{3CB0C41F-380A-4D0A-80EA-78B8EDB84568}" WorkUnitID="{EEF9980D-BE48-48A1-8C7B-8BD8CBC30646}"/>
+						</MusicStinger>
+					</StingerList>
+					<CueList>
+						<MusicCue Name="Entry Cue" ID="{4C7B33A9-67A3-43E7-8607-4DCE2815352B}"/>
+						<MusicCue Name="Exit Cue" ID="{096B8871-15D0-41C9-BA7E-D5A970062D87}">
+							<PropertyList>
+								<Property Name="CueType" Type="int16" Value="1"/>
+								<Property Name="TimeMs" Type="Real64" Value="144000"/>
+							</PropertyList>
+						</MusicCue>
+					</CueList>
+				</MusicSegment>
 			</ChildrenList>
 		</WorkUnit>
 	</InteractiveMusic>

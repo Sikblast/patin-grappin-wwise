@@ -14,28 +14,32 @@
 							<Position X="0" Y="1"/>
 						</Module>
 						<Module>
-							<ObjectRef Name="à supprimer" ID="{534D5926-F617-4F3D-BC12-77620C5BAF4C}" WorkUnitID="{AAC116AF-1552-4FCA-89BA-A82661378EE9}"/>
-							<Position X="0" Y="2"/>
-						</Module>
-						<Module>
 							<ObjectRef Name="Normal" ID="{07A38D9D-1598-4FE4-8D39-3597C6185D3C}" WorkUnitID="{AAC116AF-1552-4FCA-89BA-A82661378EE9}"/>
 							<Position X="1" Y="0"/>
 						</Module>
 						<Module>
-							<ObjectRef Name="Boost" ID="{BBABD279-6765-422C-B2D4-08C7636D1ED8}" WorkUnitID="{AAC116AF-1552-4FCA-89BA-A82661378EE9}"/>
+							<ObjectRef Name="Boost Load" ID="{BBABD279-6765-422C-B2D4-08C7636D1ED8}" WorkUnitID="{AAC116AF-1552-4FCA-89BA-A82661378EE9}"/>
 							<Position X="1" Y="1"/>
+						</Module>
+						<Module>
+							<ObjectRef Name="Patin Grappin Placeholder" ID="{91984F99-5EA6-492A-AB11-CE88071DB11B}" WorkUnitID="{EEF9980D-BE48-48A1-8C7B-8BD8CBC30646}"/>
+							<Position X="1" Y="4"/>
 						</Module>
 						<Module>
 							<ObjectRef Name="Fast" ID="{997603C6-CA42-4273-AD0F-7ED3C97DA665}" WorkUnitID="{AAC116AF-1552-4FCA-89BA-A82661378EE9}"/>
 							<Position X="2" Y="0"/>
 						</Module>
 						<Module>
-							<ObjectRef Name="Patin Grappin passage" ID="{F31E91EA-DC8E-4CFF-BB21-283C2A9473A9}" WorkUnitID="{AAC116AF-1552-4FCA-89BA-A82661378EE9}"/>
-							<Position X="2" Y="1"/>
+							<ObjectRef Name="Boost Load" ID="{BBABD279-6765-422C-B2D4-08C7636D1ED8}" WorkUnitID="{AAC116AF-1552-4FCA-89BA-A82661378EE9}"/>
+							<Position X="2" Y="2"/>
 						</Module>
 						<Module>
-							<ObjectRef Name="Grab Impact" ID="{E02FC652-6485-4B97-8A06-71BBE91121CC}" WorkUnitID="{AAC116AF-1552-4FCA-89BA-A82661378EE9}"/>
-							<Position X="3" Y="1"/>
+							<ObjectRef Name="Designed Ice - HIT22 - Rhythmic crack impact 2 - melodic" ID="{3CB0C41F-380A-4D0A-80EA-78B8EDB84568}" WorkUnitID="{EEF9980D-BE48-48A1-8C7B-8BD8CBC30646}"/>
+							<Position X="2" Y="4"/>
+						</Module>
+						<Module>
+							<ObjectRef Name="Boost Go" ID="{712762CF-7E13-4C2F-92D6-EE23F0A5AD69}" WorkUnitID="{AAC116AF-1552-4FCA-89BA-A82661378EE9}"/>
+							<Position X="3" Y="2"/>
 						</Module>
 						<Module>
 							<ObjectRef Name="UI Move" ID="{16CA91AD-23BD-4F63-BC53-3AA2C636F67F}" WorkUnitID="{AAC116AF-1552-4FCA-89BA-A82661378EE9}"/>
