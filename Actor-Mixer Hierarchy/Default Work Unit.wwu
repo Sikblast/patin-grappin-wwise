@@ -1157,6 +1157,88 @@
 								</Sound>
 							</ChildrenList>
 						</Folder>
+						<BlendContainer Name="Speed RTPC" ID="{03119A7D-D04B-4AA0-B9F0-8C75597D30A5}" ShortID="690784137">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{7DD98DC9-8438-4E9D-9FB8-F37E23FBAE82}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{BE0D8A64-9D86-44BD-BD23-F83C3E6F2572}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<Sound Name="QP01 0002 Wind mod soft" ID="{CD515D02-2424-431C-ADBE-FDAE20179DF8}" ShortID="593434842">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{7DD98DC9-8438-4E9D-9FB8-F37E23FBAE82}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{BE0D8A64-9D86-44BD-BD23-F83C3E6F2572}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="QP01 0002 Wind mod soft" ID="{935ADA6C-E6F9-443F-9F62-D35752572287}" ShortID="861902806">
+											<Language>SFX</Language>
+											<AudioFile>QP01 0002 Wind mod soft.wav</AudioFile>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="QP01 0002 Wind mod soft" ID="{935ADA6C-E6F9-443F-9F62-D35752572287}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="QP01 0006 Wind strong" ID="{EC35D814-FB84-402E-B749-3B5DE9C10B41}" ShortID="216972959">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{7DD98DC9-8438-4E9D-9FB8-F37E23FBAE82}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{BE0D8A64-9D86-44BD-BD23-F83C3E6F2572}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="QP01 0006 Wind strong" ID="{38779898-992C-4647-8CD4-DBE8A6AAA773}" ShortID="365528086">
+											<Language>SFX</Language>
+											<AudioFile>QP01 0006 Wind strong.wav</AudioFile>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="QP01 0006 Wind strong" ID="{38779898-992C-4647-8CD4-DBE8A6AAA773}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+							</ChildrenList>
+							<BlendTrackList>
+								<BlendTrack Name="New Blend Track" ID="{21799D77-7988-40FC-8840-2936CD8D1498}" ShortID="80932592">
+									<PropertyList>
+										<Property Name="EnableCrossFading" Type="bool" Value="True"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="LayerCrossFadeControlInput">
+											<ObjectRef Name="Speed_RTPC" ID="{BA0BBB9B-0B29-45E6-B525-D2B9ACECDDFA}" WorkUnitID="{D68EE52A-5695-4F6F-996B-84D0B0E5D342}"/>
+										</Reference>
+									</ReferenceList>
+									<BlendTrackAssocList>
+										<BlendTrackAssoc>
+											<ItemRef Name="QP01 0002 Wind mod soft" ID="{CD515D02-2424-431C-ADBE-FDAE20179DF8}"/>
+											<CrossfadingInfo>
+												<LeftEdgePos>10</LeftEdgePos>
+												<LeftFadingMode>Automatic</LeftFadingMode>
+												<RightEdgePos>99.9995</RightEdgePos>
+												<RightFadingMode>Automatic</RightFadingMode>
+											</CrossfadingInfo>
+										</BlendTrackAssoc>
+										<BlendTrackAssoc>
+											<ItemRef Name="QP01 0006 Wind strong" ID="{EC35D814-FB84-402E-B749-3B5DE9C10B41}"/>
+											<CrossfadingInfo>
+												<LeftEdgePos>10.0005</LeftEdgePos>
+												<LeftFadingMode>Automatic</LeftFadingMode>
+												<RightEdgePos>100</RightEdgePos>
+												<RightFadingMode>Automatic</RightFadingMode>
+											</CrossfadingInfo>
+										</BlendTrackAssoc>
+									</BlendTrackAssocList>
+								</BlendTrack>
+							</BlendTrackList>
+						</BlendContainer>
 					</ChildrenList>
 				</ActorMixer>
 			</ChildrenList>
