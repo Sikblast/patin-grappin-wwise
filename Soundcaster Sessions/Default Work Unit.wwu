@@ -14,6 +14,14 @@
 							<Position X="0" Y="1"/>
 						</Module>
 						<Module>
+							<ObjectRef Name="Speed" ID="{EDE2156B-C310-465C-BA8A-71DD1945A636}" WorkUnitID="{AAC116AF-1552-4FCA-89BA-A82661378EE9}"/>
+							<Position X="0" Y="2"/>
+						</Module>
+						<Module>
+							<ObjectRef Name="Grab Impact" ID="{E044D9D0-24CF-4095-9C61-210D9458CC31}" WorkUnitID="{AAC116AF-1552-4FCA-89BA-A82661378EE9}"/>
+							<Position X="0" Y="3"/>
+						</Module>
+						<Module>
 							<ObjectRef Name="Normal" ID="{07A38D9D-1598-4FE4-8D39-3597C6185D3C}" WorkUnitID="{AAC116AF-1552-4FCA-89BA-A82661378EE9}"/>
 							<Position X="1" Y="0"/>
 						</Module>
@@ -40,6 +48,14 @@
 						<Module>
 							<ObjectRef Name="Boost Go" ID="{712762CF-7E13-4C2F-92D6-EE23F0A5AD69}" WorkUnitID="{AAC116AF-1552-4FCA-89BA-A82661378EE9}"/>
 							<Position X="3" Y="2"/>
+						</Module>
+						<Module>
+							<ObjectRef Name="Mute_FX_Mix" ID="{A0AF8477-4F75-45C7-8C1E-75B2EAF23C0E}" WorkUnitID="{21482B35-49C5-492A-9258-62C92B85A1C6}"/>
+							<Position X="3" Y="3"/>
+						</Module>
+						<Module>
+							<ObjectRef Name="UnMute_FX_Mix" ID="{58732168-D459-43EA-BD41-2283B7E99837}" WorkUnitID="{21482B35-49C5-492A-9258-62C92B85A1C6}"/>
+							<Position X="3" Y="4"/>
 						</Module>
 						<Module>
 							<ObjectRef Name="UI Move" ID="{16CA91AD-23BD-4F63-BC53-3AA2C636F67F}" WorkUnitID="{AAC116AF-1552-4FCA-89BA-A82661378EE9}"/>

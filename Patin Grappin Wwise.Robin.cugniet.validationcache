@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <ValidationCache Version="1" SchemaVersion="85">
-	<ValidationCacheItem File="C:\Users\robin.cugniet\Documents\Patin Grappin\patin-grappin-wwise\Actor-Mixer Hierarchy\Default Work Unit.wwu" DateLow="1527158175" DateHigh="0"/>
+	<ValidationCacheItem File="C:\Users\robin.cugniet\Documents\Patin Grappin\patin-grappin-wwise\Actor-Mixer Hierarchy\Default Work Unit.wwu" DateLow="1527168144" DateHigh="0"/>
 	<ValidationCacheItem File="C:\Users\robin.cugniet\Documents\Patin Grappin\patin-grappin-wwise\Actor-Mixer Hierarchy\Factory SoundSeed Air Objects.wwu" DateLow="1523363585" DateHigh="0"/>
 	<ValidationCacheItem File="C:\Users\robin.cugniet\Documents\Patin Grappin\patin-grappin-wwise\Actor-Mixer Hierarchy\Factory Synth One.wwu" DateLow="1523363022" DateHigh="0"/>
 	<ValidationCacheItem File="C:\Users\robin.cugniet\Documents\Patin Grappin\patin-grappin-wwise\Attenuations\Default Work Unit.wwu" DateLow="1524564362" DateHigh="0"/>
@@ -20,20 +20,20 @@
 	<ValidationCacheItem File="C:\Users\robin.cugniet\Documents\Patin Grappin\patin-grappin-wwise\Effects\Factory iZotope Multiband Distortion.wwu" DateLow="1523363698" DateHigh="0"/>
 	<ValidationCacheItem File="C:\Users\robin.cugniet\Documents\Patin Grappin\patin-grappin-wwise\Effects\Factory iZotope Singleband Distortion.wwu" DateLow="1523363698" DateHigh="0"/>
 	<ValidationCacheItem File="C:\Users\robin.cugniet\Documents\Patin Grappin\patin-grappin-wwise\Effects\Factory McDSP Effects.wwu" DateLow="1523363685" DateHigh="0"/>
-	<ValidationCacheItem File="C:\Users\robin.cugniet\Documents\Patin Grappin\patin-grappin-wwise\Events\Default Work Unit.wwu" DateLow="1527118873" DateHigh="0"/>
+	<ValidationCacheItem File="C:\Users\robin.cugniet\Documents\Patin Grappin\patin-grappin-wwise\Events\Default Work Unit.wwu" DateLow="1527168072" DateHigh="0"/>
 	<ValidationCacheItem File="C:\Users\robin.cugniet\Documents\Patin Grappin\patin-grappin-wwise\Game Parameters\Default Work Unit.wwu" DateLow="1524564362" DateHigh="0"/>
 	<ValidationCacheItem File="C:\Users\robin.cugniet\Documents\Patin Grappin\patin-grappin-wwise\Game Parameters\Factory SoundSeed Air Game Syncs.wwu" DateLow="1523363585" DateHigh="0"/>
-	<ValidationCacheItem File="C:\Users\robin.cugniet\Documents\Patin Grappin\patin-grappin-wwise\Interactive Music Hierarchy\Default Work Unit.wwu" DateLow="1527166347" DateHigh="0"/>
+	<ValidationCacheItem File="C:\Users\robin.cugniet\Documents\Patin Grappin\patin-grappin-wwise\Interactive Music Hierarchy\Default Work Unit.wwu" DateLow="1527166708" DateHigh="0"/>
 	<ValidationCacheItem File="C:\Users\robin.cugniet\Documents\Patin Grappin\patin-grappin-wwise\Master-Mixer Hierarchy\Default Work Unit.wwu" DateLow="1525267241" DateHigh="0"/>
 	<ValidationCacheItem File="C:\Users\robin.cugniet\Documents\Patin Grappin\patin-grappin-wwise\Mixing Sessions\Default Work Unit.wwu" DateLow="1524564362" DateHigh="0"/>
 	<ValidationCacheItem File="C:\Users\robin.cugniet\Documents\Patin Grappin\patin-grappin-wwise\Modulators\Default Work Unit.wwu" DateLow="1524564362" DateHigh="0"/>
-	<ValidationCacheItem File="C:\Users\robin.cugniet\Documents\Patin Grappin\patin-grappin-wwise\Patin Grappin Wwise.Robin.cugniet.wsettings" DateLow="1527166411" DateHigh="0"/>
+	<ValidationCacheItem File="C:\Users\robin.cugniet\Documents\Patin Grappin\patin-grappin-wwise\Patin Grappin Wwise.Robin.cugniet.wsettings" DateLow="1527178046" DateHigh="0"/>
 	<ValidationCacheItem File="C:\Users\robin.cugniet\Documents\Patin Grappin\patin-grappin-wwise\Patin Grappin Wwise.wproj" DateLow="1527096307" DateHigh="0"/>
 	<ValidationCacheItem File="C:\Users\robin.cugniet\Documents\Patin Grappin\patin-grappin-wwise\Presets\Default Work Unit.wwu" DateLow="1524564362" DateHigh="0"/>
 	<ValidationCacheItem File="C:\Users\robin.cugniet\Documents\Patin Grappin\patin-grappin-wwise\Queries\Default Work Unit.wwu" DateLow="1524564362" DateHigh="0"/>
 	<ValidationCacheItem File="C:\Users\robin.cugniet\Documents\Patin Grappin\patin-grappin-wwise\Queries\Factory Queries.wwu" DateLow="1523363022" DateHigh="0"/>
 	<ValidationCacheItem File="C:\Users\robin.cugniet\Documents\Patin Grappin\patin-grappin-wwise\SoundBanks\Default Work Unit.wwu" DateLow="1524571174" DateHigh="0"/>
-	<ValidationCacheItem File="C:\Users\robin.cugniet\Documents\Patin Grappin\patin-grappin-wwise\Soundcaster Sessions\Default Work Unit.wwu" DateLow="1527158175" DateHigh="0"/>
+	<ValidationCacheItem File="C:\Users\robin.cugniet\Documents\Patin Grappin\patin-grappin-wwise\Soundcaster Sessions\Default Work Unit.wwu" DateLow="1527168144" DateHigh="0"/>
 	<ValidationCacheItem File="C:\Users\robin.cugniet\Documents\Patin Grappin\patin-grappin-wwise\States\Default Work Unit.wwu" DateLow="1524564362" DateHigh="0"/>
 	<ValidationCacheItem File="C:\Users\robin.cugniet\Documents\Patin Grappin\patin-grappin-wwise\Switches\Default Work Unit.wwu" DateLow="1524564362" DateHigh="0"/>
 	<ValidationCacheItem File="C:\Users\robin.cugniet\Documents\Patin Grappin\patin-grappin-wwise\Triggers\Default Work Unit.wwu" DateLow="1527158175" DateHigh="0"/>
