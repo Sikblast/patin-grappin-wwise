@@ -1,6 +1,30 @@
 <?xml version="1.0" encoding="utf-8"?>
 <WwiseDocument Type="WorkUnit" ID="{3C81AD0E-2795-4DE0-ACB4-9CDD94ABB382}" SchemaVersion="85">
 	<States>
-		<WorkUnit Name="Default Work Unit" ID="{3C81AD0E-2795-4DE0-ACB4-9CDD94ABB382}" PersistMode="Standalone"/>
+		<WorkUnit Name="Default Work Unit" ID="{3C81AD0E-2795-4DE0-ACB4-9CDD94ABB382}" PersistMode="Standalone">
+			<ChildrenList>
+				<StateGroup Name="Music" ID="{19718248-DE8C-4C33-B5DA-474B2C471E0F}">
+					<ChildrenList>
+						<State Name="None" ID="{8C924158-FE18-4430-A25A-A39CC2A280A9}"/>
+						<State Name="in_game" ID="{CA893CFC-9371-4C51-9947-5B71DC0BE4C8}"/>
+						<State Name="off_game" ID="{F55AFC1B-7CAF-4F1B-849C-F85B5E772E58}"/>
+					</ChildrenList>
+					<TransitionList>
+						<Transition>
+							<StartState Name="in_game" ID="{CA893CFC-9371-4C51-9947-5B71DC0BE4C8}"/>
+							<EndState Name="off_game" ID="{F55AFC1B-7CAF-4F1B-849C-F85B5E772E58}"/>
+							<Time>1.5</Time>
+							<IsShared>false</IsShared>
+						</Transition>
+						<Transition>
+							<StartState Name="off_game" ID="{F55AFC1B-7CAF-4F1B-849C-F85B5E772E58}"/>
+							<EndState Name="in_game" ID="{CA893CFC-9371-4C51-9947-5B71DC0BE4C8}"/>
+							<Time>2.5</Time>
+							<IsShared>false</IsShared>
+						</Transition>
+					</TransitionList>
+				</StateGroup>
+			</ChildrenList>
+		</WorkUnit>
 	</States>
 </WwiseDocument>

@@ -11,7 +11,7 @@
 							</PropertyList>
 							<ReferenceList>
 								<Reference Name="Target">
-									<ObjectRef Name="UI Move" ID="{16CA91AD-23BD-4F63-BC53-3AA2C636F67F}" WorkUnitID="{AAC116AF-1552-4FCA-89BA-A82661378EE9}"/>
+									<ObjectRef Name="UI Move placeholder" ID="{16CA91AD-23BD-4F63-BC53-3AA2C636F67F}" WorkUnitID="{AAC116AF-1552-4FCA-89BA-A82661378EE9}"/>
 								</Reference>
 							</ReferenceList>
 						</Action>
@@ -67,7 +67,7 @@
 							</PropertyList>
 							<ReferenceList>
 								<Reference Name="Target">
-									<ObjectRef Name="UI Move" ID="{16CA91AD-23BD-4F63-BC53-3AA2C636F67F}" WorkUnitID="{AAC116AF-1552-4FCA-89BA-A82661378EE9}"/>
+									<ObjectRef Name="UI Move placeholder" ID="{16CA91AD-23BD-4F63-BC53-3AA2C636F67F}" WorkUnitID="{AAC116AF-1552-4FCA-89BA-A82661378EE9}"/>
 								</Reference>
 							</ReferenceList>
 						</Action>
@@ -190,6 +190,7 @@
 						<Action Name="" ID="{751795C1-E04D-4627-8421-F2AA321ED1AA}" ShortID="57765434">
 							<PropertyList>
 								<Property Name="ActionType" Type="int16" Value="2"/>
+								<Property Name="FadeTime" Type="Real64" Value="0.3"/>
 							</PropertyList>
 							<ReferenceList>
 								<Reference Name="Target">
@@ -247,7 +248,6 @@
 						<Action Name="" ID="{AB3BE6A8-FB88-4107-9B87-F083ED61836E}" ShortID="83955958">
 							<PropertyList>
 								<Property Name="ActionType" Type="int16" Value="5"/>
-								<Property Name="Scope" Type="int16" Value="1"/>
 							</PropertyList>
 							<ReferenceList>
 								<Reference Name="Target">
@@ -280,6 +280,76 @@
 							<ReferenceList>
 								<Reference Name="Target">
 									<ObjectRef Name="Speed RTPC" ID="{03119A7D-D04B-4AA0-B9F0-8C75597D30A5}" WorkUnitID="{AAC116AF-1552-4FCA-89BA-A82661378EE9}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Stop_Speed_RTPC" ID="{51431F07-B139-4272-9967-B76F2D6A4E36}">
+					<ChildrenList>
+						<Action Name="" ID="{CCC183CE-A925-442F-A6EC-9AD7EDA3E35C}" ShortID="544240075">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="2"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Speed RTPC" ID="{03119A7D-D04B-4AA0-B9F0-8C75597D30A5}" WorkUnitID="{AAC116AF-1552-4FCA-89BA-A82661378EE9}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Play_UI_Check" ID="{7D2C4674-44E5-42FA-BA56-8EB7140F9A50}">
+					<ChildrenList>
+						<Action Name="" ID="{BF8FBAA3-03EE-4959-A8EF-04770936AE77}" ShortID="440129705">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="1"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="UI Check" ID="{073C5E08-A817-4061-AF14-D636DF534DA5}" WorkUnitID="{AAC116AF-1552-4FCA-89BA-A82661378EE9}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Play_UI_Off" ID="{D77C9A88-9D72-4562-9D0D-4EB772773CFC}">
+					<ChildrenList>
+						<Action Name="" ID="{F6CC702F-8E54-4160-8C03-49831FE60857}" ShortID="441901707">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="1"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="UI Off" ID="{F830BEE5-C5FA-48A4-B264-51B495CE24A0}" WorkUnitID="{AAC116AF-1552-4FCA-89BA-A82661378EE9}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Play_UI_On" ID="{49882D6D-05F6-47FA-9DC9-57779F39689D}">
+					<ChildrenList>
+						<Action Name="" ID="{3F0E0728-E52B-4595-A1F2-7C173D8F2CB0}" ShortID="740303308">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="1"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="UI On" ID="{8F95CC0D-D409-440F-B36A-9925EAABD88B}" WorkUnitID="{AAC116AF-1552-4FCA-89BA-A82661378EE9}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Play_UI_Select" ID="{76D82700-3867-47D7-A0CD-13905060CBA1}">
+					<ChildrenList>
+						<Action Name="" ID="{5EB63202-BC36-4BAF-9C1A-FEB8D104D39E}" ShortID="1065384782">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="1"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="UI Select" ID="{62E35D08-B994-41A2-A496-17A2DE116BEE}" WorkUnitID="{AAC116AF-1552-4FCA-89BA-A82661378EE9}"/>
 								</Reference>
 							</ReferenceList>
 						</Action>

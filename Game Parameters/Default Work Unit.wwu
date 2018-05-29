@@ -3,7 +3,19 @@
 	<GameParameters>
 		<WorkUnit Name="Default Work Unit" ID="{D68EE52A-5695-4F6F-996B-84D0B0E5D342}" PersistMode="Standalone">
 			<ChildrenList>
-				<GameParameter Name="Speed_RTPC" ID="{BA0BBB9B-0B29-45E6-B525-D2B9ACECDDFA}"/>
+				<GameParameter Name="Speed_RTPC" ID="{BA0BBB9B-0B29-45E6-B525-D2B9ACECDDFA}">
+					<PropertyList>
+						<Property Name="InitialValue" Type="Real64" Value="0"/>
+						<Property Name="Max" Type="Real64" Value="1"/>
+					</PropertyList>
+				</GameParameter>
+				<GameParameter Name="Music" ID="{AA73658E-9B9B-4C0B-82E1-D975740F2853}">
+					<PropertyList>
+						<Property Name="FilterTimeDown" Type="Real64" Value="1"/>
+						<Property Name="FilterTimeUp" Type="Real64" Value="1"/>
+						<Property Name="RTPCRamping" Type="int16" Value="2"/>
+					</PropertyList>
+				</GameParameter>
 			</ChildrenList>
 		</WorkUnit>
 	</GameParameters>

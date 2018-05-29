@@ -26,6 +26,27 @@
 							<AudioFile>Patin Grappin Placeholder.wav</AudioFile>
 						</AudioFileSource>
 					</ChildrenList>
+					<StateInfo>
+						<StateGroupList>
+							<StateGroupInfo>
+								<StateGroupRef Name="Music" ID="{19718248-DE8C-4C33-B5DA-474B2C471E0F}"/>
+							</StateGroupInfo>
+						</StateGroupList>
+						<CustomStateList>
+							<CustomState>
+								<StateRef Name="in_game" ID="{CA893CFC-9371-4C51-9947-5B71DC0BE4C8}"/>
+								<State Name="" ID="{BCFDBED3-7CC0-469C-8DDA-C556EBC47E25}" ShortID="280698167"/>
+							</CustomState>
+							<CustomState>
+								<StateRef Name="off_game" ID="{F55AFC1B-7CAF-4F1B-849C-F85B5E772E58}"/>
+								<State Name="" ID="{D7F46023-5D3D-4AB7-8626-475E48F58B8A}" ShortID="311514182">
+									<PropertyList>
+										<Property Name="Lowpass" Type="int16" Value="78"/>
+									</PropertyList>
+								</State>
+							</CustomState>
+						</CustomStateList>
+					</StateInfo>
 					<ActiveSourceList>
 						<ActiveSource Name="Patin Grappin Placeholder" ID="{F9C55925-A6C5-4F61-9A80-6422432FB4E1}" Platform="Linked"/>
 					</ActiveSourceList>
@@ -76,6 +97,13 @@
 									</ActiveSourceList>
 								</Sound>
 								<Sound Name="Boost Load" ID="{BBABD279-6765-422C-B2D4-08C7636D1ED8}" ShortID="1059822804">
+									<PropertyList>
+										<Property Name="Volume" Type="Real64">
+											<ValueList>
+												<Value>-5</Value>
+											</ValueList>
+										</Property>
+									</PropertyList>
 									<ReferenceList>
 										<Reference Name="Conversion">
 											<ObjectRef Name="Set to mono" ID="{5C8C8C27-1CD4-4823-9BC6-8907E275C7EC}" WorkUnitID="{7DD98DC9-8438-4E9D-9FB8-F37E23FBAE82}"/>
@@ -993,6 +1021,11 @@
 										<Property Name="PlayMechanismSpecialTransitionsValue" Type="Real64" Value="0.2"/>
 										<Property Name="PlayMechanismStepOrContinuous" Type="int16" Value="0"/>
 										<Property Name="RandomOrSequence" Type="int16" Value="0"/>
+										<Property Name="Volume" Type="Real64">
+											<ValueList>
+												<Value>-5</Value>
+											</ValueList>
+										</Property>
 									</PropertyList>
 									<ReferenceList>
 										<Reference Name="Conversion">
@@ -1129,35 +1162,95 @@
 						</Folder>
 						<Folder Name="Menu" ID="{E91E1FF2-EC59-4DC4-86B6-51BDE13115DF}" ShortID="907927955">
 							<ChildrenList>
-								<Sound Name="UI Move" ID="{16CA91AD-23BD-4F63-BC53-3AA2C636F67F}" ShortID="470123622">
-									<PropertyList>
-										<Property Name="Volume" Type="Real64">
-											<ValueList>
-												<Value>-8</Value>
-											</ValueList>
-										</Property>
-									</PropertyList>
+								<Sound Name="UI Check" ID="{073C5E08-A817-4061-AF14-D636DF534DA5}" ShortID="219521322">
 									<ReferenceList>
 										<Reference Name="Conversion">
-											<ObjectRef Name="Set to mono" ID="{5C8C8C27-1CD4-4823-9BC6-8907E275C7EC}" WorkUnitID="{7DD98DC9-8438-4E9D-9FB8-F37E23FBAE82}"/>
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{7DD98DC9-8438-4E9D-9FB8-F37E23FBAE82}"/>
 										</Reference>
 										<Reference Name="OutputBus">
 											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{BE0D8A64-9D86-44BD-BD23-F83C3E6F2572}"/>
 										</Reference>
 									</ReferenceList>
 									<ChildrenList>
-										<AudioFileSource Name="UI Move" ID="{CC537230-8F70-49E1-A160-74B61DE5F39B}" ShortID="518569641">
+										<AudioFileSource Name="UI Check" ID="{01843000-C442-4A3D-AB11-C3E10397E58C}" ShortID="507949798">
+											<PropertyList>
+												<Property Name="FadeOutDuration" Type="Real64" Value="0.125"/>
+											</PropertyList>
 											<Language>SFX</Language>
-											<AudioFile>UI Move.wav</AudioFile>
+											<AudioFile>UI Check.wav</AudioFile>
 										</AudioFileSource>
 									</ChildrenList>
 									<ActiveSourceList>
-										<ActiveSource Name="UI Move" ID="{CC537230-8F70-49E1-A160-74B61DE5F39B}" Platform="Linked"/>
+										<ActiveSource Name="UI Check" ID="{01843000-C442-4A3D-AB11-C3E10397E58C}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="UI Off" ID="{F830BEE5-C5FA-48A4-B264-51B495CE24A0}" ShortID="268412569">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{7DD98DC9-8438-4E9D-9FB8-F37E23FBAE82}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{BE0D8A64-9D86-44BD-BD23-F83C3E6F2572}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="UI Off" ID="{C0D335A1-8E74-4799-AC81-6E6CA3CC03EB}" ShortID="611212533">
+											<Language>SFX</Language>
+											<AudioFile>UI Off.wav</AudioFile>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="UI Off" ID="{C0D335A1-8E74-4799-AC81-6E6CA3CC03EB}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="UI On" ID="{8F95CC0D-D409-440F-B36A-9925EAABD88B}" ShortID="108480683">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{7DD98DC9-8438-4E9D-9FB8-F37E23FBAE82}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{BE0D8A64-9D86-44BD-BD23-F83C3E6F2572}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="UI On" ID="{10202E56-A1C8-4C12-BC44-C59D7CC4371E}" ShortID="504980657">
+											<Language>SFX</Language>
+											<AudioFile>UI On.wav</AudioFile>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="UI On" ID="{10202E56-A1C8-4C12-BC44-C59D7CC4371E}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="UI Select" ID="{62E35D08-B994-41A2-A496-17A2DE116BEE}" ShortID="584779136">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{7DD98DC9-8438-4E9D-9FB8-F37E23FBAE82}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{BE0D8A64-9D86-44BD-BD23-F83C3E6F2572}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="UI Select" ID="{392F8CC4-B062-45EF-AFB1-0808DF095353}" ShortID="800749427">
+											<Language>SFX</Language>
+											<AudioFile>UI Select.wav</AudioFile>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="UI Select" ID="{392F8CC4-B062-45EF-AFB1-0808DF095353}" Platform="Linked"/>
 									</ActiveSourceList>
 								</Sound>
 							</ChildrenList>
 						</Folder>
 						<BlendContainer Name="Speed RTPC" ID="{03119A7D-D04B-4AA0-B9F0-8C75597D30A5}" ShortID="690784137">
+							<PropertyList>
+								<Property Name="Volume" Type="Real64">
+									<ValueList>
+										<Value>-9</Value>
+									</ValueList>
+								</Property>
+							</PropertyList>
 							<ReferenceList>
 								<Reference Name="Conversion">
 									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{7DD98DC9-8438-4E9D-9FB8-F37E23FBAE82}"/>
@@ -1168,6 +1261,9 @@
 							</ReferenceList>
 							<ChildrenList>
 								<Sound Name="QP01 0002 Wind mod soft" ID="{CD515D02-2424-431C-ADBE-FDAE20179DF8}" ShortID="593434842">
+									<PropertyList>
+										<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
+									</PropertyList>
 									<ReferenceList>
 										<Reference Name="Conversion">
 											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{7DD98DC9-8438-4E9D-9FB8-F37E23FBAE82}"/>
@@ -1187,6 +1283,9 @@
 									</ActiveSourceList>
 								</Sound>
 								<Sound Name="QP01 0006 Wind strong" ID="{EC35D814-FB84-402E-B749-3B5DE9C10B41}" ShortID="216972959">
+									<PropertyList>
+										<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
+									</PropertyList>
 									<ReferenceList>
 										<Reference Name="Conversion">
 											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{7DD98DC9-8438-4E9D-9FB8-F37E23FBAE82}"/>
@@ -1220,18 +1319,18 @@
 										<BlendTrackAssoc>
 											<ItemRef Name="QP01 0002 Wind mod soft" ID="{CD515D02-2424-431C-ADBE-FDAE20179DF8}"/>
 											<CrossfadingInfo>
-												<LeftEdgePos>10</LeftEdgePos>
+												<LeftEdgePos>0.1</LeftEdgePos>
 												<LeftFadingMode>Automatic</LeftFadingMode>
-												<RightEdgePos>99.9995</RightEdgePos>
+												<RightEdgePos>0.999995</RightEdgePos>
 												<RightFadingMode>Automatic</RightFadingMode>
 											</CrossfadingInfo>
 										</BlendTrackAssoc>
 										<BlendTrackAssoc>
 											<ItemRef Name="QP01 0006 Wind strong" ID="{EC35D814-FB84-402E-B749-3B5DE9C10B41}"/>
 											<CrossfadingInfo>
-												<LeftEdgePos>10.0005</LeftEdgePos>
+												<LeftEdgePos>0.100005</LeftEdgePos>
 												<LeftFadingMode>Automatic</LeftFadingMode>
-												<RightEdgePos>100</RightEdgePos>
+												<RightEdgePos>1</RightEdgePos>
 												<RightFadingMode>Automatic</RightFadingMode>
 											</CrossfadingInfo>
 										</BlendTrackAssoc>
@@ -1239,6 +1338,60 @@
 								</BlendTrack>
 							</BlendTrackList>
 						</BlendContainer>
+						<Folder Name="Menu Placeholder" ID="{35AC21FF-87FD-4E23-9DC4-5DF7F4F273F3}" ShortID="635884230">
+							<ChildrenList>
+								<Sound Name="UI placeholder" ID="{DFF25E34-1A8D-4F59-9D7C-E5EE64F82358}" ShortID="172175538">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{7DD98DC9-8438-4E9D-9FB8-F37E23FBAE82}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{BE0D8A64-9D86-44BD-BD23-F83C3E6F2572}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="UI select" ID="{0F76FDF2-763A-44DC-8654-B0589607DFC1}" ShortID="201622941">
+											<PropertyList>
+												<Property Name="FadeInDuration" Type="Real64" Value="6.09111023656478E-02"/>
+												<Property Name="FadeOutDuration" Type="Real64" Value="2.46936901482356E-02"/>
+												<Property Name="TrimBegin" Type="Real64" Value="0.367935983208711"/>
+											</PropertyList>
+											<Language>SFX</Language>
+											<AudioFile>UI select.wav</AudioFile>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="UI select" ID="{0F76FDF2-763A-44DC-8654-B0589607DFC1}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="UI Move placeholder" ID="{16CA91AD-23BD-4F63-BC53-3AA2C636F67F}" ShortID="470123622">
+									<PropertyList>
+										<Property Name="Volume" Type="Real64">
+											<ValueList>
+												<Value>-6</Value>
+											</ValueList>
+										</Property>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{7DD98DC9-8438-4E9D-9FB8-F37E23FBAE82}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{BE0D8A64-9D86-44BD-BD23-F83C3E6F2572}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="UI Move" ID="{CC537230-8F70-49E1-A160-74B61DE5F39B}" ShortID="518569641">
+											<Language>SFX</Language>
+											<AudioFile>UI Move.wav</AudioFile>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="UI Move" ID="{CC537230-8F70-49E1-A160-74B61DE5F39B}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+							</ChildrenList>
+						</Folder>
 					</ChildrenList>
 				</ActorMixer>
 			</ChildrenList>
