@@ -356,6 +356,36 @@
 						</Action>
 					</ChildrenList>
 				</Event>
+				<Event Name="Mute_Music_Mix" ID="{7C84BC3E-7D16-41EF-8442-D99900AC46A1}">
+					<ChildrenList>
+						<Action Name="" ID="{7BA6D87D-5158-4CAF-8AF1-47C661483F93}" ShortID="1037122724">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="4"/>
+								<Property Name="Scope" Type="int16" Value="1"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Music Mix" ID="{FB3642FB-5FEC-48A1-B9D0-385973F7DE59}" WorkUnitID="{AAC116AF-1552-4FCA-89BA-A82661378EE9}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="UnMute_Music_Mix" ID="{7047A442-D0D1-40CA-BF3C-0C7E8734B6D4}">
+					<ChildrenList>
+						<Action Name="" ID="{2FED0BCE-7861-493F-9A42-E0511557F817}" ShortID="424745715">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="5"/>
+								<Property Name="Scope" Type="int16" Value="1"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Music Mix" ID="{FB3642FB-5FEC-48A1-B9D0-385973F7DE59}" WorkUnitID="{AAC116AF-1552-4FCA-89BA-A82661378EE9}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
 			</ChildrenList>
 		</WorkUnit>
 	</Events>
