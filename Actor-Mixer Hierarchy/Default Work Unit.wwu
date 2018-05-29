@@ -7,13 +7,13 @@
 					<PropertyList>
 						<Property Name="Volume" Type="Real64">
 							<ValueList>
-								<Value>-7</Value>
+								<Value>-5</Value>
 							</ValueList>
 						</Property>
 					</PropertyList>
 					<ReferenceList>
 						<Reference Name="Conversion">
-							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{7DD98DC9-8438-4E9D-9FB8-F37E23FBAE82}"/>
+							<ObjectRef Name="Set to mono" ID="{5C8C8C27-1CD4-4823-9BC6-8907E275C7EC}" WorkUnitID="{7DD98DC9-8438-4E9D-9FB8-F37E23FBAE82}"/>
 						</Reference>
 						<Reference Name="OutputBus">
 							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{BE0D8A64-9D86-44BD-BD23-F83C3E6F2572}"/>
@@ -52,7 +52,7 @@
 									<PropertyList>
 										<Property Name="Volume" Type="Real64">
 											<ValueList>
-												<Value>-5</Value>
+												<Value>-3</Value>
 											</ValueList>
 										</Property>
 									</PropertyList>
@@ -437,6 +437,13 @@
 											</ReferenceList>
 											<ChildrenList>
 												<Sound Name="Ice Skate Reception 2" ID="{9DDB4466-C41F-486E-B3A1-2CA4EEAE1AA9}" ShortID="282425762">
+													<PropertyList>
+														<Property Name="Inclusion" Type="bool">
+															<ValueList>
+																<Value>False</Value>
+															</ValueList>
+														</Property>
+													</PropertyList>
 													<ReferenceList>
 														<Reference Name="Conversion">
 															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{7DD98DC9-8438-4E9D-9FB8-F37E23FBAE82}"/>
@@ -482,6 +489,13 @@
 													</ActiveSourceList>
 												</Sound>
 												<Sound Name="Ice Skate Reception 4" ID="{E083D92A-9C79-44AE-8589-DEDD8CA13211}" ShortID="628273598">
+													<PropertyList>
+														<Property Name="Inclusion" Type="bool">
+															<ValueList>
+																<Value>False</Value>
+															</ValueList>
+														</Property>
+													</PropertyList>
 													<ReferenceList>
 														<Reference Name="Conversion">
 															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{7DD98DC9-8438-4E9D-9FB8-F37E23FBAE82}"/>
@@ -501,6 +515,13 @@
 													</ActiveSourceList>
 												</Sound>
 												<Sound Name="Ice Skate Reception 5" ID="{8308A2D6-5EB8-45B7-A437-EE2A9E9F78AB}" ShortID="925649856">
+													<PropertyList>
+														<Property Name="Inclusion" Type="bool">
+															<ValueList>
+																<Value>False</Value>
+															</ValueList>
+														</Property>
+													</PropertyList>
 													<ReferenceList>
 														<Reference Name="Conversion">
 															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{7DD98DC9-8438-4E9D-9FB8-F37E23FBAE82}"/>
@@ -520,6 +541,13 @@
 													</ActiveSourceList>
 												</Sound>
 												<Sound Name="Ice Skate Reception 6" ID="{08C53F28-15DC-47C2-B0F7-EBFAFD52AF3C}" ShortID="635341139">
+													<PropertyList>
+														<Property Name="Inclusion" Type="bool">
+															<ValueList>
+																<Value>False</Value>
+															</ValueList>
+														</Property>
+													</PropertyList>
 													<ReferenceList>
 														<Reference Name="Conversion">
 															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{7DD98DC9-8438-4E9D-9FB8-F37E23FBAE82}"/>
@@ -539,6 +567,13 @@
 													</ActiveSourceList>
 												</Sound>
 												<Sound Name="Ice Skate Reception 7" ID="{5271FF33-3049-47FF-93AB-6ABD5996F5B7}" ShortID="1013633748">
+													<PropertyList>
+														<Property Name="Inclusion" Type="bool">
+															<ValueList>
+																<Value>False</Value>
+															</ValueList>
+														</Property>
+													</PropertyList>
 													<ReferenceList>
 														<Reference Name="Conversion">
 															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{7DD98DC9-8438-4E9D-9FB8-F37E23FBAE82}"/>
@@ -558,6 +593,13 @@
 													</ActiveSourceList>
 												</Sound>
 												<Sound Name="Ice Skate Reception 8" ID="{60A516B8-6010-42E5-BCCA-9724E0587305}" ShortID="486452379">
+													<PropertyList>
+														<Property Name="Inclusion" Type="bool">
+															<ValueList>
+																<Value>False</Value>
+															</ValueList>
+														</Property>
+													</PropertyList>
 													<ReferenceList>
 														<Reference Name="Conversion">
 															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{7DD98DC9-8438-4E9D-9FB8-F37E23FBAE82}"/>
@@ -587,6 +629,10 @@
 													</ReferenceList>
 													<ChildrenList>
 														<AudioFileSource Name="Ice Skate Reception 9" ID="{A779B6A2-C87D-4ED8-8E63-4C933833D72D}" ShortID="843146570">
+															<PropertyList>
+																<Property Name="FadeOutDuration" Type="Real64" Value="3.99724037763253E-02"/>
+																<Property Name="TrimEnd" Type="Real64" Value="0.358108932461874"/>
+															</PropertyList>
 															<Language>SFX</Language>
 															<AudioFile>Ice Skate Reception 9.wav</AudioFile>
 														</AudioFileSource>
@@ -596,6 +642,13 @@
 													</ActiveSourceList>
 												</Sound>
 												<Sound Name="Ice Skate Reception 10" ID="{3E43632C-C802-4C9E-B079-2C64578DA0F0}" ShortID="947261299">
+													<PropertyList>
+														<Property Name="Inclusion" Type="bool">
+															<ValueList>
+																<Value>False</Value>
+															</ValueList>
+														</Property>
+													</PropertyList>
 													<ReferenceList>
 														<Reference Name="Conversion">
 															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{7DD98DC9-8438-4E9D-9FB8-F37E23FBAE82}"/>
@@ -615,6 +668,13 @@
 													</ActiveSourceList>
 												</Sound>
 												<Sound Name="Ice Skate Reception 11" ID="{3686F48A-6E84-46CD-BE36-0CB86090E398}" ShortID="666745759">
+													<PropertyList>
+														<Property Name="Inclusion" Type="bool">
+															<ValueList>
+																<Value>False</Value>
+															</ValueList>
+														</Property>
+													</PropertyList>
 													<ReferenceList>
 														<Reference Name="Conversion">
 															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{7DD98DC9-8438-4E9D-9FB8-F37E23FBAE82}"/>
@@ -634,6 +694,13 @@
 													</ActiveSourceList>
 												</Sound>
 												<Sound Name="Ice Skate Reception 12" ID="{D25D5637-FAEA-4FB6-9730-7FE7015099A0}" ShortID="280993777">
+													<PropertyList>
+														<Property Name="Inclusion" Type="bool">
+															<ValueList>
+																<Value>False</Value>
+															</ValueList>
+														</Property>
+													</PropertyList>
 													<ReferenceList>
 														<Reference Name="Conversion">
 															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{7DD98DC9-8438-4E9D-9FB8-F37E23FBAE82}"/>
@@ -653,6 +720,13 @@
 													</ActiveSourceList>
 												</Sound>
 												<Sound Name="Ice Skate Reception" ID="{49F3D38F-C988-4858-AD10-AAB4AEE3C40D}" ShortID="898523447">
+													<PropertyList>
+														<Property Name="Inclusion" Type="bool">
+															<ValueList>
+																<Value>False</Value>
+															</ValueList>
+														</Property>
+													</PropertyList>
 													<ReferenceList>
 														<Reference Name="Conversion">
 															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{7DD98DC9-8438-4E9D-9FB8-F37E23FBAE82}"/>
@@ -1052,6 +1126,13 @@
 									</Playlist>
 								</RandomSequenceContainer>
 								<Sound Name="Boost Go" ID="{712762CF-7E13-4C2F-92D6-EE23F0A5AD69}" ShortID="563762147">
+									<PropertyList>
+										<Property Name="Volume" Type="Real64">
+											<ValueList>
+												<Value>3</Value>
+											</ValueList>
+										</Property>
+									</PropertyList>
 									<ReferenceList>
 										<Reference Name="Conversion">
 											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{7DD98DC9-8438-4E9D-9FB8-F37E23FBAE82}"/>
@@ -1110,11 +1191,44 @@
 										<ActiveSource Name="Slide Loop Speed" ID="{9FEF3D41-E171-40DA-AECA-8ECC086880D3}" Platform="Linked"/>
 									</ActiveSourceList>
 								</Sound>
+								<Sound Name="Ice Skate Reception" ID="{31F89A35-CE26-4814-A1DB-80C69C53EEC5}" ShortID="617821914">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{7DD98DC9-8438-4E9D-9FB8-F37E23FBAE82}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{BE0D8A64-9D86-44BD-BD23-F83C3E6F2572}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="Ice Skate Reception 9" ID="{865BCF84-2F44-4C25-A9AA-58CC430DD3B5}" ShortID="958742633">
+											<PropertyList>
+												<Property Name="FadeOutDuration" Type="Real64" Value="3.99724037763253E-02"/>
+												<Property Name="TrimEnd" Type="Real64" Value="0.358108932461874"/>
+											</PropertyList>
+											<Language>SFX</Language>
+											<AudioFile>Ice Skate Reception 9.wav</AudioFile>
+											<ConvertedFileIDList>
+												<File ID="843146570"/>
+											</ConvertedFileIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="Ice Skate Reception 9" ID="{865BCF84-2F44-4C25-A9AA-58CC430DD3B5}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
 							</ChildrenList>
 						</Folder>
 						<Folder Name="Menu" ID="{E91E1FF2-EC59-4DC4-86B6-51BDE13115DF}" ShortID="907927955">
 							<ChildrenList>
 								<Sound Name="UI Check" ID="{073C5E08-A817-4061-AF14-D636DF534DA5}" ShortID="219521322">
+									<PropertyList>
+										<Property Name="Volume" Type="Real64">
+											<ValueList>
+												<Value>-6</Value>
+											</ValueList>
+										</Property>
+									</PropertyList>
 									<ReferenceList>
 										<Reference Name="Conversion">
 											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{7DD98DC9-8438-4E9D-9FB8-F37E23FBAE82}"/>
@@ -1137,6 +1251,23 @@
 									</ActiveSourceList>
 								</Sound>
 								<Sound Name="UI Off" ID="{F830BEE5-C5FA-48A4-B264-51B495CE24A0}" ShortID="268412569">
+									<PropertyList>
+										<Property Name="MaxSoundPerInstance" Type="int16">
+											<ValueList>
+												<Value>1</Value>
+											</ValueList>
+										</Property>
+										<Property Name="UseMaxSoundPerInstance" Type="bool">
+											<ValueList>
+												<Value>True</Value>
+											</ValueList>
+										</Property>
+										<Property Name="Volume" Type="Real64">
+											<ValueList>
+												<Value>-6</Value>
+											</ValueList>
+										</Property>
+									</PropertyList>
 									<ReferenceList>
 										<Reference Name="Conversion">
 											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{7DD98DC9-8438-4E9D-9FB8-F37E23FBAE82}"/>
@@ -1156,6 +1287,23 @@
 									</ActiveSourceList>
 								</Sound>
 								<Sound Name="UI On" ID="{8F95CC0D-D409-440F-B36A-9925EAABD88B}" ShortID="108480683">
+									<PropertyList>
+										<Property Name="MaxSoundPerInstance" Type="int16">
+											<ValueList>
+												<Value>1</Value>
+											</ValueList>
+										</Property>
+										<Property Name="UseMaxSoundPerInstance" Type="bool">
+											<ValueList>
+												<Value>True</Value>
+											</ValueList>
+										</Property>
+										<Property Name="Volume" Type="Real64">
+											<ValueList>
+												<Value>-6</Value>
+											</ValueList>
+										</Property>
+									</PropertyList>
 									<ReferenceList>
 										<Reference Name="Conversion">
 											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{7DD98DC9-8438-4E9D-9FB8-F37E23FBAE82}"/>
@@ -1175,6 +1323,13 @@
 									</ActiveSourceList>
 								</Sound>
 								<Sound Name="UI Select" ID="{62E35D08-B994-41A2-A496-17A2DE116BEE}" ShortID="584779136">
+									<PropertyList>
+										<Property Name="Volume" Type="Real64">
+											<ValueList>
+												<Value>-6</Value>
+											</ValueList>
+										</Property>
+									</PropertyList>
 									<ReferenceList>
 										<Reference Name="Conversion">
 											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{7DD98DC9-8438-4E9D-9FB8-F37E23FBAE82}"/>
@@ -1302,7 +1457,7 @@
 										<BlendTrackAssoc>
 											<ItemRef Name="QP01 0002 Wind mod soft" ID="{CD515D02-2424-431C-ADBE-FDAE20179DF8}"/>
 											<CrossfadingInfo>
-												<LeftEdgePos>0.236904761904762</LeftEdgePos>
+												<LeftEdgePos>9.99999999999999E-02</LeftEdgePos>
 												<LeftFadingMode>Automatic</LeftFadingMode>
 												<RightEdgePos>0.9995</RightEdgePos>
 												<RightFadingMode>Automatic</RightFadingMode>
@@ -1311,7 +1466,7 @@
 										<BlendTrackAssoc>
 											<ItemRef Name="QP01 0006 Wind strong" ID="{EC35D814-FB84-402E-B749-3B5DE9C10B41}"/>
 											<CrossfadingInfo>
-												<LeftEdgePos>0.60515873015873</LeftEdgePos>
+												<LeftEdgePos>0.176587301587302</LeftEdgePos>
 												<LeftFadingMode>Automatic</LeftFadingMode>
 												<RightEdgePos>1</RightEdgePos>
 												<RightFadingMode>Automatic</RightFadingMode>

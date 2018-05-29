@@ -87,20 +87,6 @@
 						</Action>
 					</ChildrenList>
 				</Event>
-				<Event Name="Play_Ice_Skate_Reception" ID="{CF61C8A5-5107-48F4-95E3-4AC3668156CD}">
-					<ChildrenList>
-						<Action Name="" ID="{2AA0F158-E07E-4EFD-A89F-F619B8B5225B}" ShortID="528903586">
-							<PropertyList>
-								<Property Name="ActionType" Type="int16" Value="1"/>
-							</PropertyList>
-							<ReferenceList>
-								<Reference Name="Target">
-									<ObjectRef Name="Reception" ID="{B6B1993D-8741-4A37-9EA0-AF356414A6B4}" WorkUnitID="{AAC116AF-1552-4FCA-89BA-A82661378EE9}"/>
-								</Reference>
-							</ReferenceList>
-						</Action>
-					</ChildrenList>
-				</Event>
 				<Event Name="Play_Fast" ID="{92729A06-1FEF-45D8-8805-F68E509B1A65}">
 					<ChildrenList>
 						<Action Name="" ID="{CC56FB4C-EEC6-4B27-8E43-6A6E2B4C68AC}" ShortID="303741086">
@@ -381,6 +367,20 @@
 							<ReferenceList>
 								<Reference Name="Target">
 									<ObjectRef Name="Music Mix" ID="{FB3642FB-5FEC-48A1-B9D0-385973F7DE59}" WorkUnitID="{AAC116AF-1552-4FCA-89BA-A82661378EE9}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Play_Ice_Skate_Reception" ID="{18C2A2B7-94B0-4EB4-A45D-06EA25F21F96}">
+					<ChildrenList>
+						<Action Name="" ID="{D94AEEB2-F7A7-49CD-9C11-377FF79D59D1}" ShortID="871293695">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="1"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Ice Skate Reception" ID="{31F89A35-CE26-4814-A1DB-80C69C53EEC5}" WorkUnitID="{AAC116AF-1552-4FCA-89BA-A82661378EE9}"/>
 								</Reference>
 							</ReferenceList>
 						</Action>
