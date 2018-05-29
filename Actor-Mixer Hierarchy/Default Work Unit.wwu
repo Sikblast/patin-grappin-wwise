@@ -55,7 +55,7 @@
 					<PropertyList>
 						<Property Name="Volume" Type="Real64">
 							<ValueList>
-								<Value>-12</Value>
+								<Value>-7</Value>
 							</ValueList>
 						</Property>
 					</PropertyList>
@@ -1263,6 +1263,37 @@
 								<Sound Name="QP01 0002 Wind mod soft" ID="{CD515D02-2424-431C-ADBE-FDAE20179DF8}" ShortID="593434842">
 									<PropertyList>
 										<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
+										<Property Name="Volume" Type="Real64">
+											<ValueList>
+												<Value>-7</Value>
+											</ValueList>
+											<RTPCList>
+												<RTPC Name="" ID="{5BFD3876-C3B6-4569-911F-A3B19685CB4A}" ShortID="212763028">
+													<ReferenceList>
+														<Reference Name="ControlInput">
+															<ObjectRef Name="Speed_RTPC" ID="{BA0BBB9B-0B29-45E6-B525-D2B9ACECDDFA}" WorkUnitID="{D68EE52A-5695-4F6F-996B-84D0B0E5D342}"/>
+														</Reference>
+													</ReferenceList>
+													<Curve Name="" ID="{FC2E0887-7899-4866-BA3F-025342AFB320}">
+														<PropertyList>
+															<Property Name="Flags" Type="int32" Value="3"/>
+														</PropertyList>
+														<PointList>
+															<Point>
+																<XPos>0</XPos>
+																<YPos>0</YPos>
+																<Flags>5</Flags>
+															</Point>
+															<Point>
+																<XPos>1</XPos>
+																<YPos>200</YPos>
+																<Flags>37</Flags>
+															</Point>
+														</PointList>
+													</Curve>
+												</RTPC>
+											</RTPCList>
+										</Property>
 									</PropertyList>
 									<ReferenceList>
 										<Reference Name="Conversion">
@@ -1319,16 +1350,16 @@
 										<BlendTrackAssoc>
 											<ItemRef Name="QP01 0002 Wind mod soft" ID="{CD515D02-2424-431C-ADBE-FDAE20179DF8}"/>
 											<CrossfadingInfo>
-												<LeftEdgePos>0.1</LeftEdgePos>
+												<LeftEdgePos>0.236904761904762</LeftEdgePos>
 												<LeftFadingMode>Automatic</LeftFadingMode>
-												<RightEdgePos>0.999995</RightEdgePos>
+												<RightEdgePos>0.9995</RightEdgePos>
 												<RightFadingMode>Automatic</RightFadingMode>
 											</CrossfadingInfo>
 										</BlendTrackAssoc>
 										<BlendTrackAssoc>
 											<ItemRef Name="QP01 0006 Wind strong" ID="{EC35D814-FB84-402E-B749-3B5DE9C10B41}"/>
 											<CrossfadingInfo>
-												<LeftEdgePos>0.100005</LeftEdgePos>
+												<LeftEdgePos>0.60515873015873</LeftEdgePos>
 												<LeftFadingMode>Automatic</LeftFadingMode>
 												<RightEdgePos>1</RightEdgePos>
 												<RightFadingMode>Automatic</RightFadingMode>
