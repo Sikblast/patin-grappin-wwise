@@ -1097,6 +1097,11 @@
 														<Value>True</Value>
 													</ValueList>
 												</Property>
+												<Property Name="Volume" Type="Real64">
+													<ValueList>
+														<Value>-3</Value>
+													</ValueList>
+												</Property>
 											</PropertyList>
 											<ReferenceList>
 												<Reference Name="Conversion">
@@ -1126,13 +1131,6 @@
 									</Playlist>
 								</RandomSequenceContainer>
 								<Sound Name="Boost Go" ID="{712762CF-7E13-4C2F-92D6-EE23F0A5AD69}" ShortID="563762147">
-									<PropertyList>
-										<Property Name="Volume" Type="Real64">
-											<ValueList>
-												<Value>3</Value>
-											</ValueList>
-										</Property>
-									</PropertyList>
 									<ReferenceList>
 										<Reference Name="Conversion">
 											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{7DD98DC9-8438-4E9D-9FB8-F37E23FBAE82}"/>
@@ -1218,6 +1216,13 @@
 									</ActiveSourceList>
 								</Sound>
 								<Sound Name="Body fall" ID="{DD6782E5-BEC8-4137-ACC1-BACB52C953D4}" ShortID="118977174">
+									<PropertyList>
+										<Property Name="Volume" Type="Real64">
+											<ValueList>
+												<Value>-6</Value>
+											</ValueList>
+										</Property>
+									</PropertyList>
 									<ReferenceList>
 										<Reference Name="Conversion">
 											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{7DD98DC9-8438-4E9D-9FB8-F37E23FBAE82}"/>
@@ -1229,8 +1234,9 @@
 									<ChildrenList>
 										<AudioFileSource Name="Body fall" ID="{98331C25-70BB-4915-BEC7-137509414572}" ShortID="1030183338">
 											<PropertyList>
+												<Property Name="FadeOutDuration" Type="Real64" Value="0.343703703703704"/>
 												<Property Name="TrimBegin" Type="Real64" Value="0.391440329218107"/>
-												<Property Name="TrimEnd" Type="Real64" Value="2.39637860082304"/>
+												<Property Name="TrimEnd" Type="Real64" Value="0.735144032921815"/>
 											</PropertyList>
 											<Language>SFX</Language>
 											<AudioFile>Body fall.wav</AudioFile>
@@ -1271,78 +1277,6 @@
 									</ChildrenList>
 									<ActiveSourceList>
 										<ActiveSource Name="UI Check" ID="{01843000-C442-4A3D-AB11-C3E10397E58C}" Platform="Linked"/>
-									</ActiveSourceList>
-								</Sound>
-								<Sound Name="UI Off" ID="{F830BEE5-C5FA-48A4-B264-51B495CE24A0}" ShortID="268412569">
-									<PropertyList>
-										<Property Name="MaxSoundPerInstance" Type="int16">
-											<ValueList>
-												<Value>1</Value>
-											</ValueList>
-										</Property>
-										<Property Name="UseMaxSoundPerInstance" Type="bool">
-											<ValueList>
-												<Value>True</Value>
-											</ValueList>
-										</Property>
-										<Property Name="Volume" Type="Real64">
-											<ValueList>
-												<Value>-12</Value>
-											</ValueList>
-										</Property>
-									</PropertyList>
-									<ReferenceList>
-										<Reference Name="Conversion">
-											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{7DD98DC9-8438-4E9D-9FB8-F37E23FBAE82}"/>
-										</Reference>
-										<Reference Name="OutputBus">
-											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{BE0D8A64-9D86-44BD-BD23-F83C3E6F2572}"/>
-										</Reference>
-									</ReferenceList>
-									<ChildrenList>
-										<AudioFileSource Name="UI Off" ID="{C0D335A1-8E74-4799-AC81-6E6CA3CC03EB}" ShortID="611212533">
-											<Language>SFX</Language>
-											<AudioFile>UI Off.wav</AudioFile>
-										</AudioFileSource>
-									</ChildrenList>
-									<ActiveSourceList>
-										<ActiveSource Name="UI Off" ID="{C0D335A1-8E74-4799-AC81-6E6CA3CC03EB}" Platform="Linked"/>
-									</ActiveSourceList>
-								</Sound>
-								<Sound Name="UI On" ID="{8F95CC0D-D409-440F-B36A-9925EAABD88B}" ShortID="108480683">
-									<PropertyList>
-										<Property Name="MaxSoundPerInstance" Type="int16">
-											<ValueList>
-												<Value>1</Value>
-											</ValueList>
-										</Property>
-										<Property Name="UseMaxSoundPerInstance" Type="bool">
-											<ValueList>
-												<Value>True</Value>
-											</ValueList>
-										</Property>
-										<Property Name="Volume" Type="Real64">
-											<ValueList>
-												<Value>-12</Value>
-											</ValueList>
-										</Property>
-									</PropertyList>
-									<ReferenceList>
-										<Reference Name="Conversion">
-											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{7DD98DC9-8438-4E9D-9FB8-F37E23FBAE82}"/>
-										</Reference>
-										<Reference Name="OutputBus">
-											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{BE0D8A64-9D86-44BD-BD23-F83C3E6F2572}"/>
-										</Reference>
-									</ReferenceList>
-									<ChildrenList>
-										<AudioFileSource Name="UI On" ID="{10202E56-A1C8-4C12-BC44-C59D7CC4371E}" ShortID="504980657">
-											<Language>SFX</Language>
-											<AudioFile>UI On.wav</AudioFile>
-										</AudioFileSource>
-									</ChildrenList>
-									<ActiveSourceList>
-										<ActiveSource Name="UI On" ID="{10202E56-A1C8-4C12-BC44-C59D7CC4371E}" Platform="Linked"/>
 									</ActiveSourceList>
 								</Sound>
 								<Sound Name="UI Select" ID="{62E35D08-B994-41A2-A496-17A2DE116BEE}" ShortID="584779136">
@@ -1398,6 +1332,102 @@
 										<ActiveSource Name="Menu" ID="{E0F8C004-2C8F-4113-84F1-36A854A88694}" Platform="Linked"/>
 									</ActiveSourceList>
 								</Sound>
+								<ActorMixer Name="UI_Menu" ID="{9E9D8229-9F23-4D9E-B74B-9E8D29F07B0F}" ShortID="350958568">
+									<PropertyList>
+										<Property Name="MaxSoundPerInstance" Type="int16">
+											<ValueList>
+												<Value>1</Value>
+											</ValueList>
+										</Property>
+										<Property Name="UseMaxSoundPerInstance" Type="bool">
+											<ValueList>
+												<Value>True</Value>
+											</ValueList>
+										</Property>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{7DD98DC9-8438-4E9D-9FB8-F37E23FBAE82}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{BE0D8A64-9D86-44BD-BD23-F83C3E6F2572}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<Sound Name="UI Off" ID="{F830BEE5-C5FA-48A4-B264-51B495CE24A0}" ShortID="268412569">
+											<PropertyList>
+												<Property Name="MaxSoundPerInstance" Type="int16">
+													<ValueList>
+														<Value>1</Value>
+													</ValueList>
+												</Property>
+												<Property Name="UseMaxSoundPerInstance" Type="bool">
+													<ValueList>
+														<Value>True</Value>
+													</ValueList>
+												</Property>
+												<Property Name="Volume" Type="Real64">
+													<ValueList>
+														<Value>-12</Value>
+													</ValueList>
+												</Property>
+											</PropertyList>
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Set to mono" ID="{5C8C8C27-1CD4-4823-9BC6-8907E275C7EC}" WorkUnitID="{7DD98DC9-8438-4E9D-9FB8-F37E23FBAE82}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{BE0D8A64-9D86-44BD-BD23-F83C3E6F2572}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="UI Off" ID="{C0D335A1-8E74-4799-AC81-6E6CA3CC03EB}" ShortID="611212533">
+													<Language>SFX</Language>
+													<AudioFile>UI Off.wav</AudioFile>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="UI Off" ID="{C0D335A1-8E74-4799-AC81-6E6CA3CC03EB}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="UI On" ID="{8F95CC0D-D409-440F-B36A-9925EAABD88B}" ShortID="108480683">
+											<PropertyList>
+												<Property Name="MaxSoundPerInstance" Type="int16">
+													<ValueList>
+														<Value>1</Value>
+													</ValueList>
+												</Property>
+												<Property Name="UseMaxSoundPerInstance" Type="bool">
+													<ValueList>
+														<Value>True</Value>
+													</ValueList>
+												</Property>
+												<Property Name="Volume" Type="Real64">
+													<ValueList>
+														<Value>-12</Value>
+													</ValueList>
+												</Property>
+											</PropertyList>
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Set to mono" ID="{5C8C8C27-1CD4-4823-9BC6-8907E275C7EC}" WorkUnitID="{7DD98DC9-8438-4E9D-9FB8-F37E23FBAE82}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{BE0D8A64-9D86-44BD-BD23-F83C3E6F2572}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="UI On" ID="{10202E56-A1C8-4C12-BC44-C59D7CC4371E}" ShortID="504980657">
+													<Language>SFX</Language>
+													<AudioFile>UI On.wav</AudioFile>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="UI On" ID="{10202E56-A1C8-4C12-BC44-C59D7CC4371E}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+									</ChildrenList>
+								</ActorMixer>
 							</ChildrenList>
 						</Folder>
 						<BlendContainer Name="Speed RTPC" ID="{03119A7D-D04B-4AA0-B9F0-8C75597D30A5}" ShortID="690784137">
@@ -1473,10 +1503,22 @@
 								<Sound Name="QP01 0006 Wind strong" ID="{EC35D814-FB84-402E-B749-3B5DE9C10B41}" ShortID="216972959">
 									<PropertyList>
 										<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
+										<Property Name="OverrideEffect" Type="bool" Value="True"/>
 									</PropertyList>
 									<ReferenceList>
 										<Reference Name="Conversion">
 											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{7DD98DC9-8438-4E9D-9FB8-F37E23FBAE82}"/>
+										</Reference>
+										<Reference Name="Effect0">
+											<Custom>
+												<Effect Name="Wwise Compressor (Custom)" ID="{A89401BB-B0EB-4E26-B859-7425D962CAAF}" ShortID="723837385" PluginName="Wwise Compressor" CompanyID="0" PluginID="108" PluginType="3">
+													<PropertyList>
+														<Property Name="OutputGain" Type="Real32" Value="5.9"/>
+														<Property Name="Ratio" Type="Real32" Value="2.3"/>
+														<Property Name="Threshold" Type="Real32" Value="-30.9"/>
+													</PropertyList>
+												</Effect>
+											</Custom>
 										</Reference>
 										<Reference Name="OutputBus">
 											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{BE0D8A64-9D86-44BD-BD23-F83C3E6F2572}"/>

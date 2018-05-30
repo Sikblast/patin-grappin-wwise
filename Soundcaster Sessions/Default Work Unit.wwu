@@ -58,6 +58,10 @@
 							<Position X="2" Y="4"/>
 						</Module>
 						<Module>
+							<ObjectRef Name="UI On" ID="{8F95CC0D-D409-440F-B36A-9925EAABD88B}" WorkUnitID="{AAC116AF-1552-4FCA-89BA-A82661378EE9}"/>
+							<Position X="2" Y="6"/>
+						</Module>
+						<Module>
 							<ObjectRef Name="Boost Go" ID="{712762CF-7E13-4C2F-92D6-EE23F0A5AD69}" WorkUnitID="{AAC116AF-1552-4FCA-89BA-A82661378EE9}"/>
 							<Position X="3" Y="2"/>
 						</Module>
@@ -68,6 +72,10 @@
 						<Module>
 							<ObjectRef Name="UnMute_FX_Mix" ID="{58732168-D459-43EA-BD41-2283B7E99837}" WorkUnitID="{21482B35-49C5-492A-9258-62C92B85A1C6}"/>
 							<Position X="3" Y="4"/>
+						</Module>
+						<Module>
+							<ObjectRef Name="UI Off" ID="{F830BEE5-C5FA-48A4-B264-51B495CE24A0}" WorkUnitID="{AAC116AF-1552-4FCA-89BA-A82661378EE9}"/>
+							<Position X="3" Y="6"/>
 						</Module>
 						<Module>
 							<ObjectRef Name="UI Move placeholder" ID="{16CA91AD-23BD-4F63-BC53-3AA2C636F67F}" WorkUnitID="{AAC116AF-1552-4FCA-89BA-A82661378EE9}"/>
@@ -82,16 +90,8 @@
 							<Position X="4" Y="3"/>
 						</Module>
 						<Module>
-							<ObjectRef Name="UI Off" ID="{F830BEE5-C5FA-48A4-B264-51B495CE24A0}" WorkUnitID="{AAC116AF-1552-4FCA-89BA-A82661378EE9}"/>
-							<Position X="4" Y="4"/>
-						</Module>
-						<Module>
 							<ObjectRef Name="UI Check" ID="{073C5E08-A817-4061-AF14-D636DF534DA5}" WorkUnitID="{AAC116AF-1552-4FCA-89BA-A82661378EE9}"/>
 							<Position X="4" Y="5"/>
-						</Module>
-						<Module>
-							<ObjectRef Name="UI On" ID="{8F95CC0D-D409-440F-B36A-9925EAABD88B}" WorkUnitID="{AAC116AF-1552-4FCA-89BA-A82661378EE9}"/>
-							<Position X="4" Y="6"/>
 						</Module>
 						<Module>
 							<ObjectRef Name="UI Select" ID="{62E35D08-B994-41A2-A496-17A2DE116BEE}" WorkUnitID="{AAC116AF-1552-4FCA-89BA-A82661378EE9}"/>

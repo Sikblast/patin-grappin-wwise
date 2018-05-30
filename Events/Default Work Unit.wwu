@@ -428,6 +428,35 @@
 						</Action>
 					</ChildrenList>
 				</Event>
+				<Event Name="Mute_Menu" ID="{A376C1B8-630B-4A29-86BD-78C3BFE634CA}">
+					<ChildrenList>
+						<Action Name="" ID="{B765F1EC-007E-4DE1-97AD-A8C6B9DC4FBB}" ShortID="473552003">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="4"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Menu" ID="{1D204941-3D76-4ACF-AB10-5D61E11A681C}" WorkUnitID="{AAC116AF-1552-4FCA-89BA-A82661378EE9}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="UnMute_Menu" ID="{D3DEAFD1-020C-4046-8EF1-9E42A3750DA9}">
+					<ChildrenList>
+						<Action Name="" ID="{A2E23F35-0AB9-49D8-B98C-94FE697D1DBB}" ShortID="297770824">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="5"/>
+								<Property Name="Scope" Type="int16" Value="1"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Menu" ID="{1D204941-3D76-4ACF-AB10-5D61E11A681C}" WorkUnitID="{AAC116AF-1552-4FCA-89BA-A82661378EE9}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
 			</ChildrenList>
 		</WorkUnit>
 	</Events>
