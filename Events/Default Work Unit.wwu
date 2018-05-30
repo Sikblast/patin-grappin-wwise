@@ -386,6 +386,48 @@
 						</Action>
 					</ChildrenList>
 				</Event>
+				<Event Name="Play_Menu" ID="{2AD3C0D6-1B67-4E08-AB73-6E431A7C545B}">
+					<ChildrenList>
+						<Action Name="" ID="{91E332C9-459E-4210-89E1-577CE6DA7318}" ShortID="927703554">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="1"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Menu" ID="{1D204941-3D76-4ACF-AB10-5D61E11A681C}" WorkUnitID="{AAC116AF-1552-4FCA-89BA-A82661378EE9}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Stop_Menu" ID="{4DF8A5F0-0E4B-4B33-95B4-976D67F3FBDB}">
+					<ChildrenList>
+						<Action Name="" ID="{C44CC2B8-4065-4B53-9E76-B24AF1A877B5}" ShortID="920387391">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="2"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Menu" ID="{1D204941-3D76-4ACF-AB10-5D61E11A681C}" WorkUnitID="{AAC116AF-1552-4FCA-89BA-A82661378EE9}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Play_Body_fall" ID="{2D8D426A-C39E-425F-BB28-E7FCE7AB3C95}">
+					<ChildrenList>
+						<Action Name="" ID="{4835962C-DEF6-46C9-BCC7-C25D3DE41B4F}" ShortID="98568119">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="1"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Body fall" ID="{DD6782E5-BEC8-4137-ACC1-BACB52C953D4}" WorkUnitID="{AAC116AF-1552-4FCA-89BA-A82661378EE9}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
 			</ChildrenList>
 		</WorkUnit>
 	</Events>

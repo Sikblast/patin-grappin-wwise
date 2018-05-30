@@ -77,6 +77,26 @@
 							<ObjectRef Name="Speed RTPC" ID="{03119A7D-D04B-4AA0-B9F0-8C75597D30A5}" WorkUnitID="{AAC116AF-1552-4FCA-89BA-A82661378EE9}"/>
 							<Position X="4" Y="2"/>
 						</Module>
+						<Module>
+							<ObjectRef Name="Menu" ID="{1D204941-3D76-4ACF-AB10-5D61E11A681C}" WorkUnitID="{AAC116AF-1552-4FCA-89BA-A82661378EE9}"/>
+							<Position X="4" Y="3"/>
+						</Module>
+						<Module>
+							<ObjectRef Name="UI Off" ID="{F830BEE5-C5FA-48A4-B264-51B495CE24A0}" WorkUnitID="{AAC116AF-1552-4FCA-89BA-A82661378EE9}"/>
+							<Position X="4" Y="4"/>
+						</Module>
+						<Module>
+							<ObjectRef Name="UI Check" ID="{073C5E08-A817-4061-AF14-D636DF534DA5}" WorkUnitID="{AAC116AF-1552-4FCA-89BA-A82661378EE9}"/>
+							<Position X="4" Y="5"/>
+						</Module>
+						<Module>
+							<ObjectRef Name="UI On" ID="{8F95CC0D-D409-440F-B36A-9925EAABD88B}" WorkUnitID="{AAC116AF-1552-4FCA-89BA-A82661378EE9}"/>
+							<Position X="4" Y="6"/>
+						</Module>
+						<Module>
+							<ObjectRef Name="UI Select" ID="{62E35D08-B994-41A2-A496-17A2DE116BEE}" WorkUnitID="{AAC116AF-1552-4FCA-89BA-A82661378EE9}"/>
+							<Position X="4" Y="7"/>
+						</Module>
 					</ModuleList>
 					<RTPCValueList ShowAll="true">
 						<RTPCValue>
