@@ -27,6 +27,7 @@
 			<Path>soundbank.bnk</Path>
 			<IncludedEvents>
 				<Event Id="1916066640" Name="Mute_FX_Mix" ObjectPath="\Events\Default Work Unit\Mute_FX_Mix" MaxAttenuation="0.000000"/>
+				<Event Id="2187661876" Name="Mute_Menu" ObjectPath="\Events\Default Work Unit\Mute_Menu" MaxAttenuation="0.000000"/>
 				<Event Id="3757397881" Name="Mute_Music_Mix" ObjectPath="\Events\Default Work Unit\Mute_Music_Mix" MaxAttenuation="0.000000"/>
 				<Event Id="1359610330" Name="Play_Body_fall" ObjectPath="\Events\Default Work Unit\Play_Body_fall"/>
 				<Event Id="2009303588" Name="Play_Boost_Go" ObjectPath="\Events\Default Work Unit\Play_Boost_Go"/>
@@ -55,6 +56,7 @@
 				<Event Id="3761401043" Name="Stop_Music_Placeholder" ObjectPath="\Events\Default Work Unit\Stop_Music_Placeholder" MaxAttenuation="0.000000"/>
 				<Event Id="3670569509" Name="Stop_Speed_RTPC" ObjectPath="\Events\Default Work Unit\Stop_Speed_RTPC" MaxAttenuation="0.000000"/>
 				<Event Id="128514151" Name="UnMute_FX_Mix" ObjectPath="\Events\Default Work Unit\UnMute_FX_Mix" MaxAttenuation="0.000000"/>
+				<Event Id="3499717431" Name="UnMute_Menu" ObjectPath="\Events\Default Work Unit\UnMute_Menu" MaxAttenuation="0.000000"/>
 				<Event Id="4240227532" Name="UnMute_Music_Mix" ObjectPath="\Events\Default Work Unit\UnMute_Music_Mix" MaxAttenuation="0.000000"/>
 			</IncludedEvents>
 			<ReferencedStreamedFiles>
@@ -99,7 +101,7 @@
 				</File>
 				<File Id="231694797" Language="SFX">
 					<ShortName>Menu.wav</ShortName>
-					<Path>SFX\Menu_023F0DE0.wem</Path>
+					<Path>SFX\Menu_EAED1AB7.wem</Path>
 				</File>
 				<File Id="250184705" Language="SFX">
 					<ShortName>ICE Skate scrape two legs peel 05.wav</ShortName>

@@ -394,7 +394,7 @@
 							</PropertyList>
 							<ReferenceList>
 								<Reference Name="Target">
-									<ObjectRef Name="Menu" ID="{1D204941-3D76-4ACF-AB10-5D61E11A681C}" WorkUnitID="{AAC116AF-1552-4FCA-89BA-A82661378EE9}"/>
+									<ObjectRef Name="Menu1" ID="{1D204941-3D76-4ACF-AB10-5D61E11A681C}" WorkUnitID="{AAC116AF-1552-4FCA-89BA-A82661378EE9}"/>
 								</Reference>
 							</ReferenceList>
 						</Action>
@@ -408,7 +408,7 @@
 							</PropertyList>
 							<ReferenceList>
 								<Reference Name="Target">
-									<ObjectRef Name="Menu" ID="{1D204941-3D76-4ACF-AB10-5D61E11A681C}" WorkUnitID="{AAC116AF-1552-4FCA-89BA-A82661378EE9}"/>
+									<ObjectRef Name="Menu1" ID="{1D204941-3D76-4ACF-AB10-5D61E11A681C}" WorkUnitID="{AAC116AF-1552-4FCA-89BA-A82661378EE9}"/>
 								</Reference>
 							</ReferenceList>
 						</Action>
@@ -436,7 +436,7 @@
 							</PropertyList>
 							<ReferenceList>
 								<Reference Name="Target">
-									<ObjectRef Name="Menu" ID="{1D204941-3D76-4ACF-AB10-5D61E11A681C}" WorkUnitID="{AAC116AF-1552-4FCA-89BA-A82661378EE9}"/>
+									<ObjectRef Name="Menu1" ID="{1D204941-3D76-4ACF-AB10-5D61E11A681C}" WorkUnitID="{AAC116AF-1552-4FCA-89BA-A82661378EE9}"/>
 								</Reference>
 							</ReferenceList>
 						</Action>
@@ -451,7 +451,7 @@
 							</PropertyList>
 							<ReferenceList>
 								<Reference Name="Target">
-									<ObjectRef Name="Menu" ID="{1D204941-3D76-4ACF-AB10-5D61E11A681C}" WorkUnitID="{AAC116AF-1552-4FCA-89BA-A82661378EE9}"/>
+									<ObjectRef Name="Menu1" ID="{1D204941-3D76-4ACF-AB10-5D61E11A681C}" WorkUnitID="{AAC116AF-1552-4FCA-89BA-A82661378EE9}"/>
 								</Reference>
 							</ReferenceList>
 						</Action>
