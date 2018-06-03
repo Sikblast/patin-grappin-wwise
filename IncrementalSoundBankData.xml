@@ -4,7 +4,7 @@
 		<Banks>
 			<Language ID="393239870">
 				<File Name="Init" Hash="4023852366" Timestamp="1527864182"/>
-				<File Name="soundbank" Hash="2514954266" Timestamp="1527864182"/>
+				<File Name="soundbank" Hash="1828671206" Timestamp="1528038114"/>
 			</Language>
 		</Banks>
 		<XMLInfo>
@@ -13,7 +13,7 @@
 				<File Name="soundbank" Hash="1877096552" Timestamp="1526474723"/>
 			</Language>
 			<Language ID="-1">
-				<File Name="" Hash="3448545047" Timestamp="1527864182"/>
+				<File Name="" Hash="3418094842" Timestamp="1528038114"/>
 			</Language>
 		</XMLInfo>
 		<JSONInfo>

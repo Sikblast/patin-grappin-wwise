@@ -113,7 +113,7 @@
 						</RTPCValue>
 						<RTPCValue>
 							<GameParameterRef Name="Speed_RTPC" ID="{BA0BBB9B-0B29-45E6-B525-D2B9ACECDDFA}"/>
-							<Value>0.668594902749832</Value>
+							<Value>4.16666666666666E-02</Value>
 						</RTPCValue>
 						<RTPCValue>
 							<GameParameterRef Name="SS_Air_Fury" ID="{A2AE79DC-CA3A-46BA-9652-9986C322A87B}"/>
