@@ -124,6 +124,10 @@
 					<ShortName>QP01 0006 Wind strong.wav</ShortName>
 					<Path>SFX\QP01 0006 Wind strong_023F0DE0.wem</Path>
 				</File>
+				<File Id="408832195" Language="SFX">
+					<ShortName>TUTO.wav</ShortName>
+					<Path>SFX\TUTO_EAED1AB7.wem</Path>
+				</File>
 				<File Id="415498569" Language="SFX">
 					<ShortName>Whoosh grappin.wav</ShortName>
 					<Path>SFX\Whoosh grappin_38A0F669.wem</Path>
@@ -175,10 +179,6 @@
 				<File Id="712227730" Language="SFX">
 					<ShortName>Turbo Load.wav</ShortName>
 					<Path>SFX\Turbo Load_7BAD9383.wem</Path>
-				</File>
-				<File Id="776603214" Language="SFX">
-					<ShortName>Patin tuto.wav</ShortName>
-					<Path>SFX\Patin tuto_390B20B9.wem</Path>
 				</File>
 				<File Id="800749427" Language="SFX">
 					<ShortName>UI Select.wav</ShortName>

@@ -1804,6 +1804,27 @@
 									<AudioFile>TUTO.wav</AudioFile>
 								</AudioFileSource>
 							</ChildrenList>
+							<StateInfo>
+								<StateGroupList>
+									<StateGroupInfo>
+										<StateGroupRef Name="Music" ID="{19718248-DE8C-4C33-B5DA-474B2C471E0F}"/>
+									</StateGroupInfo>
+								</StateGroupList>
+								<CustomStateList>
+									<CustomState>
+										<StateRef Name="in_game" ID="{CA893CFC-9371-4C51-9947-5B71DC0BE4C8}"/>
+										<State Name="" ID="{E1E8B17D-976F-4326-BABA-3947C5941FF8}" ShortID="969163686"/>
+									</CustomState>
+									<CustomState>
+										<StateRef Name="off_game" ID="{F55AFC1B-7CAF-4F1B-849C-F85B5E772E58}"/>
+										<State Name="" ID="{01B1FFB3-CDC8-457D-A362-5B4FBFE37705}" ShortID="636574061">
+											<PropertyList>
+												<Property Name="Lowpass" Type="int16" Value="62"/>
+											</PropertyList>
+										</State>
+									</CustomState>
+								</CustomStateList>
+							</StateInfo>
 							<ActiveSourceList>
 								<ActiveSource Name="TUTO" ID="{0B1DBB05-91BE-4E40-AE04-3C447BC694EE}" Platform="Linked"/>
 							</ActiveSourceList>
