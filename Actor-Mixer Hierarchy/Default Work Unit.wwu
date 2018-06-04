@@ -1779,6 +1779,7 @@
 						</Sound>
 						<Sound Name="Tuto" ID="{E505FCED-DF90-476A-BC93-D7D166D3561D}" ShortID="229413988">
 							<PropertyList>
+								<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
 								<Property Name="Volume" Type="Real64">
 									<ValueList>
 										<Value>-7</Value>
