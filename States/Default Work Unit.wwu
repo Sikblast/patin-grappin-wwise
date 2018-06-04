@@ -13,13 +13,13 @@
 						<Transition>
 							<StartState Name="in_game" ID="{CA893CFC-9371-4C51-9947-5B71DC0BE4C8}"/>
 							<EndState Name="off_game" ID="{F55AFC1B-7CAF-4F1B-849C-F85B5E772E58}"/>
-							<Time>0.3</Time>
+							<Time>0.15</Time>
 							<IsShared>false</IsShared>
 						</Transition>
 						<Transition>
 							<StartState Name="off_game" ID="{F55AFC1B-7CAF-4F1B-849C-F85B5E772E58}"/>
 							<EndState Name="in_game" ID="{CA893CFC-9371-4C51-9947-5B71DC0BE4C8}"/>
-							<Time>0.3</Time>
+							<Time>0.15</Time>
 							<IsShared>false</IsShared>
 						</Transition>
 					</TransitionList>
