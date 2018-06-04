@@ -52,7 +52,7 @@
 									<PropertyList>
 										<Property Name="Volume" Type="Real64">
 											<ValueList>
-												<Value>-1</Value>
+												<Value>-2</Value>
 											</ValueList>
 										</Property>
 									</PropertyList>
@@ -1751,6 +1751,10 @@
 									<Language>SFX</Language>
 									<AudioFile>Patin Grappin Ingame mix.wav</AudioFile>
 								</AudioFileSource>
+								<AudioFileSource Name="Patin Grappin Final" ID="{DEF06BFE-569F-4A75-8896-8A01DCA8CAD8}" ShortID="795177804">
+									<Language>SFX</Language>
+									<AudioFile>Patin Grappin Final.wav</AudioFile>
+								</AudioFileSource>
 							</ChildrenList>
 							<StateInfo>
 								<StateGroupList>
@@ -1774,7 +1778,7 @@
 								</CustomStateList>
 							</StateInfo>
 							<ActiveSourceList>
-								<ActiveSource Name="Patin Grappin Ingame mix" ID="{746C015A-4C56-4601-BAFD-969572CDBA29}" Platform="Linked"/>
+								<ActiveSource Name="Patin Grappin Final" ID="{DEF06BFE-569F-4A75-8896-8A01DCA8CAD8}" Platform="Linked"/>
 							</ActiveSourceList>
 						</Sound>
 						<Sound Name="Menu1" ID="{1D204941-3D76-4ACF-AB10-5D61E11A681C}" ShortID="282392397">

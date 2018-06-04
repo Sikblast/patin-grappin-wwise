@@ -116,10 +116,6 @@
 					<ShortName>ICE Skate scrape two legs peel 17.wav</ShortName>
 					<Path>SFX\ICE Skate scrape two legs peel 17_545D2DC6.wem</Path>
 				</File>
-				<File Id="309602678" Language="SFX">
-					<ShortName>Patin Grappin Ingame mix.wav</ShortName>
-					<Path>SFX\Patin Grappin Ingame mix_EAED1AB7.wem</Path>
-				</File>
 				<File Id="365528086" Language="SFX">
 					<ShortName>QP01 0006 Wind strong.wav</ShortName>
 					<Path>SFX\QP01 0006 Wind strong_023F0DE0.wem</Path>
@@ -179,6 +175,10 @@
 				<File Id="712227730" Language="SFX">
 					<ShortName>Turbo Load.wav</ShortName>
 					<Path>SFX\Turbo Load_7BAD9383.wem</Path>
+				</File>
+				<File Id="795177804" Language="SFX">
+					<ShortName>Patin Grappin Final.wav</ShortName>
+					<Path>SFX\Patin Grappin Final_EAED1AB7.wem</Path>
 				</File>
 				<File Id="800749427" Language="SFX">
 					<ShortName>UI Select.wav</ShortName>
