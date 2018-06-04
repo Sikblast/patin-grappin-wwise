@@ -1158,9 +1158,17 @@
 											<Language>SFX</Language>
 											<AudioFile>Turbo Go.wav</AudioFile>
 										</AudioFileSource>
+										<AudioFileSource Name="Designed Ice - HIT22 - Rhythmic crack impact 2 - melodic" ID="{A267FBA0-E0E4-4BB4-8283-FE49075C2B8E}" ShortID="1069362544">
+											<PropertyList>
+												<Property Name="FadeOutDuration" Type="Real64" Value="1.40302736928105"/>
+												<Property Name="TrimEnd" Type="Real64" Value="1.75036552892762"/>
+											</PropertyList>
+											<Language>SFX</Language>
+											<AudioFile>Designed Ice - HIT22 - Rhythmic crack impact 2 - melodic.wav</AudioFile>
+										</AudioFileSource>
 									</ChildrenList>
 									<ActiveSourceList>
-										<ActiveSource Name="Turbo Go" ID="{772846D0-B347-484E-A1D0-68D813739FC6}" Platform="Linked"/>
+										<ActiveSource Name="Designed Ice - HIT22 - Rhythmic crack impact 2 - melodic" ID="{A267FBA0-E0E4-4BB4-8283-FE49075C2B8E}" Platform="Linked"/>
 									</ActiveSourceList>
 								</Sound>
 								<Sound Name="Speed" ID="{EDE2156B-C310-465C-BA8A-71DD1945A636}" ShortID="722014985">
@@ -1622,6 +1630,37 @@
 								</Sound>
 							</ChildrenList>
 						</Folder>
+						<Sound Name="Victory" ID="{12265868-670B-434D-805A-C4307992EC84}" ShortID="624248257">
+							<PropertyList>
+								<Property Name="Volume" Type="Real64">
+									<ValueList>
+										<Value>-7</Value>
+									</ValueList>
+								</Property>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{7DD98DC9-8438-4E9D-9FB8-F37E23FBAE82}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{BE0D8A64-9D86-44BD-BD23-F83C3E6F2572}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="VICTORY" ID="{3640B8BA-76CD-4CF5-B778-B293BB2E9FA2}" ShortID="890106974">
+									<PropertyList>
+										<Property Name="FadeInDuration" Type="Real64" Value="1.27864923747277E-02"/>
+										<Property Name="FadeOutDuration" Type="Real64" Value="0.568998910675382"/>
+										<Property Name="TrimBegin" Type="Real64" Value="0.575392156862744"/>
+									</PropertyList>
+									<Language>SFX</Language>
+									<AudioFile>VICTORY.wav</AudioFile>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="VICTORY" ID="{3640B8BA-76CD-4CF5-B778-B293BB2E9FA2}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
 					</ChildrenList>
 				</ActorMixer>
 				<ActorMixer Name="Music Mix" ID="{FB3642FB-5FEC-48A1-B9D0-385973F7DE59}" ShortID="404139950">
@@ -1639,7 +1678,7 @@
 								<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
 								<Property Name="Volume" Type="Real64">
 									<ValueList>
-										<Value>-6</Value>
+										<Value>-2</Value>
 									</ValueList>
 								</Property>
 							</PropertyList>
@@ -1736,6 +1775,36 @@
 							</ChildrenList>
 							<ActiveSourceList>
 								<ActiveSource Name="Menu" ID="{FA5D6D2E-7813-4D64-B379-0E1F2BACB0E6}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="Tuto" ID="{E505FCED-DF90-476A-BC93-D7D166D3561D}" ShortID="229413988">
+							<PropertyList>
+								<Property Name="Volume" Type="Real64">
+									<ValueList>
+										<Value>-7</Value>
+									</ValueList>
+								</Property>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{7DD98DC9-8438-4E9D-9FB8-F37E23FBAE82}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{BE0D8A64-9D86-44BD-BD23-F83C3E6F2572}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="Patin tuto" ID="{A9292A4D-FC59-47CA-9A11-206BC60BECC7}" ShortID="776603214">
+									<Language>SFX</Language>
+									<AudioFile>Patin tuto.wav</AudioFile>
+								</AudioFileSource>
+								<AudioFileSource Name="TUTO" ID="{0B1DBB05-91BE-4E40-AE04-3C447BC694EE}" ShortID="408832195">
+									<Language>SFX</Language>
+									<AudioFile>TUTO.wav</AudioFile>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="TUTO" ID="{0B1DBB05-91BE-4E40-AE04-3C447BC694EE}" Platform="Linked"/>
 							</ActiveSourceList>
 						</Sound>
 					</ChildrenList>

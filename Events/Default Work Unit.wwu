@@ -457,6 +457,76 @@
 						</Action>
 					</ChildrenList>
 				</Event>
+				<Event Name="Play_Victory" ID="{C71F060E-4ADB-4572-9A73-CBDF86CE3BFA}">
+					<ChildrenList>
+						<Action Name="" ID="{7D01F569-6EB7-4849-95A5-E78139DADC72}" ShortID="181829991">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="1"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Victory" ID="{12265868-670B-434D-805A-C4307992EC84}" WorkUnitID="{AAC116AF-1552-4FCA-89BA-A82661378EE9}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Play_Tuto" ID="{4CBC1D6C-655A-498B-AC8E-DC41CD147B0D}">
+					<ChildrenList>
+						<Action Name="" ID="{75031B85-AB9C-4FBD-A976-27489B8F8E47}" ShortID="919425517">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="1"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Tuto" ID="{E505FCED-DF90-476A-BC93-D7D166D3561D}" WorkUnitID="{AAC116AF-1552-4FCA-89BA-A82661378EE9}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Stop_Tuto" ID="{BBBAEEC2-97E8-4320-8915-0270F2DA0229}">
+					<ChildrenList>
+						<Action Name="" ID="{F6F236E0-2768-4CE8-9D24-E2B5F3377B34}" ShortID="107800157">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="2"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Tuto" ID="{E505FCED-DF90-476A-BC93-D7D166D3561D}" WorkUnitID="{AAC116AF-1552-4FCA-89BA-A82661378EE9}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Mute_music" ID="{0225F800-F84E-474A-96A0-8B0863E2A33D}">
+					<ChildrenList>
+						<Action Name="" ID="{2714E3BD-7D6B-49B9-9BBE-90C6E31C6EE1}" ShortID="497572964">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="4"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="music" ID="{F934AE8D-7838-41A4-9BDE-A4F4BA883CFB}" WorkUnitID="{EEF9980D-BE48-48A1-8C7B-8BD8CBC30646}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="UnMute_music" ID="{8A550275-E5E5-4098-8AC3-4AFA2402C7E8}">
+					<ChildrenList>
+						<Action Name="" ID="{D50503C5-1F1E-43A3-8692-2B4CF6CD39A6}" ShortID="102623258">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="5"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="music" ID="{F934AE8D-7838-41A4-9BDE-A4F4BA883CFB}" WorkUnitID="{EEF9980D-BE48-48A1-8C7B-8BD8CBC30646}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
 			</ChildrenList>
 		</WorkUnit>
 	</Events>

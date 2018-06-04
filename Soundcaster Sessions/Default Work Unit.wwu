@@ -26,6 +26,14 @@
 							<Position X="0" Y="4"/>
 						</Module>
 						<Module>
+							<ObjectRef Name="music" ID="{F934AE8D-7838-41A4-9BDE-A4F4BA883CFB}" WorkUnitID="{EEF9980D-BE48-48A1-8C7B-8BD8CBC30646}"/>
+							<Position X="0" Y="5"/>
+						</Module>
+						<Module>
+							<ObjectRef Name="Victory" ID="{12265868-670B-434D-805A-C4307992EC84}" WorkUnitID="{AAC116AF-1552-4FCA-89BA-A82661378EE9}"/>
+							<Position X="0" Y="6"/>
+						</Module>
+						<Module>
 							<ObjectRef Name="Normal" ID="{07A38D9D-1598-4FE4-8D39-3597C6185D3C}" WorkUnitID="{AAC116AF-1552-4FCA-89BA-A82661378EE9}"/>
 							<Position X="1" Y="0"/>
 						</Module>
@@ -40,6 +48,10 @@
 						<Module>
 							<ObjectRef Name="Patin Grappin Placeholder" ID="{91984F99-5EA6-492A-AB11-CE88071DB11B}" WorkUnitID="{EEF9980D-BE48-48A1-8C7B-8BD8CBC30646}"/>
 							<Position X="1" Y="4"/>
+						</Module>
+						<Module>
+							<ObjectRef Name="Patin Grappin Placeholder" ID="{91984F99-5EA6-492A-AB11-CE88071DB11B}" WorkUnitID="{EEF9980D-BE48-48A1-8C7B-8BD8CBC30646}"/>
+							<Position X="1" Y="5"/>
 						</Module>
 						<Module>
 							<ObjectRef Name="Fast" ID="{997603C6-CA42-4273-AD0F-7ED3C97DA665}" WorkUnitID="{AAC116AF-1552-4FCA-89BA-A82661378EE9}"/>
@@ -58,8 +70,16 @@
 							<Position X="2" Y="4"/>
 						</Module>
 						<Module>
+							<ObjectRef Name="Designed Ice - HIT22 - Rhythmic crack impact 2 - melodic" ID="{3CB0C41F-380A-4D0A-80EA-78B8EDB84568}" WorkUnitID="{EEF9980D-BE48-48A1-8C7B-8BD8CBC30646}"/>
+							<Position X="2" Y="5"/>
+						</Module>
+						<Module>
 							<ObjectRef Name="UI On" ID="{8F95CC0D-D409-440F-B36A-9925EAABD88B}" WorkUnitID="{AAC116AF-1552-4FCA-89BA-A82661378EE9}"/>
 							<Position X="2" Y="6"/>
+						</Module>
+						<Module>
+							<ObjectRef Name="UI Move placeholder" ID="{16CA91AD-23BD-4F63-BC53-3AA2C636F67F}" WorkUnitID="{AAC116AF-1552-4FCA-89BA-A82661378EE9}"/>
+							<Position X="3" Y="0"/>
 						</Module>
 						<Module>
 							<ObjectRef Name="Boost Go" ID="{712762CF-7E13-4C2F-92D6-EE23F0A5AD69}" WorkUnitID="{AAC116AF-1552-4FCA-89BA-A82661378EE9}"/>
@@ -78,16 +98,16 @@
 							<Position X="3" Y="6"/>
 						</Module>
 						<Module>
-							<ObjectRef Name="UI Move placeholder" ID="{16CA91AD-23BD-4F63-BC53-3AA2C636F67F}" WorkUnitID="{AAC116AF-1552-4FCA-89BA-A82661378EE9}"/>
+							<ObjectRef Name="Boost Load" ID="{BBABD279-6765-422C-B2D4-08C7636D1ED8}" WorkUnitID="{AAC116AF-1552-4FCA-89BA-A82661378EE9}"/>
 							<Position X="4" Y="0"/>
-						</Module>
-						<Module>
-							<ObjectRef Name="Speed RTPC" ID="{03119A7D-D04B-4AA0-B9F0-8C75597D30A5}" WorkUnitID="{AAC116AF-1552-4FCA-89BA-A82661378EE9}"/>
-							<Position X="4" Y="2"/>
 						</Module>
 						<Module>
 							<ObjectRef Name="Menu1" ID="{1D204941-3D76-4ACF-AB10-5D61E11A681C}" WorkUnitID="{AAC116AF-1552-4FCA-89BA-A82661378EE9}"/>
 							<Position X="4" Y="3"/>
+						</Module>
+						<Module>
+							<ObjectRef Name="Speed RTPC" ID="{03119A7D-D04B-4AA0-B9F0-8C75597D30A5}" WorkUnitID="{AAC116AF-1552-4FCA-89BA-A82661378EE9}"/>
+							<Position X="4" Y="4"/>
 						</Module>
 						<Module>
 							<ObjectRef Name="UI Check" ID="{073C5E08-A817-4061-AF14-D636DF534DA5}" WorkUnitID="{AAC116AF-1552-4FCA-89BA-A82661378EE9}"/>
@@ -150,6 +170,7 @@
 					</RTPCValueList>
 					<CurrentStateList ShowAll="true">
 						<CurrentStateRef Name="in_game" ID="{CA893CFC-9371-4C51-9947-5B71DC0BE4C8}"/>
+						<CurrentStateRef Name="Music" ID="{28DE099F-CE4B-4CB0-A911-62C6B363BE96}"/>
 					</CurrentStateList>
 					<CurrentSwitchList ShowAll="true"/>
 				</SoundcasterSession>

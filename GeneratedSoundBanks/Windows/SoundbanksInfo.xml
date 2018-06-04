@@ -28,6 +28,7 @@
 			<IncludedEvents>
 				<Event Id="1916066640" Name="Mute_FX_Mix" ObjectPath="\Events\Default Work Unit\Mute_FX_Mix" MaxAttenuation="0.000000"/>
 				<Event Id="2187661876" Name="Mute_Menu" ObjectPath="\Events\Default Work Unit\Mute_Menu" MaxAttenuation="0.000000"/>
+				<Event Id="2741649490" Name="Mute_music" ObjectPath="\Events\Default Work Unit\Mute_music" MaxAttenuation="0.000000"/>
 				<Event Id="3757397881" Name="Mute_Music_Mix" ObjectPath="\Events\Default Work Unit\Mute_Music_Mix" MaxAttenuation="0.000000"/>
 				<Event Id="1359610330" Name="Play_Body_fall" ObjectPath="\Events\Default Work Unit\Play_Body_fall"/>
 				<Event Id="2009303588" Name="Play_Boost_Go" ObjectPath="\Events\Default Work Unit\Play_Boost_Go"/>
@@ -45,18 +46,22 @@
 				<Event Id="4026345765" Name="Play_Slow" ObjectPath="\Events\Default Work Unit\Play_Slow"/>
 				<Event Id="977896755" Name="Play_Speed" ObjectPath="\Events\Default Work Unit\Play_Speed"/>
 				<Event Id="3687744535" Name="Play_Speed_RTPC" ObjectPath="\Events\Default Work Unit\Play_Speed_RTPC"/>
+				<Event Id="3240502920" Name="Play_Tuto" ObjectPath="\Events\Default Work Unit\Play_Tuto"/>
 				<Event Id="2791974965" Name="Play_UI_Check" ObjectPath="\Events\Default Work Unit\Play_UI_Check"/>
 				<Event Id="249738436" Name="Play_UI_Move" ObjectPath="\Events\Default Work Unit\Play_UI_Move"/>
 				<Event Id="999807850" Name="Play_UI_Move_01" ObjectPath="\Events\Default Work Unit\Play_UI_Move_01"/>
 				<Event Id="2573111414" Name="Play_UI_Off" ObjectPath="\Events\Default Work Unit\Play_UI_Off"/>
 				<Event Id="340097464" Name="Play_UI_On" ObjectPath="\Events\Default Work Unit\Play_UI_On"/>
 				<Event Id="3308548503" Name="Play_UI_Select" ObjectPath="\Events\Default Work Unit\Play_UI_Select"/>
+				<Event Id="2453267296" Name="Play_Victory" ObjectPath="\Events\Default Work Unit\Play_Victory"/>
 				<Event Id="348109976" Name="Stop_Boost_Load" ObjectPath="\Events\Default Work Unit\Stop_Boost_Load" MaxAttenuation="0.000000"/>
 				<Event Id="2914981333" Name="Stop_Menu" ObjectPath="\Events\Default Work Unit\Stop_Menu" MaxAttenuation="0.000000"/>
 				<Event Id="3761401043" Name="Stop_Music_Placeholder" ObjectPath="\Events\Default Work Unit\Stop_Music_Placeholder" MaxAttenuation="0.000000"/>
 				<Event Id="3670569509" Name="Stop_Speed_RTPC" ObjectPath="\Events\Default Work Unit\Stop_Speed_RTPC" MaxAttenuation="0.000000"/>
+				<Event Id="2165842026" Name="Stop_Tuto" ObjectPath="\Events\Default Work Unit\Stop_Tuto" MaxAttenuation="0.000000"/>
 				<Event Id="128514151" Name="UnMute_FX_Mix" ObjectPath="\Events\Default Work Unit\UnMute_FX_Mix" MaxAttenuation="0.000000"/>
 				<Event Id="3499717431" Name="UnMute_Menu" ObjectPath="\Events\Default Work Unit\UnMute_Menu" MaxAttenuation="0.000000"/>
+				<Event Id="1441918971" Name="UnMute_music" ObjectPath="\Events\Default Work Unit\UnMute_music" MaxAttenuation="0.000000"/>
 				<Event Id="4240227532" Name="UnMute_Music_Mix" ObjectPath="\Events\Default Work Unit\UnMute_Music_Mix" MaxAttenuation="0.000000"/>
 			</IncludedEvents>
 			<ReferencedStreamedFiles>
@@ -110,10 +115,6 @@
 				<File Id="258378051" Language="SFX">
 					<ShortName>ICE Skate scrape two legs peel 17.wav</ShortName>
 					<Path>SFX\ICE Skate scrape two legs peel 17_545D2DC6.wem</Path>
-				</File>
-				<File Id="277726748" Language="SFX">
-					<ShortName>Turbo Go.wav</ShortName>
-					<Path>SFX\Turbo Go_545D2DC6.wem</Path>
 				</File>
 				<File Id="309602678" Language="SFX">
 					<ShortName>Patin Grappin Ingame mix.wav</ShortName>
@@ -175,6 +176,10 @@
 					<ShortName>Turbo Load.wav</ShortName>
 					<Path>SFX\Turbo Load_7BAD9383.wem</Path>
 				</File>
+				<File Id="776603214" Language="SFX">
+					<ShortName>Patin tuto.wav</ShortName>
+					<Path>SFX\Patin tuto_390B20B9.wem</Path>
+				</File>
 				<File Id="800749427" Language="SFX">
 					<ShortName>UI Select.wav</ShortName>
 					<Path>SFX\UI Select_545D2DC6.wem</Path>
@@ -195,6 +200,10 @@
 					<ShortName>QP01 0002 Wind mod soft.wav</ShortName>
 					<Path>SFX\QP01 0002 Wind mod soft_023F0DE0.wem</Path>
 				</File>
+				<File Id="890106974" Language="SFX">
+					<ShortName>VICTORY.wav</ShortName>
+					<Path>SFX\VICTORY_B6DA5082.wem</Path>
+				</File>
 				<File Id="894354986" Language="SFX">
 					<ShortName>ICE Skate scrape two legs peel 04.wav</ShortName>
 					<Path>SFX\ICE Skate scrape two legs peel 04_53CCC523.wem</Path>
@@ -214,6 +223,10 @@
 				<File Id="1034043647" Language="SFX">
 					<ShortName>Ice Skate Scrape 11.wav</ShortName>
 					<Path>SFX\Ice Skate Scrape 11_545D2DC6.wem</Path>
+				</File>
+				<File Id="1069362544" Language="SFX">
+					<ShortName>Designed Ice - HIT22 - Rhythmic crack impact 2 - melodic.wav</ShortName>
+					<Path>SFX\Designed Ice - HIT22 - Rhythmic crack impact 2 - melodic_EC136282.wem</Path>
 				</File>
 			</IncludedMemoryFiles>
 		</SoundBank>

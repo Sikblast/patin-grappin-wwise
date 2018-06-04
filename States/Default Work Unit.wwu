@@ -24,6 +24,12 @@
 						</Transition>
 					</TransitionList>
 				</StateGroup>
+				<StateGroup Name="Stinger" ID="{A6893613-46E6-4D19-9F80-B7772B277D9D}">
+					<ChildrenList>
+						<State Name="None" ID="{546AA50D-E073-46FD-9228-5F76163D5A66}"/>
+						<State Name="Music" ID="{28DE099F-CE4B-4CB0-A911-62C6B363BE96}"/>
+					</ChildrenList>
+				</StateGroup>
 			</ChildrenList>
 		</WorkUnit>
 	</States>

@@ -9,16 +9,21 @@ Event	ID	Name			Wwise Object Path	Notes
 	1175668519	Play_Normal			\Default Work Unit\Play_Normal	
 	1278378707	Play_Menu			\Default Work Unit\Play_Menu	
 	1359610330	Play_Body_fall			\Default Work Unit\Play_Body_fall	
+	1441918971	UnMute_music			\Default Work Unit\UnMute_music	
 	1916066640	Mute_FX_Mix			\Default Work Unit\Mute_FX_Mix	
 	2009303588	Play_Boost_Go			\Default Work Unit\Play_Boost_Go	
+	2165842026	Stop_Tuto			\Default Work Unit\Stop_Tuto	
 	2187661876	Mute_Menu			\Default Work Unit\Mute_Menu	
 	2305114950	Play_Impact_flap			\Default Work Unit\Play_Impact_flap	
 	2436188148	Play_Ice_Skate_Dirt			\Default Work Unit\Play_Ice_Skate_Dirt	
 	2444050992	Play_Ice_Skate_Move			\Default Work Unit\Play_Ice_Skate_Move	
+	2453267296	Play_Victory			\Default Work Unit\Play_Victory	
 	2573111414	Play_UI_Off			\Default Work Unit\Play_UI_Off	
 	2728825252	Play_Fast			\Default Work Unit\Play_Fast	
+	2741649490	Mute_music			\Default Work Unit\Mute_music	
 	2791974965	Play_UI_Check			\Default Work Unit\Play_UI_Check	
 	2914981333	Stop_Menu			\Default Work Unit\Stop_Menu	
+	3240502920	Play_Tuto			\Default Work Unit\Play_Tuto	
 	3308548503	Play_UI_Select			\Default Work Unit\Play_UI_Select	
 	3373848412	Play_Grab_Speed			\Default Work Unit\Play_Grab_Speed	
 	3499717431	UnMute_Menu			\Default Work Unit\UnMute_Menu	
@@ -62,7 +67,6 @@ In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
 	231694797	Menu1	C:\Users\robin.cugniet\Documents\Patin Grappin\patin-grappin-wwise\.cache\Windows\SFX\Menu_EAED1AB7.wem		\Actor-Mixer Hierarchy\Default Work Unit\Music Mix\Menu1		9216144
 	250184705	ICE Skate scrape two legs peel 05	C:\Users\robin.cugniet\Documents\Patin Grappin\patin-grappin-wwise\.cache\Windows\SFX\ICE Skate scrape two legs peel 05_AC7C85B4.wem		\Actor-Mixer Hierarchy\Default Work Unit\FX Mix\IG\Ice Skate\Fast\ICE Skate scrape two legs peel 05		60316
 	258378051	ICE Skate scrape two legs peel 17	C:\Users\robin.cugniet\Documents\Patin Grappin\patin-grappin-wwise\.cache\Windows\SFX\ICE Skate scrape two legs peel 17_545D2DC6.wem		\Actor-Mixer Hierarchy\Default Work Unit\FX Mix\IG\Ice Skate\Fast\ICE Skate scrape two legs peel 17		50944
-	277726748	Boost Go	C:\Users\robin.cugniet\Documents\Patin Grappin\patin-grappin-wwise\.cache\Windows\SFX\Turbo Go_545D2DC6.wem		\Actor-Mixer Hierarchy\Default Work Unit\FX Mix\IG\Boost Go		126372
 	309602678	Music Placeholder	C:\Users\robin.cugniet\Documents\Patin Grappin\patin-grappin-wwise\.cache\Windows\SFX\Patin Grappin Ingame mix_EAED1AB7.wem		\Actor-Mixer Hierarchy\Default Work Unit\Music Mix\Music Placeholder		27648192
 	365528086	QP01 0006 Wind strong	C:\Users\robin.cugniet\Documents\Patin Grappin\patin-grappin-wwise\.cache\Windows\SFX\QP01 0006 Wind strong_023F0DE0.wem		\Actor-Mixer Hierarchy\Default Work Unit\FX Mix\Speed RTPC\QP01 0006 Wind strong		9278498
 	415498569	Whoosh grappin	C:\Users\robin.cugniet\Documents\Patin Grappin\patin-grappin-wwise\.cache\Windows\SFX\Whoosh grappin_38A0F669.wem		\Actor-Mixer Hierarchy\Default Work Unit\FX Mix\IG\Grab Impact\Whoosh grappin		14178
@@ -78,16 +82,19 @@ In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
 	687227318	ICE Skate scrape two legs peel 06	C:\Users\robin.cugniet\Documents\Patin Grappin\patin-grappin-wwise\.cache\Windows\SFX\ICE Skate scrape two legs peel 06_5C194F71.wem		\Actor-Mixer Hierarchy\Default Work Unit\FX Mix\IG\Ice Skate\Fast\ICE Skate scrape two legs peel 06		45486
 	712193689	Ice Skate Scrape 10	C:\Users\robin.cugniet\Documents\Patin Grappin\patin-grappin-wwise\.cache\Windows\SFX\Ice Skate Scrape 10_57891206.wem		\Actor-Mixer Hierarchy\Default Work Unit\FX Mix\IG\Ice Skate\Normal\Ice Skate Scrape 10		18644
 	712227730	Boost Load	C:\Users\robin.cugniet\Documents\Patin Grappin\patin-grappin-wwise\.cache\Windows\SFX\Turbo Load_7BAD9383.wem		\Actor-Mixer Hierarchy\Default Work Unit\FX Mix\IG\Boost Load		108160
+	776603214	Tuto	C:\Users\robin.cugniet\Documents\Patin Grappin\patin-grappin-wwise\.cache\Windows\SFX\Patin tuto_390B20B9.wem		\Actor-Mixer Hierarchy\Default Work Unit\Music Mix\Tuto		11342964
 	800749427	UI Select	C:\Users\robin.cugniet\Documents\Patin Grappin\patin-grappin-wwise\.cache\Windows\SFX\UI Select_545D2DC6.wem		\Actor-Mixer Hierarchy\Default Work Unit\FX Mix\Menu\UI Select		23208
 	831621101	ICE Skate scrape two legs peel 33	C:\Users\robin.cugniet\Documents\Patin Grappin\patin-grappin-wwise\.cache\Windows\SFX\ICE Skate scrape two legs peel 33_E687B5F5.wem		\Actor-Mixer Hierarchy\Default Work Unit\FX Mix\IG\Ice Skate\Fast\ICE Skate scrape two legs peel 33		40278
 	843146570	Ice Skate Reception	C:\Users\robin.cugniet\Documents\Patin Grappin\patin-grappin-wwise\.cache\Windows\SFX\Ice Skate Reception 9_983F7D85.wem		\Actor-Mixer Hierarchy\Default Work Unit\FX Mix\IG\Ice Skate Reception		34474
 	844477299	ICE Skate scrape two legs peel 18	C:\Users\robin.cugniet\Documents\Patin Grappin\patin-grappin-wwise\.cache\Windows\SFX\ICE Skate scrape two legs peel 18_05C65831.wem		\Actor-Mixer Hierarchy\Default Work Unit\FX Mix\IG\Ice Skate\Fast\ICE Skate scrape two legs peel 18		45900
 	861902806	QP01 0002 Wind mod soft	C:\Users\robin.cugniet\Documents\Patin Grappin\patin-grappin-wwise\.cache\Windows\SFX\QP01 0002 Wind mod soft_023F0DE0.wem		\Actor-Mixer Hierarchy\Default Work Unit\FX Mix\Speed RTPC\QP01 0002 Wind mod soft		5537728
+	890106974	Victory	C:\Users\robin.cugniet\Documents\Patin Grappin\patin-grappin-wwise\.cache\Windows\SFX\VICTORY_B6DA5082.wem		\Actor-Mixer Hierarchy\Default Work Unit\FX Mix\Victory		789994
 	894354986	ICE Skate scrape two legs peel 04	C:\Users\robin.cugniet\Documents\Patin Grappin\patin-grappin-wwise\.cache\Windows\SFX\ICE Skate scrape two legs peel 04_53CCC523.wem		\Actor-Mixer Hierarchy\Default Work Unit\FX Mix\IG\Ice Skate\Fast\ICE Skate scrape two legs peel 04		66066
 	927778677	ICE Skate scrape two legs peel 23	C:\Users\robin.cugniet\Documents\Patin Grappin\patin-grappin-wwise\.cache\Windows\SFX\ICE Skate scrape two legs peel 23_1AE48D6C.wem		\Actor-Mixer Hierarchy\Default Work Unit\FX Mix\IG\Ice Skate\Fast\ICE Skate scrape two legs peel 23		40484
 	947221834	Ice Skate Scrape 4	C:\Users\robin.cugniet\Documents\Patin Grappin\patin-grappin-wwise\.cache\Windows\SFX\Ice Skate Scrape 4_545D2DC6.wem		\Actor-Mixer Hierarchy\Default Work Unit\FX Mix\IG\Ice Skate\Normal\Ice Skate Scrape 4		32458
 	1030183338	Body fall	C:\Users\robin.cugniet\Documents\Patin Grappin\patin-grappin-wwise\.cache\Windows\SFX\Body fall_F88EB9AB.wem		\Actor-Mixer Hierarchy\Default Work Unit\FX Mix\IG\Body fall		30410
 	1034043647	Ice Skate Scrape 11	C:\Users\robin.cugniet\Documents\Patin Grappin\patin-grappin-wwise\.cache\Windows\SFX\Ice Skate Scrape 11_545D2DC6.wem		\Actor-Mixer Hierarchy\Default Work Unit\FX Mix\IG\Ice Skate\Normal\Ice Skate Scrape 11		32458
+	1069362544	Boost Go	C:\Users\robin.cugniet\Documents\Patin Grappin\patin-grappin-wwise\.cache\Windows\SFX\Designed Ice - HIT22 - Rhythmic crack impact 2 - melodic_EC136282.wem		\Actor-Mixer Hierarchy\Default Work Unit\FX Mix\IG\Boost Go		168196
 
 Streamed Audio	ID	Name	Audio source file	Generated audio file	Wwise Object Path	Notes
 	553629144	ESM_Game_Item_or_Coin_6_Cartoon_Casino_Arcade_Kid_App_Mobile (2)	C:\Users\robin.cugniet\Documents\Patin Grappin\patin-grappin-wwise\.cache\Windows\SFX\ESM_Game_Item_or_Coin_6_Cartoon_Casino_Arcade_Kid_App_Mobile (2)_545D2DC6.wem	553629144.wem	\Actor-Mixer Hierarchy\Default Work Unit\FX Mix\IG\Grab Impact\ESM_Game_Item_or_Coin_6_Cartoon_Casino_Arcade_Kid_App_Mobile (2)	
