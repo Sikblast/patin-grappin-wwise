@@ -1507,7 +1507,7 @@
 								</Reference>
 							</ReferenceList>
 							<ChildrenList>
-								<Sound Name="QP01 0002 Wind mod soft" ID="{CD515D02-2424-431C-ADBE-FDAE20179DF8}" ShortID="593434842">
+								<Sound Name="Soft" ID="{CD515D02-2424-431C-ADBE-FDAE20179DF8}" ShortID="593434842">
 									<PropertyList>
 										<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
 										<Property Name="Volume" Type="Real64">
@@ -1560,7 +1560,7 @@
 										<ActiveSource Name="QP01 0002 Wind mod soft" ID="{935ADA6C-E6F9-443F-9F62-D35752572287}" Platform="Linked"/>
 									</ActiveSourceList>
 								</Sound>
-								<Sound Name="QP01 0006 Wind strong" ID="{EC35D814-FB84-402E-B749-3B5DE9C10B41}" ShortID="216972959">
+								<Sound Name="Strong" ID="{EC35D814-FB84-402E-B749-3B5DE9C10B41}" ShortID="216972959">
 									<PropertyList>
 										<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
 										<Property Name="OverrideEffect" Type="bool" Value="True"/>
@@ -1607,7 +1607,7 @@
 									</ReferenceList>
 									<BlendTrackAssocList>
 										<BlendTrackAssoc>
-											<ItemRef Name="QP01 0002 Wind mod soft" ID="{CD515D02-2424-431C-ADBE-FDAE20179DF8}"/>
+											<ItemRef Name="Soft" ID="{CD515D02-2424-431C-ADBE-FDAE20179DF8}"/>
 											<CrossfadingInfo>
 												<LeftEdgePos>0</LeftEdgePos>
 												<LeftFadingMode>Automatic</LeftFadingMode>
@@ -1616,7 +1616,7 @@
 											</CrossfadingInfo>
 										</BlendTrackAssoc>
 										<BlendTrackAssoc>
-											<ItemRef Name="QP01 0006 Wind strong" ID="{EC35D814-FB84-402E-B749-3B5DE9C10B41}"/>
+											<ItemRef Name="Strong" ID="{EC35D814-FB84-402E-B749-3B5DE9C10B41}"/>
 											<CrossfadingInfo>
 												<LeftEdgePos>0.152777777777778</LeftEdgePos>
 												<LeftFadingMode>Automatic</LeftFadingMode>

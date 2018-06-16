@@ -26,10 +26,6 @@
 							<Position X="0" Y="4"/>
 						</Module>
 						<Module>
-							<ObjectRef Name="music" ID="{F934AE8D-7838-41A4-9BDE-A4F4BA883CFB}" WorkUnitID="{EEF9980D-BE48-48A1-8C7B-8BD8CBC30646}"/>
-							<Position X="0" Y="5"/>
-						</Module>
-						<Module>
 							<ObjectRef Name="Victory" ID="{12265868-670B-434D-805A-C4307992EC84}" WorkUnitID="{AAC116AF-1552-4FCA-89BA-A82661378EE9}"/>
 							<Position X="0" Y="6"/>
 						</Module>
@@ -46,14 +42,6 @@
 							<Position X="1" Y="2"/>
 						</Module>
 						<Module>
-							<ObjectRef Name="Patin Grappin Placeholder" ID="{91984F99-5EA6-492A-AB11-CE88071DB11B}" WorkUnitID="{EEF9980D-BE48-48A1-8C7B-8BD8CBC30646}"/>
-							<Position X="1" Y="4"/>
-						</Module>
-						<Module>
-							<ObjectRef Name="Patin Grappin Placeholder" ID="{91984F99-5EA6-492A-AB11-CE88071DB11B}" WorkUnitID="{EEF9980D-BE48-48A1-8C7B-8BD8CBC30646}"/>
-							<Position X="1" Y="5"/>
-						</Module>
-						<Module>
 							<ObjectRef Name="Fast" ID="{997603C6-CA42-4273-AD0F-7ED3C97DA665}" WorkUnitID="{AAC116AF-1552-4FCA-89BA-A82661378EE9}"/>
 							<Position X="2" Y="0"/>
 						</Module>
@@ -64,14 +52,6 @@
 						<Module>
 							<ObjectRef Name="Stop_Boost_Load" ID="{CB7F9D18-9E79-4C76-8E9D-42F61C74F2F1}" WorkUnitID="{21482B35-49C5-492A-9258-62C92B85A1C6}"/>
 							<Position X="2" Y="3"/>
-						</Module>
-						<Module>
-							<ObjectRef Name="Designed Ice - HIT22 - Rhythmic crack impact 2 - melodic" ID="{3CB0C41F-380A-4D0A-80EA-78B8EDB84568}" WorkUnitID="{EEF9980D-BE48-48A1-8C7B-8BD8CBC30646}"/>
-							<Position X="2" Y="4"/>
-						</Module>
-						<Module>
-							<ObjectRef Name="Designed Ice - HIT22 - Rhythmic crack impact 2 - melodic" ID="{3CB0C41F-380A-4D0A-80EA-78B8EDB84568}" WorkUnitID="{EEF9980D-BE48-48A1-8C7B-8BD8CBC30646}"/>
-							<Position X="2" Y="5"/>
 						</Module>
 						<Module>
 							<ObjectRef Name="UI On" ID="{8F95CC0D-D409-440F-B36A-9925EAABD88B}" WorkUnitID="{AAC116AF-1552-4FCA-89BA-A82661378EE9}"/>
@@ -169,6 +149,7 @@
 						</RTPCValue>
 					</RTPCValueList>
 					<CurrentStateList ShowAll="true">
+						<CurrentStateRef Name="Fast" ID="{79D402EC-DACE-46C9-8658-5E927542C15A}"/>
 						<CurrentStateRef Name="in_game" ID="{CA893CFC-9371-4C51-9947-5B71DC0BE4C8}"/>
 						<CurrentStateRef Name="Music" ID="{28DE099F-CE4B-4CB0-A911-62C6B363BE96}"/>
 					</CurrentStateList>

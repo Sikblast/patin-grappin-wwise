@@ -507,7 +507,7 @@
 							</PropertyList>
 							<ReferenceList>
 								<Reference Name="Target">
-									<ObjectRef Name="music" ID="{F934AE8D-7838-41A4-9BDE-A4F4BA883CFB}" WorkUnitID="{EEF9980D-BE48-48A1-8C7B-8BD8CBC30646}"/>
+									<ObjectRef Name="Slow" ID="{F934AE8D-7838-41A4-9BDE-A4F4BA883CFB}" WorkUnitID="{EEF9980D-BE48-48A1-8C7B-8BD8CBC30646}"/>
 								</Reference>
 							</ReferenceList>
 						</Action>
@@ -521,7 +521,21 @@
 							</PropertyList>
 							<ReferenceList>
 								<Reference Name="Target">
-									<ObjectRef Name="music" ID="{F934AE8D-7838-41A4-9BDE-A4F4BA883CFB}" WorkUnitID="{EEF9980D-BE48-48A1-8C7B-8BD8CBC30646}"/>
+									<ObjectRef Name="Slow" ID="{F934AE8D-7838-41A4-9BDE-A4F4BA883CFB}" WorkUnitID="{EEF9980D-BE48-48A1-8C7B-8BD8CBC30646}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Play_Interactive" ID="{ACCADAFE-E7DC-4A60-BBC0-A25AD037CB4A}">
+					<ChildrenList>
+						<Action Name="" ID="{F963AA09-35F4-4503-93ED-AA6D7A3C6041}" ShortID="148284975">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="1"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Interactive" ID="{A5EF4A88-C553-41D6-B02F-90373CDE2665}" WorkUnitID="{EEF9980D-BE48-48A1-8C7B-8BD8CBC30646}"/>
 								</Reference>
 							</ReferenceList>
 						</Action>

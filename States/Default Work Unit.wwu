@@ -30,6 +30,14 @@
 						<State Name="Music" ID="{28DE099F-CE4B-4CB0-A911-62C6B363BE96}"/>
 					</ChildrenList>
 				</StateGroup>
+				<StateGroup Name="Interactive" ID="{5512594A-2D22-4BFD-8444-CFDDE4F519DF}">
+					<ChildrenList>
+						<State Name="None" ID="{9BB3DE0F-5A67-4BA9-B6F8-894BF5B2DEA4}"/>
+						<State Name="Slow" ID="{0FED07C2-D5D7-4AD2-AF09-447BF7FE5A1C}"/>
+						<State Name="Normal" ID="{77877BA1-3531-4E76-AF7C-D24B293A1087}"/>
+						<State Name="Fast" ID="{79D402EC-DACE-46C9-8658-5E927542C15A}"/>
+					</ChildrenList>
+				</StateGroup>
 			</ChildrenList>
 		</WorkUnit>
 	</States>
