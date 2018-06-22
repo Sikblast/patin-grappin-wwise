@@ -16,53 +16,53 @@
 	</StreamedFiles>
 	<MediaFilesNotInAnyBank/>
 	<SoundBanks>
-		<SoundBank Id="1355168291" Language="SFX">
+		<SoundBank Id="1355168291" GUID="{701ECBBD-9C7B-4030-8CDB-749EE5D1C7B9}" Language="SFX">
 			<ObjectPath>Init</ObjectPath>
 			<ShortName>Init</ShortName>
 			<Path>Init.bnk</Path>
 		</SoundBank>
-		<SoundBank Id="1661994096" Language="SFX">
+		<SoundBank Id="1661994096" GUID="{3217AEF1-2A67-4E73-81B5-460347D99E19}" Language="SFX">
 			<ObjectPath>\SoundBanks\Default Work Unit\soundbank</ObjectPath>
 			<ShortName>soundbank</ShortName>
 			<Path>soundbank.bnk</Path>
 			<IncludedEvents>
-				<Event Id="1916066640" Name="Mute_FX_Mix" ObjectPath="\Events\Default Work Unit\Mute_FX_Mix" MaxAttenuation="0.000000"/>
-				<Event Id="2187661876" Name="Mute_Menu" ObjectPath="\Events\Default Work Unit\Mute_Menu" MaxAttenuation="0.000000"/>
-				<Event Id="2741649490" Name="Mute_music" ObjectPath="\Events\Default Work Unit\Mute_music" MaxAttenuation="0.000000"/>
-				<Event Id="3757397881" Name="Mute_Music_Mix" ObjectPath="\Events\Default Work Unit\Mute_Music_Mix" MaxAttenuation="0.000000"/>
-				<Event Id="1359610330" Name="Play_Body_fall" ObjectPath="\Events\Default Work Unit\Play_Body_fall"/>
-				<Event Id="2009303588" Name="Play_Boost_Go" ObjectPath="\Events\Default Work Unit\Play_Boost_Go"/>
-				<Event Id="3726329658" Name="Play_Boost_Load" ObjectPath="\Events\Default Work Unit\Play_Boost_Load"/>
-				<Event Id="2728825252" Name="Play_Fast" ObjectPath="\Events\Default Work Unit\Play_Fast"/>
-				<Event Id="3639876553" Name="Play_Grab_Impact" ObjectPath="\Events\Default Work Unit\Play_Grab_Impact"/>
-				<Event Id="3373848412" Name="Play_Grab_Speed" ObjectPath="\Events\Default Work Unit\Play_Grab_Speed"/>
-				<Event Id="2436188148" Name="Play_Ice_Skate_Dirt" ObjectPath="\Events\Default Work Unit\Play_Ice_Skate_Dirt"/>
-				<Event Id="2444050992" Name="Play_Ice_Skate_Move" ObjectPath="\Events\Default Work Unit\Play_Ice_Skate_Move"/>
-				<Event Id="4273182574" Name="Play_Ice_Skate_Reception" ObjectPath="\Events\Default Work Unit\Play_Ice_Skate_Reception"/>
-				<Event Id="2305114950" Name="Play_Impact_flap" ObjectPath="\Events\Default Work Unit\Play_Impact_flap"/>
-				<Event Id="1278378707" Name="Play_Menu" ObjectPath="\Events\Default Work Unit\Play_Menu"/>
-				<Event Id="51444113" Name="Play_Music_Placeholder" ObjectPath="\Events\Default Work Unit\Play_Music_Placeholder"/>
-				<Event Id="1175668519" Name="Play_Normal" ObjectPath="\Events\Default Work Unit\Play_Normal"/>
-				<Event Id="4026345765" Name="Play_Slow" ObjectPath="\Events\Default Work Unit\Play_Slow"/>
-				<Event Id="977896755" Name="Play_Speed" ObjectPath="\Events\Default Work Unit\Play_Speed"/>
-				<Event Id="3687744535" Name="Play_Speed_RTPC" ObjectPath="\Events\Default Work Unit\Play_Speed_RTPC"/>
-				<Event Id="3240502920" Name="Play_Tuto" ObjectPath="\Events\Default Work Unit\Play_Tuto"/>
-				<Event Id="2791974965" Name="Play_UI_Check" ObjectPath="\Events\Default Work Unit\Play_UI_Check"/>
-				<Event Id="249738436" Name="Play_UI_Move" ObjectPath="\Events\Default Work Unit\Play_UI_Move"/>
-				<Event Id="999807850" Name="Play_UI_Move_01" ObjectPath="\Events\Default Work Unit\Play_UI_Move_01"/>
-				<Event Id="2573111414" Name="Play_UI_Off" ObjectPath="\Events\Default Work Unit\Play_UI_Off"/>
-				<Event Id="340097464" Name="Play_UI_On" ObjectPath="\Events\Default Work Unit\Play_UI_On"/>
-				<Event Id="3308548503" Name="Play_UI_Select" ObjectPath="\Events\Default Work Unit\Play_UI_Select"/>
-				<Event Id="2453267296" Name="Play_Victory" ObjectPath="\Events\Default Work Unit\Play_Victory"/>
-				<Event Id="348109976" Name="Stop_Boost_Load" ObjectPath="\Events\Default Work Unit\Stop_Boost_Load" MaxAttenuation="0.000000"/>
-				<Event Id="2914981333" Name="Stop_Menu" ObjectPath="\Events\Default Work Unit\Stop_Menu" MaxAttenuation="0.000000"/>
-				<Event Id="3761401043" Name="Stop_Music_Placeholder" ObjectPath="\Events\Default Work Unit\Stop_Music_Placeholder" MaxAttenuation="0.000000"/>
-				<Event Id="3670569509" Name="Stop_Speed_RTPC" ObjectPath="\Events\Default Work Unit\Stop_Speed_RTPC" MaxAttenuation="0.000000"/>
-				<Event Id="2165842026" Name="Stop_Tuto" ObjectPath="\Events\Default Work Unit\Stop_Tuto" MaxAttenuation="0.000000"/>
-				<Event Id="128514151" Name="UnMute_FX_Mix" ObjectPath="\Events\Default Work Unit\UnMute_FX_Mix" MaxAttenuation="0.000000"/>
-				<Event Id="3499717431" Name="UnMute_Menu" ObjectPath="\Events\Default Work Unit\UnMute_Menu" MaxAttenuation="0.000000"/>
-				<Event Id="1441918971" Name="UnMute_music" ObjectPath="\Events\Default Work Unit\UnMute_music" MaxAttenuation="0.000000"/>
-				<Event Id="4240227532" Name="UnMute_Music_Mix" ObjectPath="\Events\Default Work Unit\UnMute_Music_Mix" MaxAttenuation="0.000000"/>
+				<Event Id="1916066640" Name="Mute_FX_Mix" ObjectPath="\Events\Default Work Unit\Mute_FX_Mix" GUID="{A0AF8477-4F75-45C7-8C1E-75B2EAF23C0E}" MaxAttenuation="0.000000" DurationType="OneShot" DurationMin="0.000000" DurationMax="0.000000"/>
+				<Event Id="2187661876" Name="Mute_Menu" ObjectPath="\Events\Default Work Unit\Mute_Menu" GUID="{A376C1B8-630B-4A29-86BD-78C3BFE634CA}" MaxAttenuation="0.000000" DurationType="OneShot" DurationMin="0.000000" DurationMax="0.000000"/>
+				<Event Id="3757397881" Name="Mute_Music_Mix" ObjectPath="\Events\Default Work Unit\Mute_Music_Mix" GUID="{7C84BC3E-7D16-41EF-8442-D99900AC46A1}" MaxAttenuation="0.000000" DurationType="OneShot" DurationMin="0.000000" DurationMax="0.000000"/>
+				<Event Id="1359610330" Name="Play_Body_fall" ObjectPath="\Events\Default Work Unit\Play_Body_fall" GUID="{2D8D426A-C39E-425F-BB28-E7FCE7AB3C95}" DurationType="OneShot" DurationMin="0.343704" DurationMax="0.343704"/>
+				<Event Id="2009303588" Name="Play_Boost_Go" ObjectPath="\Events\Default Work Unit\Play_Boost_Go" GUID="{25BAA740-920C-4964-B20F-538C2B33127A}" DurationType="OneShot" DurationMin="1.750365" DurationMax="1.750365"/>
+				<Event Id="3726329658" Name="Play_Boost_Load" ObjectPath="\Events\Default Work Unit\Play_Boost_Load" GUID="{41920281-75FE-4654-9F64-18ADCF751B13}" DurationType="OneShot" DurationMin="1.125000" DurationMax="1.125000"/>
+				<Event Id="2728825252" Name="Play_Fast" ObjectPath="\Events\Default Work Unit\Play_Fast" GUID="{92729A06-1FEF-45D8-8805-F68E509B1A65}" DurationType="OneShot" DurationMin="0.468570" DurationMax="0.737191"/>
+				<Event Id="3639876553" Name="Play_Grab_Impact" ObjectPath="\Events\Default Work Unit\Play_Grab_Impact" GUID="{56EB929A-C085-4F7E-BA63-793F4ED10981}" DurationType="OneShot" DurationMin="0.564346" DurationMax="0.564346"/>
+				<Event Id="3373848412" Name="Play_Grab_Speed" ObjectPath="\Events\Default Work Unit\Play_Grab_Speed" GUID="{9D914E2C-781F-49E4-801F-0FBA566D9339}" DurationType="OneShot" DurationMin="0.000000" DurationMax="0.000000"/>
+				<Event Id="2436188148" Name="Play_Ice_Skate_Dirt" ObjectPath="\Events\Default Work Unit\Play_Ice_Skate_Dirt" GUID="{3F32D3F2-F09F-47E3-94E4-18BE62835FAA}" DurationType="OneShot" DurationMin="0.148059" DurationMax="0.377513"/>
+				<Event Id="2444050992" Name="Play_Ice_Skate_Move" ObjectPath="\Events\Default Work Unit\Play_Ice_Skate_Move" GUID="{42082413-C5D7-4FE9-8A1A-4D9406A585ED}" DurationType="OneShot" DurationMin="0.167860" DurationMax="0.280940"/>
+				<Event Id="4273182574" Name="Play_Ice_Skate_Reception" ObjectPath="\Events\Default Work Unit\Play_Ice_Skate_Reception" GUID="{18C2A2B7-94B0-4EB4-A45D-06EA25F21F96}" DurationType="OneShot" DurationMin="0.358109" DurationMax="0.358109"/>
+				<Event Id="2305114950" Name="Play_Impact_flap" ObjectPath="\Events\Default Work Unit\Play_Impact_flap" GUID="{2F404378-2898-47ED-8D65-59E0B81AC63B}" DurationType="OneShot" DurationMin="1.125000" DurationMax="1.125000"/>
+				<Event Id="3905854986" Name="Play_Interactive" ObjectPath="\Events\Default Work Unit\Play_Interactive" GUID="{ACCADAFE-E7DC-4A60-BBC0-A25AD037CB4A}" DurationType="Infinite"/>
+				<Event Id="1278378707" Name="Play_Menu" ObjectPath="\Events\Default Work Unit\Play_Menu" GUID="{2AD3C0D6-1B67-4E08-AB73-6E431A7C545B}" DurationType="Infinite"/>
+				<Event Id="51444113" Name="Play_Music_Placeholder" ObjectPath="\Events\Default Work Unit\Play_Music_Placeholder" GUID="{09686678-FAB7-4C51-A317-2B72A697CB14}" DurationType="Infinite"/>
+				<Event Id="1175668519" Name="Play_Normal" ObjectPath="\Events\Default Work Unit\Play_Normal" GUID="{AD79D7FE-0918-4D87-8622-CA9D90D497B8}" DurationType="OneShot" DurationMin="0.148059" DurationMax="0.377513"/>
+				<Event Id="4026345765" Name="Play_Slow" ObjectPath="\Events\Default Work Unit\Play_Slow" GUID="{7DC0E6CE-1C1D-47C5-873B-EB7921EF8326}" DurationType="OneShot" DurationMin="0.167860" DurationMax="0.280940"/>
+				<Event Id="977896755" Name="Play_Speed" ObjectPath="\Events\Default Work Unit\Play_Speed" GUID="{47D231F5-1126-4768-971F-A3C3B409C897}" DurationType="Infinite"/>
+				<Event Id="3687744535" Name="Play_Speed_RTPC" ObjectPath="\Events\Default Work Unit\Play_Speed_RTPC" GUID="{2BAEA386-6325-4231-838E-01C25CFA807F}" DurationType="Infinite"/>
+				<Event Id="3240502920" Name="Play_Tuto" ObjectPath="\Events\Default Work Unit\Play_Tuto" GUID="{4CBC1D6C-655A-498B-AC8E-DC41CD147B0D}" DurationType="Infinite"/>
+				<Event Id="2791974965" Name="Play_UI_Check" ObjectPath="\Events\Default Work Unit\Play_UI_Check" GUID="{7D2C4674-44E5-42FA-BA56-8EB7140F9A50}" DurationType="OneShot" DurationMin="0.125000" DurationMax="0.125000"/>
+				<Event Id="249738436" Name="Play_UI_Move" ObjectPath="\Events\Default Work Unit\Play_UI_Move" GUID="{D3788DB7-84A4-43B8-8604-A1C5E4E28FE0}" DurationType="OneShot" DurationMin="1.229167" DurationMax="1.229167"/>
+				<Event Id="999807850" Name="Play_UI_Move_01" ObjectPath="\Events\Default Work Unit\Play_UI_Move_01" GUID="{D493A992-334A-47D8-865C-5E1BAA77B125}" DurationType="OneShot" DurationMin="1.229167" DurationMax="1.229167"/>
+				<Event Id="2573111414" Name="Play_UI_Off" ObjectPath="\Events\Default Work Unit\Play_UI_Off" GUID="{D77C9A88-9D72-4562-9D0D-4EB772773CFC}" DurationType="OneShot" DurationMin="0.475521" DurationMax="0.475521"/>
+				<Event Id="340097464" Name="Play_UI_On" ObjectPath="\Events\Default Work Unit\Play_UI_On" GUID="{49882D6D-05F6-47FA-9DC9-57779F39689D}" DurationType="OneShot" DurationMin="0.777740" DurationMax="0.777740"/>
+				<Event Id="3308548503" Name="Play_UI_Select" ObjectPath="\Events\Default Work Unit\Play_UI_Select" GUID="{76D82700-3867-47D7-A0CD-13905060CBA1}" DurationType="OneShot" DurationMin="0.240094" DurationMax="0.240094"/>
+				<Event Id="2453267296" Name="Play_Victory" ObjectPath="\Events\Default Work Unit\Play_Victory" GUID="{C71F060E-4ADB-4572-9A73-CBDF86CE3BFA}" DurationType="OneShot" DurationMin="8.228107" DurationMax="8.228107"/>
+				<Event Id="348109976" Name="Stop_Boost_Load" ObjectPath="\Events\Default Work Unit\Stop_Boost_Load" GUID="{CB7F9D18-9E79-4C76-8E9D-42F61C74F2F1}" MaxAttenuation="0.000000" DurationType="OneShot" DurationMin="0.000000" DurationMax="0.000000"/>
+				<Event Id="2028292428" Name="Stop_Interactive" ObjectPath="\Events\Default Work Unit\Stop_Interactive" GUID="{6B7A46D9-A3DC-43D2-8BB1-13D2B7165BE9}" MaxAttenuation="0.000000" DurationType="OneShot" DurationMin="0.000000" DurationMax="0.000000"/>
+				<Event Id="2914981333" Name="Stop_Menu" ObjectPath="\Events\Default Work Unit\Stop_Menu" GUID="{4DF8A5F0-0E4B-4B33-95B4-976D67F3FBDB}" MaxAttenuation="0.000000" DurationType="OneShot" DurationMin="0.000000" DurationMax="0.000000"/>
+				<Event Id="3761401043" Name="Stop_Music_Placeholder" ObjectPath="\Events\Default Work Unit\Stop_Music_Placeholder" GUID="{FD8F9AC5-E558-48CA-B6B5-3778EB55E26A}" MaxAttenuation="0.000000" DurationType="OneShot" DurationMin="0.000000" DurationMax="0.000000"/>
+				<Event Id="3670569509" Name="Stop_Speed_RTPC" ObjectPath="\Events\Default Work Unit\Stop_Speed_RTPC" GUID="{51431F07-B139-4272-9967-B76F2D6A4E36}" MaxAttenuation="0.000000" DurationType="OneShot" DurationMin="0.000000" DurationMax="0.000000"/>
+				<Event Id="2165842026" Name="Stop_Tuto" ObjectPath="\Events\Default Work Unit\Stop_Tuto" GUID="{BBBAEEC2-97E8-4320-8915-0270F2DA0229}" MaxAttenuation="0.000000" DurationType="OneShot" DurationMin="0.000000" DurationMax="0.000000"/>
+				<Event Id="128514151" Name="UnMute_FX_Mix" ObjectPath="\Events\Default Work Unit\UnMute_FX_Mix" GUID="{58732168-D459-43EA-BD41-2283B7E99837}" MaxAttenuation="0.000000" DurationType="OneShot" DurationMin="0.000000" DurationMax="0.000000"/>
+				<Event Id="3499717431" Name="UnMute_Menu" ObjectPath="\Events\Default Work Unit\UnMute_Menu" GUID="{D3DEAFD1-020C-4046-8EF1-9E42A3750DA9}" MaxAttenuation="0.000000" DurationType="OneShot" DurationMin="0.000000" DurationMax="0.000000"/>
+				<Event Id="4240227532" Name="UnMute_Music_Mix" ObjectPath="\Events\Default Work Unit\UnMute_Music_Mix" GUID="{7047A442-D0D1-40CA-BF3C-0C7E8734B6D4}" MaxAttenuation="0.000000" DurationType="OneShot" DurationMin="0.000000" DurationMax="0.000000"/>
 			</IncludedEvents>
 			<ReferencedStreamedFiles>
 				<File Id="553629144"/>
@@ -184,6 +184,10 @@
 					<ShortName>UI Select.wav</ShortName>
 					<Path>SFX\UI Select_545D2DC6.wem</Path>
 				</File>
+				<File Id="809121404" Language="SFX">
+					<ShortName>Fast.wav</ShortName>
+					<Path>SFX\Fast_EAED1AB7.wem</Path>
+				</File>
 				<File Id="831621101" Language="SFX">
 					<ShortName>ICE Skate scrape two legs peel 33.wav</ShortName>
 					<Path>SFX\ICE Skate scrape two legs peel 33_E687B5F5.wem</Path>
@@ -204,6 +208,10 @@
 					<ShortName>VICTORY.wav</ShortName>
 					<Path>SFX\VICTORY_B6DA5082.wem</Path>
 				</File>
+				<File Id="891062592" Language="SFX">
+					<ShortName>Slow.wav</ShortName>
+					<Path>SFX\Slow_EAED1AB7.wem</Path>
+				</File>
 				<File Id="894354986" Language="SFX">
 					<ShortName>ICE Skate scrape two legs peel 04.wav</ShortName>
 					<Path>SFX\ICE Skate scrape two legs peel 04_53CCC523.wem</Path>
@@ -215,6 +223,10 @@
 				<File Id="947221834" Language="SFX">
 					<ShortName>Ice Skate Scrape 4.wav</ShortName>
 					<Path>SFX\Ice Skate Scrape 4_545D2DC6.wem</Path>
+				</File>
+				<File Id="979516107" Language="SFX">
+					<ShortName>Normal.wav</ShortName>
+					<Path>SFX\Normal_EAED1AB7.wem</Path>
 				</File>
 				<File Id="1030183338" Language="SFX">
 					<ShortName>Body fall.wav</ShortName>

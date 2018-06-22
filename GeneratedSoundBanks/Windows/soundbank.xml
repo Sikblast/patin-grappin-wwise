@@ -13,24 +13,51 @@
 			<ShortName>soundbank</ShortName>
 			<Path>soundbank.bnk</Path>
 			<IncludedEvents>
-				<Event Id="2728825252" Name="Play_Fast" ObjectPath="\Events\Default Work Unit\Play_Fast" GUID="{92729A06-1FEF-45D8-8805-F68E509B1A65}" DurationType="OneShot" DurationMin="0.418570" DurationMax="0.687191"/>
-				<Event Id="3639876553" Name="Play_Grab_Impact" ObjectPath="\Events\Default Work Unit\Play_Grab_Impact" GUID="{8C9EDEAB-C9E6-4720-8103-AB542847143A}" DurationType="OneShot" DurationMin="2.049479" DurationMax="2.049479"/>
+				<Event Id="1916066640" Name="Mute_FX_Mix" ObjectPath="\Events\Default Work Unit\Mute_FX_Mix" GUID="{A0AF8477-4F75-45C7-8C1E-75B2EAF23C0E}" MaxAttenuation="0.000000" DurationType="OneShot" DurationMin="0.000000" DurationMax="0.000000"/>
+				<Event Id="2187661876" Name="Mute_Menu" ObjectPath="\Events\Default Work Unit\Mute_Menu" GUID="{A376C1B8-630B-4A29-86BD-78C3BFE634CA}" MaxAttenuation="0.000000" DurationType="OneShot" DurationMin="0.000000" DurationMax="0.000000"/>
+				<Event Id="3757397881" Name="Mute_Music_Mix" ObjectPath="\Events\Default Work Unit\Mute_Music_Mix" GUID="{7C84BC3E-7D16-41EF-8442-D99900AC46A1}" MaxAttenuation="0.000000" DurationType="OneShot" DurationMin="0.000000" DurationMax="0.000000"/>
+				<Event Id="1359610330" Name="Play_Body_fall" ObjectPath="\Events\Default Work Unit\Play_Body_fall" GUID="{2D8D426A-C39E-425F-BB28-E7FCE7AB3C95}" DurationType="OneShot" DurationMin="0.343704" DurationMax="0.343704"/>
+				<Event Id="2009303588" Name="Play_Boost_Go" ObjectPath="\Events\Default Work Unit\Play_Boost_Go" GUID="{25BAA740-920C-4964-B20F-538C2B33127A}" DurationType="OneShot" DurationMin="1.750365" DurationMax="1.750365"/>
+				<Event Id="3726329658" Name="Play_Boost_Load" ObjectPath="\Events\Default Work Unit\Play_Boost_Load" GUID="{41920281-75FE-4654-9F64-18ADCF751B13}" DurationType="OneShot" DurationMin="1.125000" DurationMax="1.125000"/>
+				<Event Id="2728825252" Name="Play_Fast" ObjectPath="\Events\Default Work Unit\Play_Fast" GUID="{92729A06-1FEF-45D8-8805-F68E509B1A65}" DurationType="OneShot" DurationMin="0.468570" DurationMax="0.737191"/>
+				<Event Id="3639876553" Name="Play_Grab_Impact" ObjectPath="\Events\Default Work Unit\Play_Grab_Impact" GUID="{56EB929A-C085-4F7E-BA63-793F4ED10981}" DurationType="OneShot" DurationMin="0.564346" DurationMax="0.564346"/>
 				<Event Id="3373848412" Name="Play_Grab_Speed" ObjectPath="\Events\Default Work Unit\Play_Grab_Speed" GUID="{9D914E2C-781F-49E4-801F-0FBA566D9339}" DurationType="OneShot" DurationMin="0.000000" DurationMax="0.000000"/>
 				<Event Id="2436188148" Name="Play_Ice_Skate_Dirt" ObjectPath="\Events\Default Work Unit\Play_Ice_Skate_Dirt" GUID="{3F32D3F2-F09F-47E3-94E4-18BE62835FAA}" DurationType="OneShot" DurationMin="0.148059" DurationMax="0.377513"/>
 				<Event Id="2444050992" Name="Play_Ice_Skate_Move" ObjectPath="\Events\Default Work Unit\Play_Ice_Skate_Move" GUID="{42082413-C5D7-4FE9-8A1A-4D9406A585ED}" DurationType="OneShot" DurationMin="0.167860" DurationMax="0.280940"/>
-				<Event Id="4273182574" Name="Play_Ice_Skate_Reception" ObjectPath="\Events\Default Work Unit\Play_Ice_Skate_Reception" GUID="{CF61C8A5-5107-48F4-95E3-4AC3668156CD}" DurationType="OneShot" DurationMin="0.754000" DurationMax="0.754000"/>
-				<Event Id="2305114950" Name="Play_Impact_flap" ObjectPath="\Events\Default Work Unit\Play_Impact_flap" GUID="{2F404378-2898-47ED-8D65-59E0B81AC63B}" DurationType="OneShot" DurationMin="1.447937" DurationMax="1.447937"/>
+				<Event Id="4273182574" Name="Play_Ice_Skate_Reception" ObjectPath="\Events\Default Work Unit\Play_Ice_Skate_Reception" GUID="{18C2A2B7-94B0-4EB4-A45D-06EA25F21F96}" DurationType="OneShot" DurationMin="0.358109" DurationMax="0.358109"/>
+				<Event Id="2305114950" Name="Play_Impact_flap" ObjectPath="\Events\Default Work Unit\Play_Impact_flap" GUID="{2F404378-2898-47ED-8D65-59E0B81AC63B}" DurationType="OneShot" DurationMin="1.125000" DurationMax="1.125000"/>
+				<Event Id="3905854986" Name="Play_Interactive" ObjectPath="\Events\Default Work Unit\Play_Interactive" GUID="{ACCADAFE-E7DC-4A60-BBC0-A25AD037CB4A}" DurationType="Infinite"/>
+				<Event Id="1278378707" Name="Play_Menu" ObjectPath="\Events\Default Work Unit\Play_Menu" GUID="{2AD3C0D6-1B67-4E08-AB73-6E431A7C545B}" DurationType="Infinite"/>
 				<Event Id="51444113" Name="Play_Music_Placeholder" ObjectPath="\Events\Default Work Unit\Play_Music_Placeholder" GUID="{09686678-FAB7-4C51-A317-2B72A697CB14}" DurationType="Infinite"/>
 				<Event Id="1175668519" Name="Play_Normal" ObjectPath="\Events\Default Work Unit\Play_Normal" GUID="{AD79D7FE-0918-4D87-8622-CA9D90D497B8}" DurationType="OneShot" DurationMin="0.148059" DurationMax="0.377513"/>
 				<Event Id="4026345765" Name="Play_Slow" ObjectPath="\Events\Default Work Unit\Play_Slow" GUID="{7DC0E6CE-1C1D-47C5-873B-EB7921EF8326}" DurationType="OneShot" DurationMin="0.167860" DurationMax="0.280940"/>
+				<Event Id="977896755" Name="Play_Speed" ObjectPath="\Events\Default Work Unit\Play_Speed" GUID="{47D231F5-1126-4768-971F-A3C3B409C897}" DurationType="Infinite"/>
+				<Event Id="3687744535" Name="Play_Speed_RTPC" ObjectPath="\Events\Default Work Unit\Play_Speed_RTPC" GUID="{2BAEA386-6325-4231-838E-01C25CFA807F}" DurationType="Infinite"/>
+				<Event Id="3240502920" Name="Play_Tuto" ObjectPath="\Events\Default Work Unit\Play_Tuto" GUID="{4CBC1D6C-655A-498B-AC8E-DC41CD147B0D}" DurationType="Infinite"/>
+				<Event Id="2791974965" Name="Play_UI_Check" ObjectPath="\Events\Default Work Unit\Play_UI_Check" GUID="{7D2C4674-44E5-42FA-BA56-8EB7140F9A50}" DurationType="OneShot" DurationMin="0.125000" DurationMax="0.125000"/>
 				<Event Id="249738436" Name="Play_UI_Move" ObjectPath="\Events\Default Work Unit\Play_UI_Move" GUID="{D3788DB7-84A4-43B8-8604-A1C5E4E28FE0}" DurationType="OneShot" DurationMin="1.229167" DurationMax="1.229167"/>
 				<Event Id="999807850" Name="Play_UI_Move_01" ObjectPath="\Events\Default Work Unit\Play_UI_Move_01" GUID="{D493A992-334A-47D8-865C-5E1BAA77B125}" DurationType="OneShot" DurationMin="1.229167" DurationMax="1.229167"/>
+				<Event Id="2573111414" Name="Play_UI_Off" ObjectPath="\Events\Default Work Unit\Play_UI_Off" GUID="{D77C9A88-9D72-4562-9D0D-4EB772773CFC}" DurationType="OneShot" DurationMin="0.475521" DurationMax="0.475521"/>
+				<Event Id="340097464" Name="Play_UI_On" ObjectPath="\Events\Default Work Unit\Play_UI_On" GUID="{49882D6D-05F6-47FA-9DC9-57779F39689D}" DurationType="OneShot" DurationMin="0.777740" DurationMax="0.777740"/>
+				<Event Id="3308548503" Name="Play_UI_Select" ObjectPath="\Events\Default Work Unit\Play_UI_Select" GUID="{76D82700-3867-47D7-A0CD-13905060CBA1}" DurationType="OneShot" DurationMin="0.240094" DurationMax="0.240094"/>
+				<Event Id="2453267296" Name="Play_Victory" ObjectPath="\Events\Default Work Unit\Play_Victory" GUID="{C71F060E-4ADB-4572-9A73-CBDF86CE3BFA}" DurationType="OneShot" DurationMin="8.228107" DurationMax="8.228107"/>
+				<Event Id="348109976" Name="Stop_Boost_Load" ObjectPath="\Events\Default Work Unit\Stop_Boost_Load" GUID="{CB7F9D18-9E79-4C76-8E9D-42F61C74F2F1}" MaxAttenuation="0.000000" DurationType="OneShot" DurationMin="0.000000" DurationMax="0.000000"/>
+				<Event Id="2028292428" Name="Stop_Interactive" ObjectPath="\Events\Default Work Unit\Stop_Interactive" GUID="{6B7A46D9-A3DC-43D2-8BB1-13D2B7165BE9}" MaxAttenuation="0.000000" DurationType="OneShot" DurationMin="0.000000" DurationMax="0.000000"/>
+				<Event Id="2914981333" Name="Stop_Menu" ObjectPath="\Events\Default Work Unit\Stop_Menu" GUID="{4DF8A5F0-0E4B-4B33-95B4-976D67F3FBDB}" MaxAttenuation="0.000000" DurationType="OneShot" DurationMin="0.000000" DurationMax="0.000000"/>
+				<Event Id="3761401043" Name="Stop_Music_Placeholder" ObjectPath="\Events\Default Work Unit\Stop_Music_Placeholder" GUID="{FD8F9AC5-E558-48CA-B6B5-3778EB55E26A}" MaxAttenuation="0.000000" DurationType="OneShot" DurationMin="0.000000" DurationMax="0.000000"/>
+				<Event Id="3670569509" Name="Stop_Speed_RTPC" ObjectPath="\Events\Default Work Unit\Stop_Speed_RTPC" GUID="{51431F07-B139-4272-9967-B76F2D6A4E36}" MaxAttenuation="0.000000" DurationType="OneShot" DurationMin="0.000000" DurationMax="0.000000"/>
+				<Event Id="2165842026" Name="Stop_Tuto" ObjectPath="\Events\Default Work Unit\Stop_Tuto" GUID="{BBBAEEC2-97E8-4320-8915-0270F2DA0229}" MaxAttenuation="0.000000" DurationType="OneShot" DurationMin="0.000000" DurationMax="0.000000"/>
+				<Event Id="128514151" Name="UnMute_FX_Mix" ObjectPath="\Events\Default Work Unit\UnMute_FX_Mix" GUID="{58732168-D459-43EA-BD41-2283B7E99837}" MaxAttenuation="0.000000" DurationType="OneShot" DurationMin="0.000000" DurationMax="0.000000"/>
+				<Event Id="3499717431" Name="UnMute_Menu" ObjectPath="\Events\Default Work Unit\UnMute_Menu" GUID="{D3DEAFD1-020C-4046-8EF1-9E42A3750DA9}" MaxAttenuation="0.000000" DurationType="OneShot" DurationMin="0.000000" DurationMax="0.000000"/>
+				<Event Id="4240227532" Name="UnMute_Music_Mix" ObjectPath="\Events\Default Work Unit\UnMute_Music_Mix" GUID="{7047A442-D0D1-40CA-BF3C-0C7E8734B6D4}" MaxAttenuation="0.000000" DurationType="OneShot" DurationMin="0.000000" DurationMax="0.000000"/>
 			</IncludedEvents>
-			<IncludedMemoryFiles>
-				<File Id="7425448" Language="SFX">
-					<ShortName>Ice Skate Reception 7.wav</ShortName>
-					<Path>SFX\Ice Skate Reception 7_545D2DC6.wem</Path>
+			<ReferencedStreamedFiles>
+				<File Id="553629144" Language="SFX">
+					<ShortName>ESM_Game_Item_or_Coin_6_Cartoon_Casino_Arcade_Kid_App_Mobile (2).wav</ShortName>
+					<Path>SFX\ESM_Game_Item_or_Coin_6_Cartoon_Casino_Arcade_Kid_App_Mobile (2)_545D2DC6.wem</Path>
 				</File>
+			</ReferencedStreamedFiles>
+			<IncludedMemoryFiles>
 				<File Id="15195034" Language="SFX">
 					<ShortName>ICE Skate scrape two legs peel 51.wav</ShortName>
 					<Path>SFX\ICE Skate scrape two legs peel 51_BA5C323D.wem</Path>
@@ -59,10 +86,6 @@
 					<ShortName>Ice Skate Slide 3.wav</ShortName>
 					<Path>SFX\Ice Skate Slide 3_545D2DC6.wem</Path>
 				</File>
-				<File Id="134061279" Language="SFX">
-					<ShortName>Grappin test 4.wav</ShortName>
-					<Path>SFX\Grappin test 4_390B20B9.wem</Path>
-				</File>
 				<File Id="151985533" Language="SFX">
 					<ShortName>Ice Skate Scrape 3.wav</ShortName>
 					<Path>SFX\Ice Skate Scrape 3_545D2DC6.wem</Path>
@@ -71,17 +94,9 @@
 					<ShortName>ICE Skate scrape two legs peel 30.wav</ShortName>
 					<Path>SFX\ICE Skate scrape two legs peel 30_5B6E1BB6.wem</Path>
 				</File>
-				<File Id="164293161" Language="SFX">
-					<ShortName>Grappin test 3.wav</ShortName>
-					<Path>SFX\Grappin test 3_390B20B9.wem</Path>
-				</File>
-				<File Id="167432285" Language="SFX">
-					<ShortName>Ice Skate Reception 2.wav</ShortName>
-					<Path>SFX\Ice Skate Reception 2_545D2DC6.wem</Path>
-				</File>
-				<File Id="181378796" Language="SFX">
-					<ShortName>Grappin test 2.wav</ShortName>
-					<Path>SFX\Grappin test 2_390B20B9.wem</Path>
+				<File Id="231694797" Language="SFX">
+					<ShortName>Menu.wav</ShortName>
+					<Path>SFX\Menu_EAED1AB7.wem</Path>
 				</File>
 				<File Id="250184705" Language="SFX">
 					<ShortName>ICE Skate scrape two legs peel 05.wav</ShortName>
@@ -91,17 +106,33 @@
 					<ShortName>ICE Skate scrape two legs peel 17.wav</ShortName>
 					<Path>SFX\ICE Skate scrape two legs peel 17_545D2DC6.wem</Path>
 				</File>
-				<File Id="426024310" Language="SFX">
-					<ShortName>Ice Skate Reception.wav</ShortName>
-					<Path>SFX\Ice Skate Reception_545D2DC6.wem</Path>
+				<File Id="365528086" Language="SFX">
+					<ShortName>QP01 0006 Wind strong.wav</ShortName>
+					<Path>SFX\QP01 0006 Wind strong_023F0DE0.wem</Path>
+				</File>
+				<File Id="408832195" Language="SFX">
+					<ShortName>TUTO.wav</ShortName>
+					<Path>SFX\TUTO_EAED1AB7.wem</Path>
+				</File>
+				<File Id="415498569" Language="SFX">
+					<ShortName>Whoosh grappin.wav</ShortName>
+					<Path>SFX\Whoosh grappin_38A0F669.wem</Path>
+				</File>
+				<File Id="447990377" Language="SFX">
+					<ShortName>Slide Loop Speed.wav</ShortName>
+					<Path>SFX\Slide Loop Speed_023F0DE0.wem</Path>
+				</File>
+				<File Id="504980657" Language="SFX">
+					<ShortName>UI On.wav</ShortName>
+					<Path>SFX\UI On_545D2DC6.wem</Path>
+				</File>
+				<File Id="507949798" Language="SFX">
+					<ShortName>UI Check.wav</ShortName>
+					<Path>SFX\UI Check_ABF06659.wem</Path>
 				</File>
 				<File Id="518569641" Language="SFX">
 					<ShortName>UI Move.wav</ShortName>
 					<Path>SFX\UI Move_545D2DC6.wem</Path>
-				</File>
-				<File Id="539509130" Language="SFX">
-					<ShortName>Grappin test.wav</ShortName>
-					<Path>SFX\Grappin test_390B20B9.wem</Path>
 				</File>
 				<File Id="544903172" Language="SFX">
 					<ShortName>Ice Skate Scrape 9.wav</ShortName>
@@ -111,21 +142,17 @@
 					<ShortName>ICE Skate scrape two legs peel 03.wav</ShortName>
 					<Path>SFX\ICE Skate scrape two legs peel 03_AE4E1906.wem</Path>
 				</File>
-				<File Id="560899730" Language="SFX">
-					<ShortName>Ice Skate Reception 4.wav</ShortName>
-					<Path>SFX\Ice Skate Reception 4_545D2DC6.wem</Path>
-				</File>
 				<File Id="605946358" Language="SFX">
 					<ShortName>ICE Skate scrape two legs peel 08.wav</ShortName>
 					<Path>SFX\ICE Skate scrape two legs peel 08_972E9239.wem</Path>
 				</File>
+				<File Id="611212533" Language="SFX">
+					<ShortName>UI Off.wav</ShortName>
+					<Path>SFX\UI Off_545D2DC6.wem</Path>
+				</File>
 				<File Id="664257729" Language="SFX">
 					<ShortName>Ice Skate Scrape 7.wav</ShortName>
 					<Path>SFX\Ice Skate Scrape 7_F8B5D9B1.wem</Path>
-				</File>
-				<File Id="667448311" Language="SFX">
-					<ShortName>Ice Skate Reception 8.wav</ShortName>
-					<Path>SFX\Ice Skate Reception 8_545D2DC6.wem</Path>
 				</File>
 				<File Id="687227318" Language="SFX">
 					<ShortName>ICE Skate scrape two legs peel 06.wav</ShortName>
@@ -135,41 +162,49 @@
 					<ShortName>Ice Skate Scrape 10.wav</ShortName>
 					<Path>SFX\Ice Skate Scrape 10_57891206.wem</Path>
 				</File>
-				<File Id="801168512" Language="SFX">
-					<ShortName>Ice Skate Reception 5.wav</ShortName>
-					<Path>SFX\Ice Skate Reception 5_545D2DC6.wem</Path>
+				<File Id="712227730" Language="SFX">
+					<ShortName>Turbo Load.wav</ShortName>
+					<Path>SFX\Turbo Load_7BAD9383.wem</Path>
 				</File>
-				<File Id="804964435" Language="SFX">
-					<ShortName>Ice Skate Reception 12.wav</ShortName>
-					<Path>SFX\Ice Skate Reception 12_545D2DC6.wem</Path>
+				<File Id="795177804" Language="SFX">
+					<ShortName>Patin Grappin Final.wav</ShortName>
+					<Path>SFX\Patin Grappin Final_EAED1AB7.wem</Path>
+				</File>
+				<File Id="800749427" Language="SFX">
+					<ShortName>UI Select.wav</ShortName>
+					<Path>SFX\UI Select_545D2DC6.wem</Path>
+				</File>
+				<File Id="809121404" Language="SFX">
+					<ShortName>Fast.wav</ShortName>
+					<Path>SFX\Fast_EAED1AB7.wem</Path>
 				</File>
 				<File Id="831621101" Language="SFX">
 					<ShortName>ICE Skate scrape two legs peel 33.wav</ShortName>
 					<Path>SFX\ICE Skate scrape two legs peel 33_E687B5F5.wem</Path>
 				</File>
-				<File Id="831766675" Language="SFX">
-					<ShortName>Impact flap.wav</ShortName>
-					<Path>SFX\Impact flap_545D2DC6.wem</Path>
-				</File>
 				<File Id="843146570" Language="SFX">
 					<ShortName>Ice Skate Reception 9.wav</ShortName>
-					<Path>SFX\Ice Skate Reception 9_545D2DC6.wem</Path>
+					<Path>SFX\Ice Skate Reception 9_983F7D85.wem</Path>
 				</File>
 				<File Id="844477299" Language="SFX">
 					<ShortName>ICE Skate scrape two legs peel 18.wav</ShortName>
 					<Path>SFX\ICE Skate scrape two legs peel 18_05C65831.wem</Path>
 				</File>
-				<File Id="885815928" Language="SFX">
-					<ShortName>Ice Skate Reception 10.wav</ShortName>
-					<Path>SFX\Ice Skate Reception 10_545D2DC6.wem</Path>
+				<File Id="861902806" Language="SFX">
+					<ShortName>QP01 0002 Wind mod soft.wav</ShortName>
+					<Path>SFX\QP01 0002 Wind mod soft_023F0DE0.wem</Path>
+				</File>
+				<File Id="890106974" Language="SFX">
+					<ShortName>VICTORY.wav</ShortName>
+					<Path>SFX\VICTORY_B6DA5082.wem</Path>
+				</File>
+				<File Id="891062592" Language="SFX">
+					<ShortName>Slow.wav</ShortName>
+					<Path>SFX\Slow_EAED1AB7.wem</Path>
 				</File>
 				<File Id="894354986" Language="SFX">
 					<ShortName>ICE Skate scrape two legs peel 04.wav</ShortName>
 					<Path>SFX\ICE Skate scrape two legs peel 04_53CCC523.wem</Path>
-				</File>
-				<File Id="925999465" Language="SFX">
-					<ShortName>Patin Grappin Placeholder.wav</ShortName>
-					<Path>SFX\Patin Grappin Placeholder_EAED1AB7.wem</Path>
 				</File>
 				<File Id="927778677" Language="SFX">
 					<ShortName>ICE Skate scrape two legs peel 23.wav</ShortName>
@@ -179,17 +214,21 @@
 					<ShortName>Ice Skate Scrape 4.wav</ShortName>
 					<Path>SFX\Ice Skate Scrape 4_545D2DC6.wem</Path>
 				</File>
-				<File Id="965770237" Language="SFX">
-					<ShortName>Ice Skate Reception 11.wav</ShortName>
-					<Path>SFX\Ice Skate Reception 11_545D2DC6.wem</Path>
+				<File Id="979516107" Language="SFX">
+					<ShortName>Normal.wav</ShortName>
+					<Path>SFX\Normal_EAED1AB7.wem</Path>
+				</File>
+				<File Id="1030183338" Language="SFX">
+					<ShortName>Body fall.wav</ShortName>
+					<Path>SFX\Body fall_F88EB9AB.wem</Path>
 				</File>
 				<File Id="1034043647" Language="SFX">
 					<ShortName>Ice Skate Scrape 11.wav</ShortName>
 					<Path>SFX\Ice Skate Scrape 11_545D2DC6.wem</Path>
 				</File>
-				<File Id="1053789075" Language="SFX">
-					<ShortName>Ice Skate Reception 6.wav</ShortName>
-					<Path>SFX\Ice Skate Reception 6_545D2DC6.wem</Path>
+				<File Id="1069362544" Language="SFX">
+					<ShortName>Designed Ice - HIT22 - Rhythmic crack impact 2 - melodic.wav</ShortName>
+					<Path>SFX\Designed Ice - HIT22 - Rhythmic crack impact 2 - melodic_EC136282.wem</Path>
 				</File>
 			</IncludedMemoryFiles>
 		</SoundBank>

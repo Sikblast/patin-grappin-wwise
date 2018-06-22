@@ -12,7 +12,14 @@
    "ExternalSourcesOutputRoot": "C:\\Users\\robin.cugniet\\Documents\\Patin Grappin\\patin-grappin-wwise\\GeneratedSoundBanks\\Windows"
   },
   "DialogueEvents": [],
-  "StreamedFiles": [],
+  "StreamedFiles": [
+   {
+    "Id": "553629144",
+    "Language": "SFX",
+    "ShortName": "ESM_Game_Item_or_Coin_6_Cartoon_Casino_Arcade_Kid_App_Mobile (2).wav",
+    "Path": "SFX\\ESM_Game_Item_or_Coin_6_Cartoon_Casino_Arcade_Kid_App_Mobile (2)_545D2DC6.wem"
+   }
+  ],
   "MediaFilesNotInAnyBank": [],
   "SoundBanks": [
    {
@@ -32,22 +39,79 @@
     "Path": "soundbank.bnk",
     "IncludedEvents": [
      {
+      "Id": "1916066640",
+      "Name": "Mute_FX_Mix",
+      "ObjectPath": "\\Events\\Default Work Unit\\Mute_FX_Mix",
+      "GUID": "{A0AF8477-4F75-45C7-8C1E-75B2EAF23C0E}",
+      "MaxAttenuation": "0.000000",
+      "DurationType": "OneShot",
+      "DurationMin": "0.000000",
+      "DurationMax": "0.000000"
+     },
+     {
+      "Id": "2187661876",
+      "Name": "Mute_Menu",
+      "ObjectPath": "\\Events\\Default Work Unit\\Mute_Menu",
+      "GUID": "{A376C1B8-630B-4A29-86BD-78C3BFE634CA}",
+      "MaxAttenuation": "0.000000",
+      "DurationType": "OneShot",
+      "DurationMin": "0.000000",
+      "DurationMax": "0.000000"
+     },
+     {
+      "Id": "3757397881",
+      "Name": "Mute_Music_Mix",
+      "ObjectPath": "\\Events\\Default Work Unit\\Mute_Music_Mix",
+      "GUID": "{7C84BC3E-7D16-41EF-8442-D99900AC46A1}",
+      "MaxAttenuation": "0.000000",
+      "DurationType": "OneShot",
+      "DurationMin": "0.000000",
+      "DurationMax": "0.000000"
+     },
+     {
+      "Id": "1359610330",
+      "Name": "Play_Body_fall",
+      "ObjectPath": "\\Events\\Default Work Unit\\Play_Body_fall",
+      "GUID": "{2D8D426A-C39E-425F-BB28-E7FCE7AB3C95}",
+      "DurationType": "OneShot",
+      "DurationMin": "0.343704",
+      "DurationMax": "0.343704"
+     },
+     {
+      "Id": "2009303588",
+      "Name": "Play_Boost_Go",
+      "ObjectPath": "\\Events\\Default Work Unit\\Play_Boost_Go",
+      "GUID": "{25BAA740-920C-4964-B20F-538C2B33127A}",
+      "DurationType": "OneShot",
+      "DurationMin": "1.750365",
+      "DurationMax": "1.750365"
+     },
+     {
+      "Id": "3726329658",
+      "Name": "Play_Boost_Load",
+      "ObjectPath": "\\Events\\Default Work Unit\\Play_Boost_Load",
+      "GUID": "{41920281-75FE-4654-9F64-18ADCF751B13}",
+      "DurationType": "OneShot",
+      "DurationMin": "1.125000",
+      "DurationMax": "1.125000"
+     },
+     {
       "Id": "2728825252",
       "Name": "Play_Fast",
       "ObjectPath": "\\Events\\Default Work Unit\\Play_Fast",
       "GUID": "{92729A06-1FEF-45D8-8805-F68E509B1A65}",
       "DurationType": "OneShot",
-      "DurationMin": "0.418570",
-      "DurationMax": "0.687191"
+      "DurationMin": "0.468570",
+      "DurationMax": "0.737191"
      },
      {
       "Id": "3639876553",
       "Name": "Play_Grab_Impact",
       "ObjectPath": "\\Events\\Default Work Unit\\Play_Grab_Impact",
-      "GUID": "{8C9EDEAB-C9E6-4720-8103-AB542847143A}",
+      "GUID": "{56EB929A-C085-4F7E-BA63-793F4ED10981}",
       "DurationType": "OneShot",
-      "DurationMin": "2.049479",
-      "DurationMax": "2.049479"
+      "DurationMin": "0.564346",
+      "DurationMax": "0.564346"
      },
      {
       "Id": "3373848412",
@@ -80,10 +144,10 @@
       "Id": "4273182574",
       "Name": "Play_Ice_Skate_Reception",
       "ObjectPath": "\\Events\\Default Work Unit\\Play_Ice_Skate_Reception",
-      "GUID": "{CF61C8A5-5107-48F4-95E3-4AC3668156CD}",
+      "GUID": "{18C2A2B7-94B0-4EB4-A45D-06EA25F21F96}",
       "DurationType": "OneShot",
-      "DurationMin": "0.754000",
-      "DurationMax": "0.754000"
+      "DurationMin": "0.358109",
+      "DurationMax": "0.358109"
      },
      {
       "Id": "2305114950",
@@ -91,8 +155,22 @@
       "ObjectPath": "\\Events\\Default Work Unit\\Play_Impact_flap",
       "GUID": "{2F404378-2898-47ED-8D65-59E0B81AC63B}",
       "DurationType": "OneShot",
-      "DurationMin": "1.447937",
-      "DurationMax": "1.447937"
+      "DurationMin": "1.125000",
+      "DurationMax": "1.125000"
+     },
+     {
+      "Id": "3905854986",
+      "Name": "Play_Interactive",
+      "ObjectPath": "\\Events\\Default Work Unit\\Play_Interactive",
+      "GUID": "{ACCADAFE-E7DC-4A60-BBC0-A25AD037CB4A}",
+      "DurationType": "Infinite"
+     },
+     {
+      "Id": "1278378707",
+      "Name": "Play_Menu",
+      "ObjectPath": "\\Events\\Default Work Unit\\Play_Menu",
+      "GUID": "{2AD3C0D6-1B67-4E08-AB73-6E431A7C545B}",
+      "DurationType": "Infinite"
      },
      {
       "Id": "51444113",
@@ -120,6 +198,36 @@
       "DurationMax": "0.280940"
      },
      {
+      "Id": "977896755",
+      "Name": "Play_Speed",
+      "ObjectPath": "\\Events\\Default Work Unit\\Play_Speed",
+      "GUID": "{47D231F5-1126-4768-971F-A3C3B409C897}",
+      "DurationType": "Infinite"
+     },
+     {
+      "Id": "3687744535",
+      "Name": "Play_Speed_RTPC",
+      "ObjectPath": "\\Events\\Default Work Unit\\Play_Speed_RTPC",
+      "GUID": "{2BAEA386-6325-4231-838E-01C25CFA807F}",
+      "DurationType": "Infinite"
+     },
+     {
+      "Id": "3240502920",
+      "Name": "Play_Tuto",
+      "ObjectPath": "\\Events\\Default Work Unit\\Play_Tuto",
+      "GUID": "{4CBC1D6C-655A-498B-AC8E-DC41CD147B0D}",
+      "DurationType": "Infinite"
+     },
+     {
+      "Id": "2791974965",
+      "Name": "Play_UI_Check",
+      "ObjectPath": "\\Events\\Default Work Unit\\Play_UI_Check",
+      "GUID": "{7D2C4674-44E5-42FA-BA56-8EB7140F9A50}",
+      "DurationType": "OneShot",
+      "DurationMin": "0.125000",
+      "DurationMax": "0.125000"
+     },
+     {
       "Id": "249738436",
       "Name": "Play_UI_Move",
       "ObjectPath": "\\Events\\Default Work Unit\\Play_UI_Move",
@@ -136,15 +244,140 @@
       "DurationType": "OneShot",
       "DurationMin": "1.229167",
       "DurationMax": "1.229167"
+     },
+     {
+      "Id": "2573111414",
+      "Name": "Play_UI_Off",
+      "ObjectPath": "\\Events\\Default Work Unit\\Play_UI_Off",
+      "GUID": "{D77C9A88-9D72-4562-9D0D-4EB772773CFC}",
+      "DurationType": "OneShot",
+      "DurationMin": "0.475521",
+      "DurationMax": "0.475521"
+     },
+     {
+      "Id": "340097464",
+      "Name": "Play_UI_On",
+      "ObjectPath": "\\Events\\Default Work Unit\\Play_UI_On",
+      "GUID": "{49882D6D-05F6-47FA-9DC9-57779F39689D}",
+      "DurationType": "OneShot",
+      "DurationMin": "0.777740",
+      "DurationMax": "0.777740"
+     },
+     {
+      "Id": "3308548503",
+      "Name": "Play_UI_Select",
+      "ObjectPath": "\\Events\\Default Work Unit\\Play_UI_Select",
+      "GUID": "{76D82700-3867-47D7-A0CD-13905060CBA1}",
+      "DurationType": "OneShot",
+      "DurationMin": "0.240094",
+      "DurationMax": "0.240094"
+     },
+     {
+      "Id": "2453267296",
+      "Name": "Play_Victory",
+      "ObjectPath": "\\Events\\Default Work Unit\\Play_Victory",
+      "GUID": "{C71F060E-4ADB-4572-9A73-CBDF86CE3BFA}",
+      "DurationType": "OneShot",
+      "DurationMin": "8.228107",
+      "DurationMax": "8.228107"
+     },
+     {
+      "Id": "348109976",
+      "Name": "Stop_Boost_Load",
+      "ObjectPath": "\\Events\\Default Work Unit\\Stop_Boost_Load",
+      "GUID": "{CB7F9D18-9E79-4C76-8E9D-42F61C74F2F1}",
+      "MaxAttenuation": "0.000000",
+      "DurationType": "OneShot",
+      "DurationMin": "0.000000",
+      "DurationMax": "0.000000"
+     },
+     {
+      "Id": "2028292428",
+      "Name": "Stop_Interactive",
+      "ObjectPath": "\\Events\\Default Work Unit\\Stop_Interactive",
+      "GUID": "{6B7A46D9-A3DC-43D2-8BB1-13D2B7165BE9}",
+      "MaxAttenuation": "0.000000",
+      "DurationType": "OneShot",
+      "DurationMin": "0.000000",
+      "DurationMax": "0.000000"
+     },
+     {
+      "Id": "2914981333",
+      "Name": "Stop_Menu",
+      "ObjectPath": "\\Events\\Default Work Unit\\Stop_Menu",
+      "GUID": "{4DF8A5F0-0E4B-4B33-95B4-976D67F3FBDB}",
+      "MaxAttenuation": "0.000000",
+      "DurationType": "OneShot",
+      "DurationMin": "0.000000",
+      "DurationMax": "0.000000"
+     },
+     {
+      "Id": "3761401043",
+      "Name": "Stop_Music_Placeholder",
+      "ObjectPath": "\\Events\\Default Work Unit\\Stop_Music_Placeholder",
+      "GUID": "{FD8F9AC5-E558-48CA-B6B5-3778EB55E26A}",
+      "MaxAttenuation": "0.000000",
+      "DurationType": "OneShot",
+      "DurationMin": "0.000000",
+      "DurationMax": "0.000000"
+     },
+     {
+      "Id": "3670569509",
+      "Name": "Stop_Speed_RTPC",
+      "ObjectPath": "\\Events\\Default Work Unit\\Stop_Speed_RTPC",
+      "GUID": "{51431F07-B139-4272-9967-B76F2D6A4E36}",
+      "MaxAttenuation": "0.000000",
+      "DurationType": "OneShot",
+      "DurationMin": "0.000000",
+      "DurationMax": "0.000000"
+     },
+     {
+      "Id": "2165842026",
+      "Name": "Stop_Tuto",
+      "ObjectPath": "\\Events\\Default Work Unit\\Stop_Tuto",
+      "GUID": "{BBBAEEC2-97E8-4320-8915-0270F2DA0229}",
+      "MaxAttenuation": "0.000000",
+      "DurationType": "OneShot",
+      "DurationMin": "0.000000",
+      "DurationMax": "0.000000"
+     },
+     {
+      "Id": "128514151",
+      "Name": "UnMute_FX_Mix",
+      "ObjectPath": "\\Events\\Default Work Unit\\UnMute_FX_Mix",
+      "GUID": "{58732168-D459-43EA-BD41-2283B7E99837}",
+      "MaxAttenuation": "0.000000",
+      "DurationType": "OneShot",
+      "DurationMin": "0.000000",
+      "DurationMax": "0.000000"
+     },
+     {
+      "Id": "3499717431",
+      "Name": "UnMute_Menu",
+      "ObjectPath": "\\Events\\Default Work Unit\\UnMute_Menu",
+      "GUID": "{D3DEAFD1-020C-4046-8EF1-9E42A3750DA9}",
+      "MaxAttenuation": "0.000000",
+      "DurationType": "OneShot",
+      "DurationMin": "0.000000",
+      "DurationMax": "0.000000"
+     },
+     {
+      "Id": "4240227532",
+      "Name": "UnMute_Music_Mix",
+      "ObjectPath": "\\Events\\Default Work Unit\\UnMute_Music_Mix",
+      "GUID": "{7047A442-D0D1-40CA-BF3C-0C7E8734B6D4}",
+      "MaxAttenuation": "0.000000",
+      "DurationType": "OneShot",
+      "DurationMin": "0.000000",
+      "DurationMax": "0.000000"
+     }
+    ],
+    "ReferencedStreamedFiles": [
+     {
+      "Id": "553629144"
      }
     ],
     "IncludedMemoryFiles": [
-     {
-      "Id": "7425448",
-      "Language": "SFX",
-      "ShortName": "Ice Skate Reception 7.wav",
-      "Path": "SFX\\Ice Skate Reception 7_545D2DC6.wem"
-     },
      {
       "Id": "15195034",
       "Language": "SFX",
@@ -188,12 +421,6 @@
       "Path": "SFX\\Ice Skate Slide 3_545D2DC6.wem"
      },
      {
-      "Id": "134061279",
-      "Language": "SFX",
-      "ShortName": "Grappin test 4.wav",
-      "Path": "SFX\\Grappin test 4_390B20B9.wem"
-     },
-     {
       "Id": "151985533",
       "Language": "SFX",
       "ShortName": "Ice Skate Scrape 3.wav",
@@ -206,22 +433,10 @@
       "Path": "SFX\\ICE Skate scrape two legs peel 30_5B6E1BB6.wem"
      },
      {
-      "Id": "164293161",
+      "Id": "231694797",
       "Language": "SFX",
-      "ShortName": "Grappin test 3.wav",
-      "Path": "SFX\\Grappin test 3_390B20B9.wem"
-     },
-     {
-      "Id": "167432285",
-      "Language": "SFX",
-      "ShortName": "Ice Skate Reception 2.wav",
-      "Path": "SFX\\Ice Skate Reception 2_545D2DC6.wem"
-     },
-     {
-      "Id": "181378796",
-      "Language": "SFX",
-      "ShortName": "Grappin test 2.wav",
-      "Path": "SFX\\Grappin test 2_390B20B9.wem"
+      "ShortName": "Menu.wav",
+      "Path": "SFX\\Menu_EAED1AB7.wem"
      },
      {
       "Id": "250184705",
@@ -236,22 +451,46 @@
       "Path": "SFX\\ICE Skate scrape two legs peel 17_545D2DC6.wem"
      },
      {
-      "Id": "426024310",
+      "Id": "365528086",
       "Language": "SFX",
-      "ShortName": "Ice Skate Reception.wav",
-      "Path": "SFX\\Ice Skate Reception_545D2DC6.wem"
+      "ShortName": "QP01 0006 Wind strong.wav",
+      "Path": "SFX\\QP01 0006 Wind strong_023F0DE0.wem"
+     },
+     {
+      "Id": "408832195",
+      "Language": "SFX",
+      "ShortName": "TUTO.wav",
+      "Path": "SFX\\TUTO_EAED1AB7.wem"
+     },
+     {
+      "Id": "415498569",
+      "Language": "SFX",
+      "ShortName": "Whoosh grappin.wav",
+      "Path": "SFX\\Whoosh grappin_38A0F669.wem"
+     },
+     {
+      "Id": "447990377",
+      "Language": "SFX",
+      "ShortName": "Slide Loop Speed.wav",
+      "Path": "SFX\\Slide Loop Speed_023F0DE0.wem"
+     },
+     {
+      "Id": "504980657",
+      "Language": "SFX",
+      "ShortName": "UI On.wav",
+      "Path": "SFX\\UI On_545D2DC6.wem"
+     },
+     {
+      "Id": "507949798",
+      "Language": "SFX",
+      "ShortName": "UI Check.wav",
+      "Path": "SFX\\UI Check_ABF06659.wem"
      },
      {
       "Id": "518569641",
       "Language": "SFX",
       "ShortName": "UI Move.wav",
       "Path": "SFX\\UI Move_545D2DC6.wem"
-     },
-     {
-      "Id": "539509130",
-      "Language": "SFX",
-      "ShortName": "Grappin test.wav",
-      "Path": "SFX\\Grappin test_390B20B9.wem"
      },
      {
       "Id": "544903172",
@@ -266,28 +505,22 @@
       "Path": "SFX\\ICE Skate scrape two legs peel 03_AE4E1906.wem"
      },
      {
-      "Id": "560899730",
-      "Language": "SFX",
-      "ShortName": "Ice Skate Reception 4.wav",
-      "Path": "SFX\\Ice Skate Reception 4_545D2DC6.wem"
-     },
-     {
       "Id": "605946358",
       "Language": "SFX",
       "ShortName": "ICE Skate scrape two legs peel 08.wav",
       "Path": "SFX\\ICE Skate scrape two legs peel 08_972E9239.wem"
      },
      {
+      "Id": "611212533",
+      "Language": "SFX",
+      "ShortName": "UI Off.wav",
+      "Path": "SFX\\UI Off_545D2DC6.wem"
+     },
+     {
       "Id": "664257729",
       "Language": "SFX",
       "ShortName": "Ice Skate Scrape 7.wav",
       "Path": "SFX\\Ice Skate Scrape 7_F8B5D9B1.wem"
-     },
-     {
-      "Id": "667448311",
-      "Language": "SFX",
-      "ShortName": "Ice Skate Reception 8.wav",
-      "Path": "SFX\\Ice Skate Reception 8_545D2DC6.wem"
      },
      {
       "Id": "687227318",
@@ -302,16 +535,28 @@
       "Path": "SFX\\Ice Skate Scrape 10_57891206.wem"
      },
      {
-      "Id": "801168512",
+      "Id": "712227730",
       "Language": "SFX",
-      "ShortName": "Ice Skate Reception 5.wav",
-      "Path": "SFX\\Ice Skate Reception 5_545D2DC6.wem"
+      "ShortName": "Turbo Load.wav",
+      "Path": "SFX\\Turbo Load_7BAD9383.wem"
      },
      {
-      "Id": "804964435",
+      "Id": "795177804",
       "Language": "SFX",
-      "ShortName": "Ice Skate Reception 12.wav",
-      "Path": "SFX\\Ice Skate Reception 12_545D2DC6.wem"
+      "ShortName": "Patin Grappin Final.wav",
+      "Path": "SFX\\Patin Grappin Final_EAED1AB7.wem"
+     },
+     {
+      "Id": "800749427",
+      "Language": "SFX",
+      "ShortName": "UI Select.wav",
+      "Path": "SFX\\UI Select_545D2DC6.wem"
+     },
+     {
+      "Id": "809121404",
+      "Language": "SFX",
+      "ShortName": "Fast.wav",
+      "Path": "SFX\\Fast_EAED1AB7.wem"
      },
      {
       "Id": "831621101",
@@ -320,16 +565,10 @@
       "Path": "SFX\\ICE Skate scrape two legs peel 33_E687B5F5.wem"
      },
      {
-      "Id": "831766675",
-      "Language": "SFX",
-      "ShortName": "Impact flap.wav",
-      "Path": "SFX\\Impact flap_545D2DC6.wem"
-     },
-     {
       "Id": "843146570",
       "Language": "SFX",
       "ShortName": "Ice Skate Reception 9.wav",
-      "Path": "SFX\\Ice Skate Reception 9_545D2DC6.wem"
+      "Path": "SFX\\Ice Skate Reception 9_983F7D85.wem"
      },
      {
       "Id": "844477299",
@@ -338,22 +577,28 @@
       "Path": "SFX\\ICE Skate scrape two legs peel 18_05C65831.wem"
      },
      {
-      "Id": "885815928",
+      "Id": "861902806",
       "Language": "SFX",
-      "ShortName": "Ice Skate Reception 10.wav",
-      "Path": "SFX\\Ice Skate Reception 10_545D2DC6.wem"
+      "ShortName": "QP01 0002 Wind mod soft.wav",
+      "Path": "SFX\\QP01 0002 Wind mod soft_023F0DE0.wem"
+     },
+     {
+      "Id": "890106974",
+      "Language": "SFX",
+      "ShortName": "VICTORY.wav",
+      "Path": "SFX\\VICTORY_B6DA5082.wem"
+     },
+     {
+      "Id": "891062592",
+      "Language": "SFX",
+      "ShortName": "Slow.wav",
+      "Path": "SFX\\Slow_EAED1AB7.wem"
      },
      {
       "Id": "894354986",
       "Language": "SFX",
       "ShortName": "ICE Skate scrape two legs peel 04.wav",
       "Path": "SFX\\ICE Skate scrape two legs peel 04_53CCC523.wem"
-     },
-     {
-      "Id": "925999465",
-      "Language": "SFX",
-      "ShortName": "Patin Grappin Placeholder.wav",
-      "Path": "SFX\\Patin Grappin Placeholder_EAED1AB7.wem"
      },
      {
       "Id": "927778677",
@@ -368,10 +613,16 @@
       "Path": "SFX\\Ice Skate Scrape 4_545D2DC6.wem"
      },
      {
-      "Id": "965770237",
+      "Id": "979516107",
       "Language": "SFX",
-      "ShortName": "Ice Skate Reception 11.wav",
-      "Path": "SFX\\Ice Skate Reception 11_545D2DC6.wem"
+      "ShortName": "Normal.wav",
+      "Path": "SFX\\Normal_EAED1AB7.wem"
+     },
+     {
+      "Id": "1030183338",
+      "Language": "SFX",
+      "ShortName": "Body fall.wav",
+      "Path": "SFX\\Body fall_F88EB9AB.wem"
      },
      {
       "Id": "1034043647",
@@ -380,10 +631,10 @@
       "Path": "SFX\\Ice Skate Scrape 11_545D2DC6.wem"
      },
      {
-      "Id": "1053789075",
+      "Id": "1069362544",
       "Language": "SFX",
-      "ShortName": "Ice Skate Reception 6.wav",
-      "Path": "SFX\\Ice Skate Reception 6_545D2DC6.wem"
+      "ShortName": "Designed Ice - HIT22 - Rhythmic crack impact 2 - melodic.wav",
+      "Path": "SFX\\Designed Ice - HIT22 - Rhythmic crack impact 2 - melodic_EC136282.wem"
      }
     ]
    }

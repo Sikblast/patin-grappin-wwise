@@ -499,34 +499,6 @@
 						</Action>
 					</ChildrenList>
 				</Event>
-				<Event Name="Mute_music" ID="{0225F800-F84E-474A-96A0-8B0863E2A33D}">
-					<ChildrenList>
-						<Action Name="" ID="{2714E3BD-7D6B-49B9-9BBE-90C6E31C6EE1}" ShortID="497572964">
-							<PropertyList>
-								<Property Name="ActionType" Type="int16" Value="4"/>
-							</PropertyList>
-							<ReferenceList>
-								<Reference Name="Target">
-									<ObjectRef Name="Slow" ID="{F934AE8D-7838-41A4-9BDE-A4F4BA883CFB}" WorkUnitID="{EEF9980D-BE48-48A1-8C7B-8BD8CBC30646}"/>
-								</Reference>
-							</ReferenceList>
-						</Action>
-					</ChildrenList>
-				</Event>
-				<Event Name="UnMute_music" ID="{8A550275-E5E5-4098-8AC3-4AFA2402C7E8}">
-					<ChildrenList>
-						<Action Name="" ID="{D50503C5-1F1E-43A3-8692-2B4CF6CD39A6}" ShortID="102623258">
-							<PropertyList>
-								<Property Name="ActionType" Type="int16" Value="5"/>
-							</PropertyList>
-							<ReferenceList>
-								<Reference Name="Target">
-									<ObjectRef Name="Slow" ID="{F934AE8D-7838-41A4-9BDE-A4F4BA883CFB}" WorkUnitID="{EEF9980D-BE48-48A1-8C7B-8BD8CBC30646}"/>
-								</Reference>
-							</ReferenceList>
-						</Action>
-					</ChildrenList>
-				</Event>
 				<Event Name="Play_Interactive" ID="{ACCADAFE-E7DC-4A60-BBC0-A25AD037CB4A}">
 					<ChildrenList>
 						<Action Name="" ID="{F963AA09-35F4-4503-93ED-AA6D7A3C6041}" ShortID="148284975">

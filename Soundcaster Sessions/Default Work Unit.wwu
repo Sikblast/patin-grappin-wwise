@@ -149,7 +149,7 @@
 						</RTPCValue>
 					</RTPCValueList>
 					<CurrentStateList ShowAll="true">
-						<CurrentStateRef Name="Fast" ID="{79D402EC-DACE-46C9-8658-5E927542C15A}"/>
+						<CurrentStateRef Name="Slow" ID="{0FED07C2-D5D7-4AD2-AF09-447BF7FE5A1C}"/>
 						<CurrentStateRef Name="in_game" ID="{CA893CFC-9371-4C51-9947-5B71DC0BE4C8}"/>
 						<CurrentStateRef Name="Music" ID="{28DE099F-CE4B-4CB0-A911-62C6B363BE96}"/>
 					</CurrentStateList>

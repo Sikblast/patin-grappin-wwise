@@ -1,10 +1,15 @@
 State Group	ID	Name			Wwise Object Path	Notes
 	78360149	Stinger			\Default Work Unit\Stinger	
+	3481447043	Interactive			\Default Work Unit\Interactive	
 	3991942870	Music			\Default Work Unit\Music	
 
 State	ID	Name	State Group			Notes
 	0	None	Stinger			
 	3991942870	Music	Stinger			
+	0	None	Interactive			
+	787604482	Slow	Interactive			
+	1160234136	Normal	Interactive			
+	2965380179	Fast	Interactive			
 	0	None	Music			
 	2967546505	in_game	Music			
 	3927417873	off_game	Music			

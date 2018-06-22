@@ -314,6 +314,27 @@
 							</Playlist>
 						</MusicPlaylistContainer>
 					</ChildrenList>
+					<StateInfo>
+						<StateGroupList>
+							<StateGroupInfo>
+								<StateGroupRef Name="Interactive" ID="{5512594A-2D22-4BFD-8444-CFDDE4F519DF}"/>
+							</StateGroupInfo>
+						</StateGroupList>
+						<CustomStateList>
+							<CustomState>
+								<StateRef Name="Fast" ID="{79D402EC-DACE-46C9-8658-5E927542C15A}"/>
+								<State Name="" ID="{B2D7C296-CE06-45A2-AF18-0B22E326DD6D}" ShortID="595750204"/>
+							</CustomState>
+							<CustomState>
+								<StateRef Name="Slow" ID="{0FED07C2-D5D7-4AD2-AF09-447BF7FE5A1C}"/>
+								<State Name="" ID="{3AADFF37-36E8-4A56-B099-CD68217DA2BA}" ShortID="788194136"/>
+							</CustomState>
+							<CustomState>
+								<StateRef Name="Normal" ID="{77877BA1-3531-4E76-AF7C-D24B293A1087}"/>
+								<State Name="" ID="{C5FEA3DB-26D0-477D-9471-81E89345D7AD}" ShortID="437268575"/>
+							</CustomState>
+						</CustomStateList>
+					</StateInfo>
 					<TransitionList>
 						<MusicTransition Name="Root" ID="{B3467C7A-3299-4FBC-A767-8903808AE092}">
 							<PropertyList>
