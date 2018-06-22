@@ -149,7 +149,7 @@
 						</RTPCValue>
 					</RTPCValueList>
 					<CurrentStateList ShowAll="true">
-						<CurrentStateRef Name="Air" ID="{28FF272E-E314-45D4-82E0-E023FAECB608}"/>
+						<CurrentStateRef Name="Normal" ID="{77877BA1-3531-4E76-AF7C-D24B293A1087}"/>
 						<CurrentStateRef Name="in_game" ID="{CA893CFC-9371-4C51-9947-5B71DC0BE4C8}"/>
 						<CurrentStateRef Name="Music" ID="{28DE099F-CE4B-4CB0-A911-62C6B363BE96}"/>
 					</CurrentStateList>
